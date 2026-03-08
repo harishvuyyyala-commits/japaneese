@@ -1,0 +1,401 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "japanese_word": "水",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "telugu_pronunciation": "మిజు",
+      "english_meaning": "Water",
+      "telugu_meaning": "నీరు",
+      "description": "A very common word used daily for drinking water or water in general.",
+      "letter_breakdown": [
+        { "letter": "み", "telugu_sound": "మి" },
+        { "letter": "ず", "telugu_sound": "జు" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "これは水です。",
+          "romaji": "Kore wa mizu desu.",
+          "telugu_pronunciation": "కొరే వా మిజు దేశ్",
+          "english_meaning": "This is water.",
+          "telugu_meaning": "ఇది నీరు.",
+          "word_breakdown": []
+        },
+        {
+          "sentence": "水をください。",
+          "romaji": "Mizu o kudasai.",
+          "telugu_pronunciation": "మిజు ఓ కుదాసై",
+          "english_meaning": "Please give water.",
+          "telugu_meaning": "దయచేసి నీరు ఇవ్వండి.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "japanese_word": "ご飯",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "telugu_pronunciation": "గోహాన్",
+      "english_meaning": "Rice / Meal",
+      "telugu_meaning": "అన్నం / భోజనం",
+      "description": "Used for cooked rice or a meal in general.",
+      "letter_breakdown": [
+        { "letter": "ご", "telugu_sound": "గో" },
+        { "letter": "は", "telugu_sound": "హా" },
+        { "letter": "ん", "telugu_sound": "న్" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "ご飯を食べます。",
+          "romaji": "Gohan o tabemasu.",
+          "telugu_pronunciation": "గోహాన్ ఓ తబెమాసు",
+          "english_meaning": "I eat rice.",
+          "telugu_meaning": "నేను అన్నం తింటాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "japanese_word": "猫",
+      "hiragana": "ねこ",
+      "romaji": "neko",
+      "telugu_pronunciation": "నెకో",
+      "english_meaning": "Cat",
+      "telugu_meaning": "పిల్లి",
+      "description": "Common word for a cat.",
+      "letter_breakdown": [
+        { "letter": "ね", "telugu_sound": "నె" },
+        { "letter": "こ", "telugu_sound": "కో" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "猫が好きです。",
+          "romaji": "Neko ga suki desu.",
+          "telugu_pronunciation": "నెకో గా సుకి దేశ్",
+          "english_meaning": "I like cats.",
+          "telugu_meaning": "నాకు పిల్లులు ఇష్టం.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "japanese_word": "犬",
+      "hiragana": "いぬ",
+      "romaji": "inu",
+      "telugu_pronunciation": "ఇను",
+      "english_meaning": "Dog",
+      "telugu_meaning": "కుక్క",
+      "description": "Common word for a dog.",
+      "letter_breakdown": [
+        { "letter": "い", "telugu_sound": "ఇ" },
+        { "letter": "ぬ", "telugu_sound": "ను" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "犬が走ります。",
+          "romaji": "Inu ga hashirimasu.",
+          "telugu_pronunciation": "ఇను గా హషిరిమాసు",
+          "english_meaning": "The dog runs.",
+          "telugu_meaning": "కుక్క పరుగెడుతుంది.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "japanese_word": "山",
+      "hiragana": "やま",
+      "romaji": "yama",
+      "telugu_pronunciation": "యమ",
+      "english_meaning": "Mountain",
+      "telugu_meaning": "కొండ",
+      "description": "Used for mountains and hills.",
+      "letter_breakdown": [
+        { "letter": "や", "telugu_sound": "య" },
+        { "letter": "ま", "telugu_sound": "మ" }
+      ],
+      "example_sentences": [
+        {
+  "sentence": "山が高いです。",
+  "romaji": "Yama ga takai desu.",
+  "telugu_pronunciation": "యమ గా తకై దేశ్",
+  "english_meaning": "The mountain is tall.",
+  "telugu_meaning": "కొండ ఎత్తుగా ఉంది.",
+  "word_breakdown": [
+    {
+      "word": "山",
+      "meaning_en": "mountain",
+      "meaning_te": "కొండ"
+    },
+    {
+      "word": "が",
+      "meaning_en": "subject marker",
+      "meaning_te": "కర్త సూచిక"
+    },
+    {
+      "word": "高い",
+      "meaning_en": "tall / high",
+      "meaning_te": "ఎత్తైన"
+    },
+    {
+      "word": "です",
+      "meaning_en": "is / polite ending",
+      "meaning_te": "అది / ఉంది"
+    }
+  ]
+}
+      ]
+    },
+    {
+      "id": 6,
+      "japanese_word": "川",
+      "hiragana": "かわ",
+      "romaji": "kawa",
+      "telugu_pronunciation": "కవా",
+      "english_meaning": "River",
+      "telugu_meaning": "నది",
+      "description": "Used to refer to a river.",
+      "letter_breakdown": [
+        { "letter": "か", "telugu_sound": "క" },
+        { "letter": "わ", "telugu_sound": "వా" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "川で泳ぎます。",
+          "romaji": "Kawa de oyogimasu.",
+          "telugu_pronunciation": "కవా దే ఒయోగిమాసు",
+          "english_meaning": "I swim in the river.",
+          "telugu_meaning": "నేను నదిలో ఈదుతాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "japanese_word": "本",
+      "hiragana": "ほん",
+      "romaji": "hon",
+      "telugu_pronunciation": "హోన్",
+      "english_meaning": "Book",
+      "telugu_meaning": "పుస్తకం",
+      "description": "Common word for a book.",
+      "letter_breakdown": [
+        { "letter": "ほ", "telugu_sound": "హో" },
+        { "letter": "ん", "telugu_sound": "న్" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "本を読みます。",
+          "romaji": "Hon o yomimasu.",
+          "telugu_pronunciation": "హోన్ ఓ యొమిమాసు",
+          "english_meaning": "I read a book.",
+          "telugu_meaning": "నేను పుస్తకం చదువుతాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "japanese_word": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "telugu_pronunciation": "గక్కో",
+      "english_meaning": "School",
+      "telugu_meaning": "పాఠశాల",
+      "description": "Used for school or educational institution.",
+      "letter_breakdown": [
+        { "letter": "が", "telugu_sound": "గా" },
+        { "letter": "っ", "telugu_sound": "చిన్న విరామం" },
+        { "letter": "こ", "telugu_sound": "కో" },
+        { "letter": "う", "telugu_sound": "ఊ" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校へ行きます。",
+          "romaji": "Gakkou e ikimasu.",
+          "telugu_pronunciation": "గక్కో ఏ ఇకిమాసు",
+          "english_meaning": "I go to school.",
+          "telugu_meaning": "నేను పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "japanese_word": "先生",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "telugu_pronunciation": "సెన్సే",
+      "english_meaning": "Teacher",
+      "telugu_meaning": "గురువు",
+      "description": "Used to address teachers and respected professionals.",
+      "letter_breakdown": [
+        { "letter": "せ", "telugu_sound": "సె" },
+        { "letter": "ん", "telugu_sound": "న్" },
+        { "letter": "せ", "telugu_sound": "సె" },
+        { "letter": "い", "telugu_sound": "ఈ" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "先生は優しいです。",
+          "romaji": "Sensei wa yasashii desu.",
+          "telugu_pronunciation": "సెన్సే వా యసషీ దేశ్",
+          "english_meaning": "The teacher is kind.",
+          "telugu_meaning": "గురువు దయగలవారు.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "japanese_word": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "telugu_pronunciation": "తోమొదాచి",
+      "english_meaning": "Friend",
+      "telugu_meaning": "స్నేహితుడు",
+      "description": "Used for friends or companions.",
+      "letter_breakdown": [
+        { "letter": "と", "telugu_sound": "తో" },
+        { "letter": "も", "telugu_sound": "మొ" },
+        { "letter": "だ", "telugu_sound": "దా" },
+        { "letter": "ち", "telugu_sound": "చి" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "友達と話します。",
+          "romaji": "Tomodachi to hanashimasu.",
+          "telugu_pronunciation": "తోమొదాచి తో హనషిమాసు",
+          "english_meaning": "I talk with a friend.",
+          "telugu_meaning": "నేను స్నేహితుడితో మాట్లాడుతాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "japanese_word": "車",
+      "hiragana": "くるま",
+      "romaji": "kuruma",
+      "telugu_pronunciation": "కురుమా",
+      "english_meaning": "Car",
+      "telugu_meaning": "కారు",
+      "description": "Used for cars and vehicles.",
+      "letter_breakdown": [
+        { "letter": "く", "telugu_sound": "కు" },
+        { "letter": "る", "telugu_sound": "రు" },
+        { "letter": "ま", "telugu_sound": "మ" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "車を運転します。",
+          "romaji": "Kuruma o untenshimasu.",
+          "telugu_pronunciation": "కురుమా ఓ ఉంటెన్ షిమాసు",
+          "english_meaning": "I drive a car.",
+          "telugu_meaning": "నేను కారు నడుపుతాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "japanese_word": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "telugu_pronunciation": "ఇఎ",
+      "english_meaning": "House",
+      "telugu_meaning": "ఇల్లు",
+      "description": "Used for house or home.",
+      "letter_breakdown": [
+        { "letter": "い", "telugu_sound": "ఇ" },
+        { "letter": "え", "telugu_sound": "ఎ" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "家へ帰ります。",
+          "romaji": "Ie e kaerimasu.",
+          "telugu_pronunciation": "ఇఎ ఏ కాయిరిమాసు",
+          "english_meaning": "I return home.",
+          "telugu_meaning": "నేను ఇంటికి తిరిగి వెళ్తాను.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "japanese_word": "海",
+      "hiragana": "うみ",
+      "romaji": "umi",
+      "telugu_pronunciation": "ఉమి",
+      "english_meaning": "Sea",
+      "telugu_meaning": "సముద్రం",
+      "description": "Used for ocean or sea.",
+      "letter_breakdown": [
+        { "letter": "う", "telugu_sound": "ఉ" },
+        { "letter": "み", "telugu_sound": "మి" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "海は広いです。",
+          "romaji": "Umi wa hiroi desu.",
+          "telugu_pronunciation": "ఉమి వా హిరోయి దేశ్",
+          "english_meaning": "The sea is wide.",
+          "telugu_meaning": "సముద్రం విస్తారంగా ఉంది.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "japanese_word": "花",
+      "hiragana": "はな",
+      "romaji": "hana",
+      "telugu_pronunciation": "హన",
+      "english_meaning": "Flower",
+      "telugu_meaning": "పువ్వు",
+      "description": "Used for flowers in general.",
+      "letter_breakdown": [
+        { "letter": "は", "telugu_sound": "హా" },
+        { "letter": "な", "telugu_sound": "నా" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "花がきれいです。",
+          "romaji": "Hana ga kirei desu.",
+          "telugu_pronunciation": "హన గా కిరే దేశ్",
+          "english_meaning": "The flower is beautiful.",
+          "telugu_meaning": "పువ్వు అందంగా ఉంది.",
+          "word_breakdown": []
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "japanese_word": "空",
+      "hiragana": "そら",
+      "romaji": "sora",
+      "telugu_pronunciation": "సొర",
+      "english_meaning": "Sky",
+      "telugu_meaning": "ఆకాశం",
+      "description": "Used for sky or heavens.",
+      "letter_breakdown": [
+        { "letter": "そ", "telugu_sound": "సొ" },
+        { "letter": "ら", "telugu_sound": "రా" }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "空は青いです。",
+          "romaji": "Sora wa aoi desu.",
+          "telugu_pronunciation": "సొర వా ఆఓయి దేశ్",
+          "english_meaning": "The sky is blue.",
+          "telugu_meaning": "ఆకాశం నీలంగా ఉంది.",
+          "word_breakdown": []
+        }
+      ]
+    }
+  ]
+}
