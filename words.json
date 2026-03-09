@@ -1,0 +1,5578 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "japanese_word": "これ",
+      "hiragana": "これ",
+      "romaji": "kore",
+      "telugu_pronunciation": "కొరే",
+      "english_meaning": "This (thing near the speaker)",
+      "telugu_meaning": "ఇది (మాట్లాడుతున్న వ్యక్తికి దగ్గరగా ఉన్నది)",
+      "description": "これ (kore) means 'this'. It is used to point to something that is near the speaker. Beginners often use this word when showing or talking about an object close to them, like a book or phone. In many sentences, the particle は (wa) marks the topic of the sentence, showing what we are talking about. For example, in これは本です, は tells us that 'this' is the topic being explained.",
+      "letter_breakdown": [
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        },
+        {
+          "letter": "れ",
+          "telugu_sound": "రే"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "これは本です。",
+          "romaji": "Kore wa hon desu.",
+          "telugu_pronunciation": "కొరే వా హోన్ దేశ్",
+          "english_meaning": "This is a book.",
+          "telugu_meaning": "ఇది ఒక పుస్తకం.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "これは水です。",
+          "romaji": "Kore wa mizu desu.",
+          "telugu_pronunciation": "కొరే వా మిజు దేశ్",
+          "english_meaning": "This is water.",
+          "telugu_meaning": "ఇది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "これは私のペンです。",
+          "romaji": "Kore wa watashi no pen desu.",
+          "telugu_pronunciation": "కొరే వా వతషి నో పెన్ దేశ్",
+          "english_meaning": "This is my pen.",
+          "telugu_meaning": "ఇది నా పెన్.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possession marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "ペン",
+              "meaning_en": "pen",
+              "meaning_te": "పెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "japanese_word": "それ",
+      "hiragana": "それ",
+      "romaji": "sore",
+      "telugu_pronunciation": "సొరే",
+      "english_meaning": "That (thing near the listener)",
+      "telugu_meaning": "అది (వినే వ్యక్తికి దగ్గరగా ఉన్నది)",
+      "description": "それ (sore) means 'that'. It is used for objects that are near the listener but not near the speaker. Beginners often use it when asking about something another person has. The particle は marks the topic of the sentence and tells us what is being explained. Using それ helps learners practice basic pointing words in Japanese conversations.",
+      "letter_breakdown": [
+        {
+          "letter": "そ",
+          "telugu_sound": "సొ"
+        },
+        {
+          "letter": "れ",
+          "telugu_sound": "రే"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "それは何ですか。",
+          "romaji": "Sore wa nan desu ka.",
+          "telugu_pronunciation": "సొరే వా నాన్ దేశ్ కా",
+          "english_meaning": "What is that?",
+          "telugu_meaning": "అది ఏమిటి?",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "何",
+              "meaning_en": "what",
+              "meaning_te": "ఏమి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "それは私の本です。",
+          "romaji": "Sore wa watashi no hon desu.",
+          "telugu_pronunciation": "సొరే వా వతషి నో హోన్ దేశ్",
+          "english_meaning": "That is my book.",
+          "telugu_meaning": "అది నా పుస్తకం.",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possession marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "それは水です。",
+          "romaji": "Sore wa mizu desu.",
+          "telugu_pronunciation": "సొరే వా మిజు దేశ్",
+          "english_meaning": "That is water.",
+          "telugu_meaning": "అది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "japanese_word": "あれ",
+      "hiragana": "あれ",
+      "romaji": "are",
+      "telugu_pronunciation": "అరే",
+      "english_meaning": "That (far from both speaker and listener)",
+      "telugu_meaning": "అది (ఇద్దరికీ దూరంగా ఉన్నది)",
+      "description": "あれ (are) means 'that over there'. It is used when the object is far away from both the speaker and the listener. Beginners use it when pointing to something at a distance like a mountain or building. The particle は marks the topic of the sentence, showing what we are talking about. This word is part of the Japanese 'ko-so-a-do' system used for pointing.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "れ",
+          "telugu_sound": "రే"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "あれは山です。",
+          "romaji": "Are wa yama desu.",
+          "telugu_pronunciation": "అరే వా యమ దేశ్",
+          "english_meaning": "That over there is a mountain.",
+          "telugu_meaning": "అది అక్కడ ఉన్న కొండ.",
+          "word_breakdown": [
+            {
+              "word": "あれ",
+              "meaning_en": "that over there",
+              "meaning_te": "అది అక్కడ"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "山",
+              "meaning_en": "mountain",
+              "meaning_te": "కొండ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "あれは学校です。",
+          "romaji": "Are wa gakkou desu.",
+          "telugu_pronunciation": "అరే వా గక్కో దేశ్",
+          "english_meaning": "That over there is a school.",
+          "telugu_meaning": "అది అక్కడ ఉన్న పాఠశాల.",
+          "word_breakdown": [
+            {
+              "word": "あれ",
+              "meaning_en": "that over there",
+              "meaning_te": "అది అక్కడ"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "あれは車です。",
+          "romaji": "Are wa kuruma desu.",
+          "telugu_pronunciation": "అరే వా కురుమా దేశ్",
+          "english_meaning": "That over there is a car.",
+          "telugu_meaning": "అది అక్కడ ఉన్న కారు.",
+          "word_breakdown": [
+            {
+              "word": "あれ",
+              "meaning_en": "that over there",
+              "meaning_te": "అది అక్కడ"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "車",
+              "meaning_en": "car",
+              "meaning_te": "కారు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "japanese_word": "です",
+      "hiragana": "です",
+      "romaji": "desu",
+      "telugu_pronunciation": "దేశ్",
+      "english_meaning": "Polite 'is / am / are'",
+      "telugu_meaning": "మర్యాదపూర్వక 'ఉంది / ఉన్నాను / ఉన్నారు'",
+      "description": "です (desu) is a polite verb used at the end of sentences. It means 'is', 'am', or 'are' in English depending on the sentence. Beginners use it in almost every polite statement in Japanese. It usually comes after nouns or adjectives to complete a polite sentence. The particle は often appears earlier in the sentence to mark the topic before ending with です.",
+      "letter_breakdown": [
+        {
+          "letter": "で",
+          "telugu_sound": "దే"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は学生です。",
+          "romaji": "Watashi wa gakusei desu.",
+          "telugu_pronunciation": "వతషి వా గక్సే దేశ్",
+          "english_meaning": "I am a student.",
+          "telugu_meaning": "నేను విద్యార్థిని.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "これは水です。",
+          "romaji": "Kore wa mizu desu.",
+          "telugu_pronunciation": "కొరే వా మిజు దేశ్",
+          "english_meaning": "This is water.",
+          "telugu_meaning": "ఇది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "それは本です。",
+          "romaji": "Sore wa hon desu.",
+          "telugu_pronunciation": "సొరే వా హోన్ దేశ్",
+          "english_meaning": "That is a book.",
+          "telugu_meaning": "అది పుస్తకం.",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "japanese_word": "は",
+      "hiragana": "は",
+      "romaji": "wa",
+      "telugu_pronunciation": "వా",
+      "english_meaning": "Topic marker particle",
+      "telugu_meaning": "విషయాన్ని చూపించే సూచిక",
+      "description": "は is a very important Japanese particle. Although the hiragana is 'ha', it is pronounced 'wa' when used as a particle. It marks the topic of the sentence, meaning the thing we are talking about. Beginners should think of it as 'as for...' or 'about...'. After marking the topic, the rest of the sentence explains something about that topic.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "వా"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は日本人です。",
+          "romaji": "Watashi wa nihonjin desu.",
+          "telugu_pronunciation": "వతషి వా నిహొంజిన్ దేశ్",
+          "english_meaning": "I am Japanese.",
+          "telugu_meaning": "నేను జపాన్ వ్యక్తిని.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "日本人",
+              "meaning_en": "Japanese person",
+              "meaning_te": "జపాన్ వ్యక్తి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "これはペンです。",
+          "romaji": "Kore wa pen desu.",
+          "telugu_pronunciation": "కొరే వా పెన్ దేశ్",
+          "english_meaning": "This is a pen.",
+          "telugu_meaning": "ఇది ఒక పెన్.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "ペン",
+              "meaning_en": "pen",
+              "meaning_te": "పెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "それは水です。",
+          "romaji": "Sore wa mizu desu.",
+          "telugu_pronunciation": "సొరే వా మిజు దేశ్",
+          "english_meaning": "That is water.",
+          "telugu_meaning": "అది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "japanese_word": "か",
+      "hiragana": "か",
+      "romaji": "ka",
+      "telugu_pronunciation": "కా",
+      "english_meaning": "Question marker",
+      "telugu_meaning": "ప్రశ్న సూచిక",
+      "description": "か (ka) is a Japanese particle used to make a sentence into a question. It is usually placed at the end of a sentence. Beginners should remember that Japanese questions do not need a change in word order like English; simply adding か makes it a question. For example, in これは本ですか, the particle か turns the statement into the question 'Is this a book?'. The particle は earlier in the sentence marks the topic, and か indicates that the speaker is asking something.",
+      "letter_breakdown": [
+        {
+          "letter": "か",
+          "telugu_sound": "క"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "これは本ですか。",
+          "romaji": "Kore wa hon desu ka.",
+          "telugu_pronunciation": "కొరే వా హోన్ దేశ్ కా",
+          "english_meaning": "Is this a book?",
+          "telugu_meaning": "ఇది పుస్తకమా?",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは学生ですか。",
+          "romaji": "Anata wa gakusei desu ka.",
+          "telugu_pronunciation": "అనత వా గక్సే దేశ్ కా",
+          "english_meaning": "Are you a student?",
+          "telugu_meaning": "మీరు విద్యార్థివా?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "それは水ですか。",
+          "romaji": "Sore wa mizu desu ka.",
+          "telugu_pronunciation": "సొరే వా మిజు దేశ్ కా",
+          "english_meaning": "Is that water?",
+          "telugu_meaning": "అది నీరా?",
+          "word_breakdown": [
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "japanese_word": "わたし",
+      "hiragana": "わたし",
+      "romaji": "watashi",
+      "telugu_pronunciation": "వతషి",
+      "english_meaning": "I / Me",
+      "telugu_meaning": "నేను",
+      "description": "わたし (watashi) means 'I' or 'me'. It is a common and polite way to refer to yourself in Japanese conversations. Beginners will often start sentences with わたし when introducing themselves. The particle は usually follows わたし to mark the topic, meaning the sentence is about the speaker. This makes it easy to form simple sentences like 'I am a student'.",
+      "letter_breakdown": [
+        {
+          "letter": "わ",
+          "telugu_sound": "వ"
+        },
+        {
+          "letter": "た",
+          "telugu_sound": "త"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は学生です。",
+          "romaji": "Watashi wa gakusei desu.",
+          "telugu_pronunciation": "వతషి వా గక్సే దేశ్",
+          "english_meaning": "I am a student.",
+          "telugu_meaning": "నేను విద్యార్థిని.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私は日本人です。",
+          "romaji": "Watashi wa nihonjin desu.",
+          "telugu_pronunciation": "వతషి వా నిహొంజిన్ దేశ్",
+          "english_meaning": "I am Japanese.",
+          "telugu_meaning": "నేను జపాన్ వ్యక్తిని.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "日本人",
+              "meaning_en": "Japanese person",
+              "meaning_te": "జపాన్ వ్యక్తి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私は水を飲みます。",
+          "romaji": "Watashi wa mizu o nomimasu.",
+          "telugu_pronunciation": "వతషి వా మిజు ఓ నొమిమాస్",
+          "english_meaning": "I drink water.",
+          "telugu_meaning": "నేను నీరు తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "japanese_word": "あなた",
+      "hiragana": "あなた",
+      "romaji": "anata",
+      "telugu_pronunciation": "అనత",
+      "english_meaning": "You",
+      "telugu_meaning": "మీరు",
+      "description": "あなた (anata) means 'you'. It is used to refer to the person you are speaking to. In Japanese conversations, people often avoid using 'you' and instead use the person's name, but beginners still learn this word early. The particle は can follow あなた to mark the topic of the sentence. This allows simple sentences like 'You are a student'.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        },
+        {
+          "letter": "た",
+          "telugu_sound": "త"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "あなたは学生です。",
+          "romaji": "Anata wa gakusei desu.",
+          "telugu_pronunciation": "అనత వా గక్సే దేశ్",
+          "english_meaning": "You are a student.",
+          "telugu_meaning": "మీరు విద్యార్థి.",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは日本人ですか。",
+          "romaji": "Anata wa nihonjin desu ka.",
+          "telugu_pronunciation": "అనత వా నిహొంజిన్ దేశ్ కా",
+          "english_meaning": "Are you Japanese?",
+          "telugu_meaning": "మీరు జపాన్ వ్యక్తివా?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "日本人",
+              "meaning_en": "Japanese person",
+              "meaning_te": "జపాన్ వ్యక్తి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは水を飲みます。",
+          "romaji": "Anata wa mizu o nomimasu.",
+          "telugu_pronunciation": "అనత వా మిజు ఓ నొమిమాస్",
+          "english_meaning": "You drink water.",
+          "telugu_meaning": "మీరు నీరు తాగుతారు.",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "japanese_word": "はい",
+      "hiragana": "はい",
+      "romaji": "hai",
+      "telugu_pronunciation": "హై",
+      "english_meaning": "Yes",
+      "telugu_meaning": "అవును",
+      "description": "はい (hai) means 'yes'. It is used to give a positive answer or agreement in conversation. Beginners will hear this word very often in daily Japanese communication. It can be used alone or before answering a question. In polite conversation, it shows acknowledgment or confirmation.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "はい、学生です。",
+          "romaji": "Hai, gakusei desu.",
+          "telugu_pronunciation": "హై గక్సే దేశ్",
+          "english_meaning": "Yes, I am a student.",
+          "telugu_meaning": "అవును, నేను విద్యార్థిని.",
+          "word_breakdown": [
+            {
+              "word": "はい",
+              "meaning_en": "yes",
+              "meaning_te": "అవును"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "はい、これは水です。",
+          "romaji": "Hai, kore wa mizu desu.",
+          "telugu_pronunciation": "హై కొరే వా మిజు దేశ్",
+          "english_meaning": "Yes, this is water.",
+          "telugu_meaning": "అవును, ఇది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "はい",
+              "meaning_en": "yes",
+              "meaning_te": "అవును"
+            },
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "はい、わかりました。",
+          "romaji": "Hai, wakarimashita.",
+          "telugu_pronunciation": "హై వకరిమాష్తా",
+          "english_meaning": "Yes, I understood.",
+          "telugu_meaning": "అవును, నాకు అర్థమైంది.",
+          "word_breakdown": [
+            {
+              "word": "はい",
+              "meaning_en": "yes",
+              "meaning_te": "అవును"
+            },
+            {
+              "word": "わかりました",
+              "meaning_en": "understood",
+              "meaning_te": "అర్థమైంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "japanese_word": "いいえ",
+      "hiragana": "いいえ",
+      "romaji": "iie",
+      "telugu_pronunciation": "ఈఏ",
+      "english_meaning": "No",
+      "telugu_meaning": "కాదు",
+      "description": "いいえ (iie) means 'no'. It is used to give a negative answer to a question. Beginners will use it when they want to politely disagree or say something is not correct. Often it is followed by a full sentence explaining the correct information. In polite conversation, it sounds softer than simply saying 'no'.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఈ"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఈ"
+        },
+        {
+          "letter": "え",
+          "telugu_sound": "ఏ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "いいえ、学生ではありません。",
+          "romaji": "Iie, gakusei dewa arimasen.",
+          "telugu_pronunciation": "ఈఏ గక్సే దేవా అరిమాసేన్",
+          "english_meaning": "No, I am not a student.",
+          "telugu_meaning": "కాదు, నేను విద్యార్థిని కాదు.",
+          "word_breakdown": [
+            {
+              "word": "いいえ",
+              "meaning_en": "no",
+              "meaning_te": "కాదు"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "では",
+              "meaning_en": "topic negative marker",
+              "meaning_te": "కాదు అని సూచన"
+            },
+            {
+              "word": "ありません",
+              "meaning_en": "is not",
+              "meaning_te": "కాదు"
+            }
+          ]
+        },
+        {
+          "sentence": "いいえ、それは水ではありません。",
+          "romaji": "Iie, sore wa mizu dewa arimasen.",
+          "telugu_pronunciation": "ఈఏ సొరే వా మిజు దేవా అరిమాసేన్",
+          "english_meaning": "No, that is not water.",
+          "telugu_meaning": "కాదు, అది నీరు కాదు.",
+          "word_breakdown": [
+            {
+              "word": "いいえ",
+              "meaning_en": "no",
+              "meaning_te": "కాదు"
+            },
+            {
+              "word": "それ",
+              "meaning_en": "that",
+              "meaning_te": "అది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "では",
+              "meaning_en": "negative marker",
+              "meaning_te": "కాదు అని సూచన"
+            },
+            {
+              "word": "ありません",
+              "meaning_en": "is not",
+              "meaning_te": "కాదు"
+            }
+          ]
+        },
+        {
+          "sentence": "いいえ、違います。",
+          "romaji": "Iie, chigaimasu.",
+          "telugu_pronunciation": "ఈఏ చికైమాస్",
+          "english_meaning": "No, that is incorrect.",
+          "telugu_meaning": "కాదు, అది తప్పు.",
+          "word_breakdown": [
+            {
+              "word": "いいえ",
+              "meaning_en": "no",
+              "meaning_te": "కాదు"
+            },
+            {
+              "word": "違います",
+              "meaning_en": "is different / incorrect",
+              "meaning_te": "తప్పు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "japanese_word": "ありがとう",
+      "hiragana": "ありがとう",
+      "romaji": "arigatou",
+      "telugu_pronunciation": "అరిగతో",
+      "english_meaning": "Thank you",
+      "telugu_meaning": "ధన్యవాదాలు",
+      "description": "ありがとう (arigatou) means 'thank you'. It is used to express gratitude when someone helps you or does something kind. Beginners will hear and use this word very often in daily Japanese conversations. The more polite form is ありがとうございます, which is used in formal situations. This word usually appears alone and does not require particles like は or を because it functions as a complete expression of gratitude.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "り",
+          "telugu_sound": "రి"
+        },
+        {
+          "letter": "が",
+          "telugu_sound": "గా"
+        },
+        {
+          "letter": "と",
+          "telugu_sound": "తో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "ありがとう。",
+          "romaji": "Arigatou.",
+          "telugu_pronunciation": "అరిగతో",
+          "english_meaning": "Thank you.",
+          "telugu_meaning": "ధన్యవాదాలు.",
+          "word_breakdown": [
+            {
+              "word": "ありがとう",
+              "meaning_en": "thank you",
+              "meaning_te": "ధన్యవాదాలు"
+            }
+          ]
+        },
+        {
+          "sentence": "水をありがとう。",
+          "romaji": "Mizu o arigatou.",
+          "telugu_pronunciation": "మిజు ఓ అరిగతో",
+          "english_meaning": "Thank you for the water.",
+          "telugu_meaning": "నీటికి ధన్యవాదాలు.",
+          "word_breakdown": [
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "ありがとう",
+              "meaning_en": "thank you",
+              "meaning_te": "ధన్యవాదాలు"
+            }
+          ]
+        },
+        {
+          "sentence": "本をありがとう。",
+          "romaji": "Hon o arigatou.",
+          "telugu_pronunciation": "హోన్ ఓ అరిగతో",
+          "english_meaning": "Thank you for the book.",
+          "telugu_meaning": "పుస్తకానికి ధన్యవాదాలు.",
+          "word_breakdown": [
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "ありがとう",
+              "meaning_en": "thank you",
+              "meaning_te": "ధన్యవాదాలు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "japanese_word": "すみません",
+      "hiragana": "すみません",
+      "romaji": "sumimasen",
+      "telugu_pronunciation": "సుమిమసేన్",
+      "english_meaning": "Excuse me / Sorry",
+      "telugu_meaning": "క్షమించండి / క్షమాపణ",
+      "description": "すみません (sumimasen) means 'excuse me' or 'sorry'. It is used when apologizing, getting someone's attention, or politely asking for help. Beginners will hear this word frequently in daily life, such as in shops or when asking questions. It is a polite expression and can be used in many situations. This word normally appears as a complete expression and does not need particles like は or を.",
+      "letter_breakdown": [
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        },
+        {
+          "letter": "み",
+          "telugu_sound": "మి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "せ",
+          "telugu_sound": "సే"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "すみません。",
+          "romaji": "Sumimasen.",
+          "telugu_pronunciation": "సుమిమసేన్",
+          "english_meaning": "Excuse me.",
+          "telugu_meaning": "క్షమించండి.",
+          "word_breakdown": [
+            {
+              "word": "すみません",
+              "meaning_en": "excuse me / sorry",
+              "meaning_te": "క్షమించండి"
+            }
+          ]
+        },
+        {
+          "sentence": "すみません、水をください。",
+          "romaji": "Sumimasen, mizu o kudasai.",
+          "telugu_pronunciation": "సుమిమసేన్ మిజు ఓ కుదసై",
+          "english_meaning": "Excuse me, please give me water.",
+          "telugu_meaning": "క్షమించండి, దయచేసి నీరు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "すみません",
+              "meaning_en": "excuse me",
+              "meaning_te": "క్షమించండి"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "దయచేసి ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "すみません、これは何ですか。",
+          "romaji": "Sumimasen, kore wa nan desu ka.",
+          "telugu_pronunciation": "సుమిమసేన్ కొరే వా నాన్ దేశ్ కా",
+          "english_meaning": "Excuse me, what is this?",
+          "telugu_meaning": "క్షమించండి, ఇది ఏమిటి?",
+          "word_breakdown": [
+            {
+              "word": "すみません",
+              "meaning_en": "excuse me",
+              "meaning_te": "క్షమించండి"
+            },
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "何",
+              "meaning_en": "what",
+              "meaning_te": "ఏమి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "japanese_word": "おはよう",
+      "hiragana": "おはよう",
+      "romaji": "ohayou",
+      "telugu_pronunciation": "ఒహయో",
+      "english_meaning": "Good morning",
+      "telugu_meaning": "శుభోదయం",
+      "description": "おはよう (ohayou) means 'good morning'. It is used when greeting someone in the morning. Beginners will often use the more polite form おはようございます in formal situations. This word is commonly used when meeting friends, family, or coworkers in the morning. It usually stands alone as a greeting and does not need particles like は or を.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "よ",
+          "telugu_sound": "యో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "おはよう。",
+          "romaji": "Ohayou.",
+          "telugu_pronunciation": "ఒహయో",
+          "english_meaning": "Good morning.",
+          "telugu_meaning": "శుభోదయం.",
+          "word_breakdown": [
+            {
+              "word": "おはよう",
+              "meaning_en": "good morning",
+              "meaning_te": "శుభోదయం"
+            }
+          ]
+        },
+        {
+          "sentence": "おはよう、田中さん。",
+          "romaji": "Ohayou, Tanaka san.",
+          "telugu_pronunciation": "ఒహయో తనాకా సాన్",
+          "english_meaning": "Good morning, Tanaka.",
+          "telugu_meaning": "శుభోదయం తనాకా.",
+          "word_breakdown": [
+            {
+              "word": "おはよう",
+              "meaning_en": "good morning",
+              "meaning_te": "శుభోదయం"
+            },
+            {
+              "word": "田中",
+              "meaning_en": "Tanaka (name)",
+              "meaning_te": "తనాకా"
+            },
+            {
+              "word": "さん",
+              "meaning_en": "polite title",
+              "meaning_te": "గౌరవ సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "おはよう、先生。",
+          "romaji": "Ohayou, sensei.",
+          "telugu_pronunciation": "ఒహయో సెన్సే",
+          "english_meaning": "Good morning, teacher.",
+          "telugu_meaning": "శుభోదయం గురువుగారూ.",
+          "word_breakdown": [
+            {
+              "word": "おはよう",
+              "meaning_en": "good morning",
+              "meaning_te": "శుభోదయం"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "japanese_word": "こんにちは",
+      "hiragana": "こんにちは",
+      "romaji": "konnichiwa",
+      "telugu_pronunciation": "కొన్నిచివా",
+      "english_meaning": "Hello / Good afternoon",
+      "telugu_meaning": "నమస్తే / శుభ మధ్యాహ్నం",
+      "description": "こんにちは (konnichiwa) is a common Japanese greeting meaning 'hello' or 'good afternoon'. It is used during the daytime when meeting someone. Beginners will use this word frequently when greeting people politely. Although it is written with は at the end, the pronunciation is 'wa'. This greeting usually appears by itself and does not require particles because it functions as a complete greeting.",
+      "letter_breakdown": [
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "は",
+          "telugu_sound": "వా"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "こんにちは。",
+          "romaji": "Konnichiwa.",
+          "telugu_pronunciation": "కొన్నిచివా",
+          "english_meaning": "Hello.",
+          "telugu_meaning": "నమస్తే.",
+          "word_breakdown": [
+            {
+              "word": "こんにちは",
+              "meaning_en": "hello",
+              "meaning_te": "నమస్తే"
+            }
+          ]
+        },
+        {
+          "sentence": "こんにちは、山田さん。",
+          "romaji": "Konnichiwa, Yamada san.",
+          "telugu_pronunciation": "కొన్నిచివా యమద సాన్",
+          "english_meaning": "Hello, Yamada.",
+          "telugu_meaning": "నమస్తే యమద.",
+          "word_breakdown": [
+            {
+              "word": "こんにちは",
+              "meaning_en": "hello",
+              "meaning_te": "నమస్తే"
+            },
+            {
+              "word": "山田",
+              "meaning_en": "Yamada (name)",
+              "meaning_te": "యమద"
+            },
+            {
+              "word": "さん",
+              "meaning_en": "polite title",
+              "meaning_te": "గౌరవ సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "こんにちは、先生。",
+          "romaji": "Konnichiwa, sensei.",
+          "telugu_pronunciation": "కొన్నిచివా సెన్సే",
+          "english_meaning": "Hello, teacher.",
+          "telugu_meaning": "నమస్తే గురువుగారూ.",
+          "word_breakdown": [
+            {
+              "word": "こんにちは",
+              "meaning_en": "hello",
+              "meaning_te": "నమస్తే"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "japanese_word": "みず",
+      "hiragana": "みず",
+      "romaji": "mizu",
+      "telugu_pronunciation": "మిజు",
+      "english_meaning": "Water",
+      "telugu_meaning": "నీరు",
+      "description": "みず (mizu) means 'water'. It is a very common word used in daily life when talking about drinking water or water in general. Beginners will often use this word in simple sentences. The particle を is often used with みず to show that water is the object of an action like drinking. For example, 水を飲みます means 'drink water', where を marks the object receiving the action.",
+      "letter_breakdown": [
+        {
+          "letter": "み",
+          "telugu_sound": "మి"
+        },
+        {
+          "letter": "ず",
+          "telugu_sound": "జు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "水です。",
+          "romaji": "Mizu desu.",
+          "telugu_pronunciation": "మిజు దేశ్",
+          "english_meaning": "It is water.",
+          "telugu_meaning": "ఇది నీరు.",
+          "word_breakdown": [
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "私は水を飲みます。",
+          "romaji": "Watashi wa mizu o nomimasu.",
+          "telugu_pronunciation": "వతషి వా మిజు ఓ నొమిమాస్",
+          "english_meaning": "I drink water.",
+          "telugu_meaning": "నేను నీరు తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "水をください。",
+          "romaji": "Mizu o kudasai.",
+          "telugu_pronunciation": "మిజు ఓ కుదసై",
+          "english_meaning": "Please give me water.",
+          "telugu_meaning": "దయచేసి నీరు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "దయచేసి ఇవ్వండి"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "japanese_word": "ごはん",
+      "hiragana": "ごはん",
+      "romaji": "gohan",
+      "telugu_pronunciation": "గోహాన్",
+      "english_meaning": "Rice / Meal",
+      "telugu_meaning": "అన్నం / భోజనం",
+      "description": "ごはん (gohan) means 'rice' or 'meal'. In Japanese daily life, it often refers to cooked rice or a general meal like breakfast or dinner. Beginners will hear this word very frequently because rice is a common food in Japan. The particle を is often used with ごはん when it is the object of an action like eating. For example, ごはんを食べます means 'eat rice', where を marks rice as the object receiving the action.",
+      "letter_breakdown": [
+        {
+          "letter": "ご",
+          "telugu_sound": "గో"
+        },
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "ごはんを食べます。",
+          "romaji": "Gohan o tabemasu.",
+          "telugu_pronunciation": "గోహాన్ ఓ తబేమాస్",
+          "english_meaning": "I eat rice.",
+          "telugu_meaning": "నేను అన్నం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "ごはん",
+              "meaning_en": "rice / meal",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私はごはんを食べます。",
+          "romaji": "Watashi wa gohan o tabemasu.",
+          "telugu_pronunciation": "వతషి వా గోహాన్ ఓ తబేమాస్",
+          "english_meaning": "I eat rice.",
+          "telugu_meaning": "నేను అన్నం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "rice / meal",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "ごはんです。",
+          "romaji": "Gohan desu.",
+          "telugu_pronunciation": "గోహాన్ దేశ్",
+          "english_meaning": "It is rice.",
+          "telugu_meaning": "ఇది అన్నం.",
+          "word_breakdown": [
+            {
+              "word": "ごはん",
+              "meaning_en": "rice",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "japanese_word": "すし",
+      "hiragana": "すし",
+      "romaji": "sushi",
+      "telugu_pronunciation": "సుషి",
+      "english_meaning": "Sushi",
+      "telugu_meaning": "సుషి (జపాన్ వంటకం)",
+      "description": "すし (sushi) is a famous Japanese food made with rice and often fish or vegetables. It is one of the most well-known Japanese dishes around the world. Beginners often learn this word early when studying Japanese culture and food. The particle を is commonly used when sushi is the object of an action such as eating. For example, すしを食べます means 'eat sushi'.",
+      "letter_breakdown": [
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "すしを食べます。",
+          "romaji": "Sushi o tabemasu.",
+          "telugu_pronunciation": "సుషి ఓ తబేమాస్",
+          "english_meaning": "I eat sushi.",
+          "telugu_meaning": "నేను సుషి తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "すし",
+              "meaning_en": "sushi",
+              "meaning_te": "సుషి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私はすしを食べます。",
+          "romaji": "Watashi wa sushi o tabemasu.",
+          "telugu_pronunciation": "వతషి వా సుషి ఓ తబేమాస్",
+          "english_meaning": "I eat sushi.",
+          "telugu_meaning": "నేను సుషి తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "すし",
+              "meaning_en": "sushi",
+              "meaning_te": "సుషి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "これはすしです。",
+          "romaji": "Kore wa sushi desu.",
+          "telugu_pronunciation": "కొరే వా సుషి దేశ్",
+          "english_meaning": "This is sushi.",
+          "telugu_meaning": "ఇది సుషి.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "すし",
+              "meaning_en": "sushi",
+              "meaning_te": "సుషి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "japanese_word": "おちゃ",
+      "hiragana": "おちゃ",
+      "romaji": "ocha",
+      "telugu_pronunciation": "ఒచా",
+      "english_meaning": "Tea (green tea)",
+      "telugu_meaning": "టీ / గ్రీన్ టీ",
+      "description": "おちゃ (ocha) means 'tea', especially Japanese green tea. It is a very common drink in Japan and is often served with meals. Beginners will see this word often when learning about Japanese food culture. The particle を can mark tea as the object when someone drinks it. For example, おちゃを飲みます means 'drink tea', where を marks tea as the object of the action.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "ゃ",
+          "telugu_sound": "య"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "おちゃを飲みます。",
+          "romaji": "Ocha o nomimasu.",
+          "telugu_pronunciation": "ఒచా ఓ నొమిమాస్",
+          "english_meaning": "I drink tea.",
+          "telugu_meaning": "నేను టీ తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "おちゃ",
+              "meaning_en": "tea",
+              "meaning_te": "టీ"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私はおちゃを飲みます。",
+          "romaji": "Watashi wa ocha o nomimasu.",
+          "telugu_pronunciation": "వతషి వా ఒచా ఓ నొమిమాస్",
+          "english_meaning": "I drink tea.",
+          "telugu_meaning": "నేను టీ తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "おちゃ",
+              "meaning_en": "tea",
+              "meaning_te": "టీ"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "これはおちゃです。",
+          "romaji": "Kore wa ocha desu.",
+          "telugu_pronunciation": "కొరే వా ఒచా దేశ్",
+          "english_meaning": "This is tea.",
+          "telugu_meaning": "ఇది టీ.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "おちゃ",
+              "meaning_en": "tea",
+              "meaning_te": "టీ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "japanese_word": "べんごし",
+      "hiragana": "べんごし",
+      "romaji": "bengoshi",
+      "telugu_pronunciation": "బెంగోషి",
+      "english_meaning": "Lawyer",
+      "telugu_meaning": "న్యాయవాది",
+      "description": "べんごし (bengoshi) means 'lawyer'. A lawyer is a professional who helps people with legal matters and represents them in court. Beginners learn this word when studying professions in Japanese. The particle は often follows a person to mark the topic when describing someone's job. For example, 彼は弁護士です means 'He is a lawyer', where は marks the topic.",
+      "letter_breakdown": [
+        {
+          "letter": "べ",
+          "telugu_sound": "బె"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "ご",
+          "telugu_sound": "గో"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "彼は弁護士です。",
+          "romaji": "Kare wa bengoshi desu.",
+          "telugu_pronunciation": "కరే వా బెంగోషి దేశ్",
+          "english_meaning": "He is a lawyer.",
+          "telugu_meaning": "అతను న్యాయవాది.",
+          "word_breakdown": [
+            {
+              "word": "彼",
+              "meaning_en": "he",
+              "meaning_te": "అతను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "弁護士",
+              "meaning_en": "lawyer",
+              "meaning_te": "న్యాయవాది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "私は弁護士です。",
+          "romaji": "Watashi wa bengoshi desu.",
+          "telugu_pronunciation": "వతషి వా బెంగోషి దేశ్",
+          "english_meaning": "I am a lawyer.",
+          "telugu_meaning": "నేను న్యాయవాది.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "弁護士",
+              "meaning_en": "lawyer",
+              "meaning_te": "న్యాయవాది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは弁護士ですか。",
+          "romaji": "Anata wa bengoshi desu ka.",
+          "telugu_pronunciation": "అనత వా బెంగోషి దేశ్ కా",
+          "english_meaning": "Are you a lawyer?",
+          "telugu_meaning": "మీరు న్యాయవాదివా?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "弁護士",
+              "meaning_en": "lawyer",
+              "meaning_te": "న్యాయవాది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "japanese_word": "せんせい",
+      "hiragana": "せんせい",
+      "romaji": "sensei",
+      "telugu_pronunciation": "సెన్సే",
+      "english_meaning": "Teacher / Master",
+      "telugu_meaning": "గురువు / ఉపాధ్యాయుడు",
+      "description": "せんせい (sensei) means 'teacher' or 'master'. It is used to address teachers, doctors, and other respected professionals. Beginners will use this word often in school or learning environments. The particle は may follow a person when describing that someone is a teacher. For example, 先生です means 'is a teacher', where です completes the polite sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "せ",
+          "telugu_sound": "సె"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "せ",
+          "telugu_sound": "సె"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఏ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "彼は先生です。",
+          "romaji": "Kare wa sensei desu.",
+          "telugu_pronunciation": "కరే వా సెన్సే దేశ్",
+          "english_meaning": "He is a teacher.",
+          "telugu_meaning": "అతను గురువు.",
+          "word_breakdown": [
+            {
+              "word": "彼",
+              "meaning_en": "he",
+              "meaning_te": "అతను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "私は先生です。",
+          "romaji": "Watashi wa sensei desu.",
+          "telugu_pronunciation": "వతషి వా సెన్సే దేశ్",
+          "english_meaning": "I am a teacher.",
+          "telugu_meaning": "నేను గురువు.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "先生、おはよう。",
+          "romaji": "Sensei, ohayou.",
+          "telugu_pronunciation": "సెన్సే ఒహయో",
+          "english_meaning": "Good morning, teacher.",
+          "telugu_meaning": "శుభోదయం గురువుగారూ.",
+          "word_breakdown": [
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "おはよう",
+              "meaning_en": "good morning",
+              "meaning_te": "శుభోదయం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "japanese_word": "がくせい",
+      "hiragana": "がくせい",
+      "romaji": "gakusei",
+      "telugu_pronunciation": "గక్సే",
+      "english_meaning": "Student",
+      "telugu_meaning": "విద్యార్థి",
+      "description": "がくせい (gakusei) means 'student'. It refers to a person who studies at a school, college, or university. Beginners often use this word when introducing themselves in Japanese. The particle は is commonly used after a person to mark the topic when describing their role or identity. For example, 私は学生です means 'I am a student', where は marks 'I' as the topic and です completes the polite sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "が",
+          "telugu_sound": "గా"
+        },
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        },
+        {
+          "letter": "せ",
+          "telugu_sound": "సె"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఏ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は学生です。",
+          "romaji": "Watashi wa gakusei desu.",
+          "telugu_pronunciation": "వతషి వా గక్సే దేశ్",
+          "english_meaning": "I am a student.",
+          "telugu_meaning": "నేను విద్యార్థిని.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "彼は学生です。",
+          "romaji": "Kare wa gakusei desu.",
+          "telugu_pronunciation": "కరే వా గక్సే దేశ్",
+          "english_meaning": "He is a student.",
+          "telugu_meaning": "అతను విద్యార్థి.",
+          "word_breakdown": [
+            {
+              "word": "彼",
+              "meaning_en": "he",
+              "meaning_te": "అతను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは学生ですか。",
+          "romaji": "Anata wa gakusei desu ka.",
+          "telugu_pronunciation": "అనత వా గక్సే దేశ్ కా",
+          "english_meaning": "Are you a student?",
+          "telugu_meaning": "మీరు విద్యార్థివా?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "japanese_word": "いしゃ",
+      "hiragana": "いしゃ",
+      "romaji": "isha",
+      "telugu_pronunciation": "ఇషా",
+      "english_meaning": "Doctor",
+      "telugu_meaning": "వైద్యుడు",
+      "description": "いしゃ (isha) means 'doctor'. It refers to a medical professional who treats sick or injured people. Beginners learn this word when studying professions in Japanese. The particle は is often used to mark the topic when describing someone's job. For example, 彼は医者です means 'He is a doctor', where は marks the topic and です finishes the polite statement.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఈ"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        },
+        {
+          "letter": "ゃ",
+          "telugu_sound": "య"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "彼は医者です。",
+          "romaji": "Kare wa isha desu.",
+          "telugu_pronunciation": "కరే వా ఇషా దేశ్",
+          "english_meaning": "He is a doctor.",
+          "telugu_meaning": "అతను వైద్యుడు.",
+          "word_breakdown": [
+            {
+              "word": "彼",
+              "meaning_en": "he",
+              "meaning_te": "అతను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "医者",
+              "meaning_en": "doctor",
+              "meaning_te": "వైద్యుడు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "私は医者です。",
+          "romaji": "Watashi wa isha desu.",
+          "telugu_pronunciation": "వతషి వా ఇషా దేశ్",
+          "english_meaning": "I am a doctor.",
+          "telugu_meaning": "నేను వైద్యుడు.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "医者",
+              "meaning_en": "doctor",
+              "meaning_te": "వైద్యుడు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは医者ですか。",
+          "romaji": "Anata wa isha desu ka.",
+          "telugu_pronunciation": "అనత వా ఇషా దేశ్ కా",
+          "english_meaning": "Are you a doctor?",
+          "telugu_meaning": "మీరు వైద్యుడా?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "మీరు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "医者",
+              "meaning_en": "doctor",
+              "meaning_te": "వైద్యుడు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "are",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "japanese_word": "かっこいい",
+      "hiragana": "かっこいい",
+      "romaji": "kakkoii",
+      "telugu_pronunciation": "కక్కోయీ",
+      "english_meaning": "Cool / Handsome",
+      "telugu_meaning": "చాలా బాగుంది / స్టైలిష్",
+      "description": "かっこいい (kakkoii) means 'cool', 'handsome', or 'stylish'. It is used to describe a person, object, or action that looks impressive or attractive. Beginners often use this adjective when talking about people, clothes, or things they like. The particle が is sometimes used to mark the subject being described. For example, 彼がかっこいいです means 'He is cool', where が marks the subject.",
+      "letter_breakdown": [
+        {
+          "letter": "か",
+          "telugu_sound": "క"
+        },
+        {
+          "letter": "っ",
+          "telugu_sound": "చిన్న విరామ ధ్వని"
+        },
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఈ"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఈ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "彼はかっこいいです。",
+          "romaji": "Kare wa kakkoii desu.",
+          "telugu_pronunciation": "కరే వా కక్కోయీ దేశ్",
+          "english_meaning": "He is cool.",
+          "telugu_meaning": "అతను చాలా స్టైలిష్.",
+          "word_breakdown": [
+            {
+              "word": "彼",
+              "meaning_en": "he",
+              "meaning_te": "అతను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "かっこいい",
+              "meaning_en": "cool / handsome",
+              "meaning_te": "చాలా బాగుంది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "この車はかっこいいです。",
+          "romaji": "Kono kuruma wa kakkoii desu.",
+          "telugu_pronunciation": "కొనో కురుమా వా కక్కోయీ దేశ్",
+          "english_meaning": "This car is cool.",
+          "telugu_meaning": "ఈ కారు చాలా బాగుంది.",
+          "word_breakdown": [
+            {
+              "word": "この",
+              "meaning_en": "this",
+              "meaning_te": "ఈ"
+            },
+            {
+              "word": "車",
+              "meaning_en": "car",
+              "meaning_te": "కారు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "かっこいい",
+              "meaning_en": "cool",
+              "meaning_te": "బాగుంది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "先生はかっこいいです。",
+          "romaji": "Sensei wa kakkoii desu.",
+          "telugu_pronunciation": "సెన్సే వా కక్కోయీ దేశ్",
+          "english_meaning": "The teacher is cool.",
+          "telugu_meaning": "గురువు చాలా బాగున్నారు.",
+          "word_breakdown": [
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "かっこいい",
+              "meaning_en": "cool",
+              "meaning_te": "బాగుంది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "japanese_word": "たべます",
+      "hiragana": "たべます",
+      "romaji": "tabemasu",
+      "telugu_pronunciation": "తబేమాస్",
+      "english_meaning": "Eat",
+      "telugu_meaning": "తినడం",
+      "description": "たべます (tabemasu) means 'to eat' in polite Japanese form. It is used when talking about eating food. Beginners use this verb very often when learning daily activities in Japanese. The particle を is used before the food to mark it as the object of the action. For example, ごはんを食べます means 'eat rice', where を shows that rice is the thing being eaten.",
+      "letter_breakdown": [
+        {
+          "letter": "た",
+          "telugu_sound": "త"
+        },
+        {
+          "letter": "べ",
+          "telugu_sound": "బె"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "ごはんを食べます。",
+          "romaji": "Gohan o tabemasu.",
+          "telugu_pronunciation": "గోహాన్ ఓ తబేమాస్",
+          "english_meaning": "I eat rice.",
+          "telugu_meaning": "నేను అన్నం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "ごはん",
+              "meaning_en": "rice",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私はすしを食べます。",
+          "romaji": "Watashi wa sushi o tabemasu.",
+          "telugu_pronunciation": "వతషి వా సుషి ఓ తబేమాస్",
+          "english_meaning": "I eat sushi.",
+          "telugu_meaning": "నేను సుషి తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "すし",
+              "meaning_en": "sushi",
+              "meaning_te": "సుషి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "学生はごはんを食べます。",
+          "romaji": "Gakusei wa gohan o tabemasu.",
+          "telugu_pronunciation": "గక్సే వా గోహాన్ ఓ తబేమాస్",
+          "english_meaning": "The student eats rice.",
+          "telugu_meaning": "విద్యార్థి అన్నం తింటాడు.",
+          "word_breakdown": [
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "rice",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాడు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "japanese_word": "のみます",
+      "hiragana": "のみます",
+      "romaji": "nomimasu",
+      "telugu_pronunciation": "నొమిమాస్",
+      "english_meaning": "Drink",
+      "telugu_meaning": "తాగడం",
+      "description": "のみます (nomimasu) means 'to drink'. It is used when talking about drinking water, tea, or other drinks. Beginners commonly learn this verb together with words like water or tea. The particle を marks the drink as the object of the action. For example, 水を飲みます means 'drink water', where を shows that water is the thing being drunk.",
+      "letter_breakdown": [
+        {
+          "letter": "の",
+          "telugu_sound": "నొ"
+        },
+        {
+          "letter": "み",
+          "telugu_sound": "మి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "水を飲みます。",
+          "romaji": "Mizu o nomimasu.",
+          "telugu_pronunciation": "మిజు ఓ నొమిమాస్",
+          "english_meaning": "I drink water.",
+          "telugu_meaning": "నేను నీరు తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私はおちゃを飲みます。",
+          "romaji": "Watashi wa ocha o nomimasu.",
+          "telugu_pronunciation": "వతషి వా ఒచా ఓ నొమిమాస్",
+          "english_meaning": "I drink tea.",
+          "telugu_meaning": "నేను టీ తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "おちゃ",
+              "meaning_en": "tea",
+              "meaning_te": "టీ"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "学生は水を飲みます。",
+          "romaji": "Gakusei wa mizu o nomimasu.",
+          "telugu_pronunciation": "గక్సే వా మిజు ఓ నొమిమాస్",
+          "english_meaning": "The student drinks water.",
+          "telugu_meaning": "విద్యార్థి నీరు తాగుతాడు.",
+          "word_breakdown": [
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాడు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "japanese_word": "母",
+      "hiragana": "はは",
+      "romaji": "haha",
+      "telugu_pronunciation": "హహ",
+      "english_meaning": "My mother",
+      "telugu_meaning": "నా తల్లి",
+      "description": "母 (はは / haha) means 'my mother' when speaking about your own mother to other people. It is commonly used in conversations when you introduce or talk about your family. Beginners should remember that Japanese often has different words for 'my mother' and 'someone else's mother'. In example sentences, the particle は marks the topic of the sentence. The particle が marks the subject of the sentence, meaning the person doing or being something.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "母は家にいます。",
+          "romaji": "Haha wa ie ni imasu.",
+          "telugu_pronunciation": "హహ వా ఇఎ ని ఇమాస్",
+          "english_meaning": "My mother is at home.",
+          "telugu_meaning": "నా తల్లి ఇంట్లో ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "母",
+              "meaning_en": "my mother",
+              "meaning_te": "నా తల్లి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "is (for living things)",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "母がごはんを作ります。",
+          "romaji": "Haha ga gohan o tsukurimasu.",
+          "telugu_pronunciation": "హహ గా గొహన్ ఓ త్సుకురిమాస్",
+          "english_meaning": "My mother makes food.",
+          "telugu_meaning": "నా తల్లి భోజనం చేస్తుంది.",
+          "word_breakdown": [
+            {
+              "word": "母",
+              "meaning_en": "my mother",
+              "meaning_te": "నా తల్లి"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal/rice",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "作ります",
+              "meaning_en": "make",
+              "meaning_te": "చేస్తుంది"
+            }
+          ]
+        },
+        {
+          "sentence": "母と話します。",
+          "romaji": "Haha to hanashimasu.",
+          "telugu_pronunciation": "హహ తో హనాషిమాస్",
+          "english_meaning": "I talk with my mother.",
+          "telugu_meaning": "నేను నా తల్లితో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "母",
+              "meaning_en": "my mother",
+              "meaning_te": "నా తల్లి"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడటం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "japanese_word": "お父さん",
+      "hiragana": "おとうさん",
+      "romaji": "otousan",
+      "telugu_pronunciation": "ఒతోసాన్",
+      "english_meaning": "Father / Dad",
+      "telugu_meaning": "నాన్న",
+      "description": "お父さん (おとうさん / otousan) means father or dad. It is used politely when talking about someone else's father or when calling your own father respectfully. In daily life, children often call their father 'otousan'. In sentences, the particle は marks the topic being discussed. The particle に is often used to show direction or location.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "と",
+          "telugu_sound": "తో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        },
+        {
+          "letter": "さ",
+          "telugu_sound": "స"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "お父さんは先生です。",
+          "romaji": "Otousan wa sensei desu.",
+          "telugu_pronunciation": "ఒతోసాన్ వా సెన్సే దేశ్",
+          "english_meaning": "My father is a teacher.",
+          "telugu_meaning": "నా నాన్న గురువు.",
+          "word_breakdown": [
+            {
+              "word": "お父さん",
+              "meaning_en": "father",
+              "meaning_te": "నాన్న"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "お父さんが来ます。",
+          "romaji": "Otousan ga kimasu.",
+          "telugu_pronunciation": "ఒతోసాన్ గా కిమాస్",
+          "english_meaning": "Father comes.",
+          "telugu_meaning": "నాన్న వస్తారు.",
+          "word_breakdown": [
+            {
+              "word": "お父さん",
+              "meaning_en": "father",
+              "meaning_te": "నాన్న"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            }
+          ]
+        },
+        {
+          "sentence": "お父さんと学校へ行きます。",
+          "romaji": "Otousan to gakkou e ikimasu.",
+          "telugu_pronunciation": "ఒతోసాన్ తో గక్కో ఏ ఇకిమాస్",
+          "english_meaning": "I go to school with my father.",
+          "telugu_meaning": "నేను నా నాన్నతో పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "お父さん",
+              "meaning_en": "father",
+              "meaning_te": "నాన్న"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "japanese_word": "お母さん",
+      "hiragana": "おかあさん",
+      "romaji": "okaasan",
+      "telugu_pronunciation": "ఒకాసాన్",
+      "english_meaning": "Mother / Mom",
+      "telugu_meaning": "అమ్మ",
+      "description": "お母さん (おかあさん / okaasan) means mother or mom. It is used politely and is common when calling your mother or referring to someone else's mother. In daily Japanese families, children often say 'okaasan'. In sentences, は marks the topic that we are talking about. The particle を marks the object receiving the action.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "か",
+          "telugu_sound": "క"
+        },
+        {
+          "letter": "あ",
+          "telugu_sound": "ఆ"
+        },
+        {
+          "letter": "さ",
+          "telugu_sound": "స"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "お母さんは家にいます。",
+          "romaji": "Okaasan wa ie ni imasu.",
+          "telugu_pronunciation": "ఒకాసాన్ వా ఇఎ ని ఇమాస్",
+          "english_meaning": "Mom is at home.",
+          "telugu_meaning": "అమ్మ ఇంట్లో ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "お母さん",
+              "meaning_en": "mother",
+              "meaning_te": "అమ్మ"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "is (living thing)",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "お母さんがごはんを作ります。",
+          "romaji": "Okaasan ga gohan o tsukurimasu.",
+          "telugu_pronunciation": "ఒకాసాన్ గా గొహన్ ఓ త్సుకురిమాస్",
+          "english_meaning": "Mother makes food.",
+          "telugu_meaning": "అమ్మ భోజనం తయారు చేస్తుంది.",
+          "word_breakdown": [
+            {
+              "word": "お母さん",
+              "meaning_en": "mother",
+              "meaning_te": "అమ్మ"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "作ります",
+              "meaning_en": "make",
+              "meaning_te": "తయారు చేస్తుంది"
+            }
+          ]
+        },
+        {
+          "sentence": "お母さんと話します。",
+          "romaji": "Okaasan to hanashimasu.",
+          "telugu_pronunciation": "ఒకాసాన్ తో హనాషిమాస్",
+          "english_meaning": "I talk with my mother.",
+          "telugu_meaning": "నేను నా అమ్మతో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "お母さん",
+              "meaning_en": "mother",
+              "meaning_te": "అమ్మ"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడటం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "japanese_word": "家",
+      "hiragana": "いえ",
+      "romaji": "ie",
+      "telugu_pronunciation": "ఇఎ",
+      "english_meaning": "House / Home",
+      "telugu_meaning": "ఇల్లు",
+      "description": "家 (いえ / ie) means house or home. It refers to a place where people live with their family. Beginners often see this word in daily life conversations when talking about where someone lives. The particle に is used to show location or direction. The particle で is used to show where an action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "え",
+          "telugu_sound": "ఎ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "家は大きいです。",
+          "romaji": "Ie wa ookii desu.",
+          "telugu_pronunciation": "ఇఎ వా ఓకీ దేశ్",
+          "english_meaning": "The house is big.",
+          "telugu_meaning": "ఇల్లు పెద్దది.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "大きい",
+              "meaning_en": "big",
+              "meaning_te": "పెద్దది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "家に帰ります。",
+          "romaji": "Ie ni kaerimasu.",
+          "telugu_pronunciation": "ఇఎ ని కాఎరిమాస్",
+          "english_meaning": "I return home.",
+          "telugu_meaning": "నేను ఇంటికి తిరిగి వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "帰ります",
+              "meaning_en": "return",
+              "meaning_te": "తిరిగి వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "家でごはんを食べます。",
+          "romaji": "Ie de gohan o tabemasu.",
+          "telugu_pronunciation": "ఇఎ దే గొహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat food at home.",
+          "telugu_meaning": "నేను ఇంట్లో భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "で",
+              "meaning_en": "place of action",
+              "meaning_te": "చర్య జరిగే స్థలం"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "japanese_word": "学校",
+      "hiragana": "がっこう",
+      "romaji": "gakkou",
+      "telugu_pronunciation": "గక్కో",
+      "english_meaning": "School",
+      "telugu_meaning": "పాఠశాల",
+      "description": "学校 (がっこう / gakkou) means school. It is the place where students go to study and learn. This is a very common word for beginners learning Japanese. The particle に is used to show direction when someone goes to school. The particle で is used when an action happens at school.",
+      "letter_breakdown": [
+        {
+          "letter": "が",
+          "telugu_sound": "గ"
+        },
+        {
+          "letter": "っ",
+          "telugu_sound": "చిన్న విరామం"
+        },
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校に行きます。",
+          "romaji": "Gakkou ni ikimasu.",
+          "telugu_pronunciation": "గక్కో ని ఇకిమాస్",
+          "english_meaning": "I go to school.",
+          "telugu_meaning": "నేను పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "学校で勉強します。",
+          "romaji": "Gakkou de benkyou shimasu.",
+          "telugu_pronunciation": "గక్కో దే బెంక్యో షిమాస్",
+          "english_meaning": "I study at school.",
+          "telugu_meaning": "నేను పాఠశాలలో చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "で",
+              "meaning_en": "place of action",
+              "meaning_te": "చర్య జరిగే స్థలం"
+            },
+            {
+              "word": "勉強",
+              "meaning_en": "study",
+              "meaning_te": "చదువు"
+            },
+            {
+              "word": "します",
+              "meaning_en": "do",
+              "meaning_te": "చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "学生は学校にいます。",
+          "romaji": "Gakusei wa gakkou ni imasu.",
+          "telugu_pronunciation": "గకుసే వా గక్కో ని ఇమాస్",
+          "english_meaning": "The student is at school.",
+          "telugu_meaning": "విద్యార్థి పాఠశాలలో ఉన్నాడు.",
+          "word_breakdown": [
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "is (living thing)",
+              "meaning_te": "ఉన్నాడు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "japanese_word": "友達",
+      "hiragana": "ともだち",
+      "romaji": "tomodachi",
+      "telugu_pronunciation": "తోమొదచి",
+      "english_meaning": "Friend",
+      "telugu_meaning": "స్నేహితుడు / స్నేహితురాలు",
+      "description": "友達 (ともだち / tomodachi) means friend. It refers to a person you like, talk with, and spend time with. Beginners often use this word when talking about people they know or meet. In Japanese sentences, the particle は marks the topic we are talking about. The particle と means 'with' and is used when doing something together with a friend.",
+      "letter_breakdown": [
+        {
+          "letter": "と",
+          "telugu_sound": "తో"
+        },
+        {
+          "letter": "も",
+          "telugu_sound": "మొ"
+        },
+        {
+          "letter": "だ",
+          "telugu_sound": "ద"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "友達は学生です。",
+          "romaji": "Tomodachi wa gakusei desu.",
+          "telugu_pronunciation": "తోమొదచి వా గకుసే దేశ్",
+          "english_meaning": "My friend is a student.",
+          "telugu_meaning": "నా స్నేహితుడు విద్యార్థి.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "友達と学校に行きます。",
+          "romaji": "Tomodachi to gakkou ni ikimasu.",
+          "telugu_pronunciation": "తోమొదచి తో గక్కో ని ఇకిమాస్",
+          "english_meaning": "I go to school with my friend.",
+          "telugu_meaning": "నేను నా స్నేహితుడితో పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "友達が来ます。",
+          "romaji": "Tomodachi ga kimasu.",
+          "telugu_pronunciation": "తోమొదచి గా కిమాస్",
+          "english_meaning": "My friend comes.",
+          "telugu_meaning": "నా స్నేహితుడు వస్తాడు.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తాడు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "japanese_word": "どこ",
+      "hiragana": "どこ",
+      "romaji": "doko",
+      "telugu_pronunciation": "దొకొ",
+      "english_meaning": "Where",
+      "telugu_meaning": "ఎక్కడ",
+      "description": "どこ (doko) means 'where'. It is a question word used to ask about a place or location. Beginners use it to ask where something or someone is. In Japanese questions, the particle は marks the topic being asked about. The particle に can mark location or direction.",
+      "letter_breakdown": [
+        {
+          "letter": "ど",
+          "telugu_sound": "దొ"
+        },
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校はどこですか。",
+          "romaji": "Gakkou wa doko desu ka.",
+          "telugu_pronunciation": "గక్కో వా దొకొ దేశ్ కా",
+          "english_meaning": "Where is the school?",
+          "telugu_meaning": "పాఠశాల ఎక్కడ ఉంది?",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "どこ",
+              "meaning_en": "where",
+              "meaning_te": "ఎక్కడ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "トイレはどこですか。",
+          "romaji": "Toire wa doko desu ka.",
+          "telugu_pronunciation": "తోఇరే వా దొకొ దేశ్ కా",
+          "english_meaning": "Where is the toilet?",
+          "telugu_meaning": "టాయిలెట్ ఎక్కడ ఉంది?",
+          "word_breakdown": [
+            {
+              "word": "トイレ",
+              "meaning_en": "toilet",
+              "meaning_te": "టాయిలెట్"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "どこ",
+              "meaning_en": "where",
+              "meaning_te": "ఎక్కడ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたの家はどこですか。",
+          "romaji": "Anata no ie wa doko desu ka.",
+          "telugu_pronunciation": "అనత నో ఇఎ వా దొకొ దేశ్ కా",
+          "english_meaning": "Where is your house?",
+          "telugu_meaning": "నీ ఇల్లు ఎక్కడ ఉంది?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "నువ్వు"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possessive marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "どこ",
+              "meaning_en": "where",
+              "meaning_te": "ఎక్కడ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "japanese_word": "誰",
+      "hiragana": "だれ",
+      "romaji": "dare",
+      "telugu_pronunciation": "దరె",
+      "english_meaning": "Who",
+      "telugu_meaning": "ఎవరు",
+      "description": "誰 (だれ / dare) means 'who'. It is used to ask about a person's identity. Beginners use this word when asking about people in conversations. The particle は marks the topic of the sentence. The particle が marks the subject doing the action.",
+      "letter_breakdown": [
+        {
+          "letter": "だ",
+          "telugu_sound": "ద"
+        },
+        {
+          "letter": "れ",
+          "telugu_sound": "రె"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "あの人は誰ですか。",
+          "romaji": "Ano hito wa dare desu ka.",
+          "telugu_pronunciation": "అనో హితో వా దరె దేశ్ కా",
+          "english_meaning": "Who is that person?",
+          "telugu_meaning": "ఆ వ్యక్తి ఎవరు?",
+          "word_breakdown": [
+            {
+              "word": "あの人",
+              "meaning_en": "that person",
+              "meaning_te": "ఆ వ్యక్తి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "誰",
+              "meaning_en": "who",
+              "meaning_te": "ఎవరు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "これは誰の本ですか。",
+          "romaji": "Kore wa dare no hon desu ka.",
+          "telugu_pronunciation": "కొరే వా దరె నో హోన్ దేశ్ కా",
+          "english_meaning": "Whose book is this?",
+          "telugu_meaning": "ఇది ఎవరి పుస్తకం?",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "誰",
+              "meaning_en": "who",
+              "meaning_te": "ఎవరు"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possessive marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "誰が来ますか。",
+          "romaji": "Dare ga kimasu ka.",
+          "telugu_pronunciation": "దరె గా కిమాస్ కా",
+          "english_meaning": "Who will come?",
+          "telugu_meaning": "ఎవరు వస్తారు?",
+          "word_breakdown": [
+            {
+              "word": "誰",
+              "meaning_en": "who",
+              "meaning_te": "ఎవరు"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "japanese_word": "何",
+      "hiragana": "なに",
+      "romaji": "nani",
+      "telugu_pronunciation": "నని",
+      "english_meaning": "What",
+      "telugu_meaning": "ఏమిటి",
+      "description": "何 (なに / nani) means 'what'. It is used to ask about things, objects, or actions. Beginners often use this word when asking questions about something unknown. The particle を marks the object receiving the action. The particle は marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        },
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "これは何ですか。",
+          "romaji": "Kore wa nani desu ka.",
+          "telugu_pronunciation": "కొరే వా నని దేశ్ కా",
+          "english_meaning": "What is this?",
+          "telugu_meaning": "ఇది ఏమిటి?",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "何",
+              "meaning_en": "what",
+              "meaning_te": "ఏమిటి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "何を食べますか。",
+          "romaji": "Nani o tabemasu ka.",
+          "telugu_pronunciation": "నని ఓ తబేమాస్ కా",
+          "english_meaning": "What will you eat?",
+          "telugu_meaning": "నువ్వు ఏమి తింటావు?",
+          "word_breakdown": [
+            {
+              "word": "何",
+              "meaning_en": "what",
+              "meaning_te": "ఏమి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటావు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたは何を飲みますか。",
+          "romaji": "Anata wa nani o nomimasu ka.",
+          "telugu_pronunciation": "అనత వా నని ఓ నొమిమాస్ కా",
+          "english_meaning": "What will you drink?",
+          "telugu_meaning": "నువ్వు ఏమి తాగుతావు?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "నువ్వు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "何",
+              "meaning_en": "what",
+              "meaning_te": "ఏమి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతావు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "japanese_word": "今",
+      "hiragana": "いま",
+      "romaji": "ima",
+      "telugu_pronunciation": "ఇమ",
+      "english_meaning": "Now",
+      "telugu_meaning": "ఇప్పుడు",
+      "description": "今 (いま / ima) means 'now' or the present moment. It is used when talking about something happening at the current time. Beginners often use it when describing what they are doing now. The particle は marks the topic of the sentence. Time words like 今 usually come at the beginning of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今勉強します。",
+          "romaji": "Ima benkyou shimasu.",
+          "telugu_pronunciation": "ఇమ బెంక్యో షిమాస్",
+          "english_meaning": "I study now.",
+          "telugu_meaning": "నేను ఇప్పుడు చదువుతున్నాను.",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "勉強",
+              "meaning_en": "study",
+              "meaning_te": "చదువు"
+            },
+            {
+              "word": "します",
+              "meaning_en": "do",
+              "meaning_te": "చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "今家にいます。",
+          "romaji": "Ima ie ni imasu.",
+          "telugu_pronunciation": "ఇమ ఇఎ ని ఇమాస్",
+          "english_meaning": "I am at home now.",
+          "telugu_meaning": "నేను ఇప్పుడు ఇంట్లో ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "am",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "今ごはんを食べます。",
+          "romaji": "Ima gohan o tabemasu.",
+          "telugu_pronunciation": "ఇమ గొహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat food now.",
+          "telugu_meaning": "నేను ఇప్పుడు భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "japanese_word": "今日",
+      "hiragana": "きょう",
+      "romaji": "kyou",
+      "telugu_pronunciation": "క్యో",
+      "english_meaning": "Today",
+      "telugu_meaning": "ఈ రోజు",
+      "description": "今日 (きょう / kyou) means 'today'. It refers to the current day. Beginners use it when talking about plans or events happening today. Time words like 今日 usually appear at the beginning of sentences. The particle は can mark today's topic in a sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "きょ",
+          "telugu_sound": "క్యో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は学校に行きます。",
+          "romaji": "Kyou wa gakkou ni ikimasu.",
+          "telugu_pronunciation": "క్యో వా గక్కో ని ఇకిమాస్",
+          "english_meaning": "I go to school today.",
+          "telugu_meaning": "నేను ఈ రోజు పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "今日は暑いです。",
+          "romaji": "Kyou wa atsui desu.",
+          "telugu_pronunciation": "క్యో వా అత్సుయి దేశ్",
+          "english_meaning": "Today is hot.",
+          "telugu_meaning": "ఈ రోజు వేడిగా ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "暑い",
+              "meaning_en": "hot",
+              "meaning_te": "వేడి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "今日は友達と話します。",
+          "romaji": "Kyou wa tomodachi to hanashimasu.",
+          "telugu_pronunciation": "క్యో వా తోమొదచి తో హనాషిమాస్",
+          "english_meaning": "I talk with my friend today.",
+          "telugu_meaning": "నేను ఈ రోజు నా స్నేహితుడితో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడుతాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "japanese_word": "明日",
+      "hiragana": "あした",
+      "romaji": "ashita",
+      "telugu_pronunciation": "అషిత",
+      "english_meaning": "Tomorrow",
+      "telugu_meaning": "రేపు",
+      "description": "明日 (あした / ashita) means 'tomorrow'. It refers to the next day after today. Beginners use it when talking about plans or events happening in the future. Time words like 明日 usually appear at the beginning of the sentence. The particle に can mark time when something happens.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        },
+        {
+          "letter": "た",
+          "telugu_sound": "త"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "明日学校に行きます。",
+          "romaji": "Ashita gakkou ni ikimasu.",
+          "telugu_pronunciation": "అషిత గక్కో ని ఇకిమాస్",
+          "english_meaning": "I go to school tomorrow.",
+          "telugu_meaning": "నేను రేపు పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "明日",
+              "meaning_en": "tomorrow",
+              "meaning_te": "రేపు"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "明日友達と会います。",
+          "romaji": "Ashita tomodachi to aimasu.",
+          "telugu_pronunciation": "అషిత తోమొదచి తో ఐమాస్",
+          "english_meaning": "I meet my friend tomorrow.",
+          "telugu_meaning": "నేను రేపు నా స్నేహితుడిని కలుస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "明日",
+              "meaning_en": "tomorrow",
+              "meaning_te": "రేపు"
+            },
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "会います",
+              "meaning_en": "meet",
+              "meaning_te": "కలుస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "明日は休みです。",
+          "romaji": "Ashita wa yasumi desu.",
+          "telugu_pronunciation": "అషిత వా యసుమి దేశ్",
+          "english_meaning": "Tomorrow is a holiday.",
+          "telugu_meaning": "రేపు సెలవు.",
+          "word_breakdown": [
+            {
+              "word": "明日",
+              "meaning_en": "tomorrow",
+              "meaning_te": "రేపు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "休み",
+              "meaning_en": "holiday/rest",
+              "meaning_te": "సెలవు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "japanese_word": "を",
+      "hiragana": "を",
+      "romaji": "o",
+      "telugu_pronunciation": "ఓ",
+      "english_meaning": "Object marker particle",
+      "telugu_meaning": "కర్మ సూచిక (చర్యను స్వీకరించే పదాన్ని చూపిస్తుంది)",
+      "description": "を (wo / pronounced 'o') is a Japanese particle used to mark the object of a verb. The object is the thing that receives the action in the sentence. For example, in the sentence ごはんを食べます (I eat rice), ごはん is the object and を shows that the action 'eat' happens to it. Beginners should remember that を is always used before verbs like eat, drink, watch, read, etc. Even though it is written as を, it is pronounced simply as 'o' in modern Japanese.",
+      "letter_breakdown": [
+        {
+          "letter": "を",
+          "telugu_sound": "ఓ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "ごはんを食べます。",
+          "romaji": "Gohan o tabemasu.",
+          "telugu_pronunciation": "గొహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat rice.",
+          "telugu_meaning": "నేను అన్నం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "ごはん",
+              "meaning_en": "rice / meal",
+              "meaning_te": "అన్నం / భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "みずを飲みます。",
+          "romaji": "Mizu o nomimasu.",
+          "telugu_pronunciation": "మిజు ఓ నొమిమాస్",
+          "english_meaning": "I drink water.",
+          "telugu_meaning": "నేను నీరు తాగుతాను.",
+          "word_breakdown": [
+            {
+              "word": "みず",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "すしを食べます。",
+          "romaji": "Sushi o tabemasu.",
+          "telugu_pronunciation": "సుషి ఓ తబేమాస్",
+          "english_meaning": "I eat sushi.",
+          "telugu_meaning": "నేను సుషి తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "すし",
+              "meaning_en": "sushi",
+              "meaning_te": "సుషి"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "japanese_word": "に",
+      "hiragana": "に",
+      "romaji": "ni",
+      "telugu_pronunciation": "ని",
+      "english_meaning": "Time / direction / location particle",
+      "telugu_meaning": "సమయం / దిశ / స్థానం సూచిక",
+      "description": "に (ni) is a very important Japanese particle used to show time, direction, or location. It is commonly used with verbs like 行きます (go), 来ます (come), and います (exist for living things). For example, in 学校に行きます, the particle に shows the destination where someone goes. It can also show time, like 3時に行きます meaning 'go at 3 o'clock'. Beginners should remember that に often shows where something happens or where someone moves.",
+      "letter_breakdown": [
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校に行きます。",
+          "romaji": "Gakkou ni ikimasu.",
+          "telugu_pronunciation": "గక్కో ని ఇకిమాస్",
+          "english_meaning": "I go to school.",
+          "telugu_meaning": "నేను పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "家にいます。",
+          "romaji": "Ie ni imasu.",
+          "telugu_pronunciation": "ఇఎ ని ఇమాస్",
+          "english_meaning": "I am at home.",
+          "telugu_meaning": "నేను ఇంట్లో ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "am / exist",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "三時に来ます。",
+          "romaji": "Sanji ni kimasu.",
+          "telugu_pronunciation": "సాంజి ని కిమాస్",
+          "english_meaning": "I come at three o'clock.",
+          "telugu_meaning": "నేను మూడు గంటలకు వస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయ సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "japanese_word": "へ",
+      "hiragana": "へ",
+      "romaji": "e",
+      "telugu_pronunciation": "ఏ",
+      "english_meaning": "Direction particle",
+      "telugu_meaning": "దిశ సూచిక",
+      "description": "へ (he but pronounced 'e') is a Japanese particle used to indicate direction. It shows where someone or something is heading. It is often used with movement verbs like 行きます (go) and 来ます (come). For example, 学校へ行きます means 'go toward school'. Beginners should remember that へ focuses on the direction of movement rather than the final destination.",
+      "letter_breakdown": [
+        {
+          "letter": "へ",
+          "telugu_sound": "ఏ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校へ行きます。",
+          "romaji": "Gakkou e ikimasu.",
+          "telugu_pronunciation": "గక్కో ఏ ఇకిమాస్",
+          "english_meaning": "I go toward school.",
+          "telugu_meaning": "నేను పాఠశాల వైపు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "日本へ行きます。",
+          "romaji": "Nihon e ikimasu.",
+          "telugu_pronunciation": "నిహోన్ ఏ ఇకిమాస్",
+          "english_meaning": "I go to Japan.",
+          "telugu_meaning": "నేను జపాన్‌కు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "日本",
+              "meaning_en": "Japan",
+              "meaning_te": "జపాన్"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "家へ帰ります。",
+          "romaji": "Ie e kaerimasu.",
+          "telugu_pronunciation": "ఇఎ ఏ కాఎరిమాస్",
+          "english_meaning": "I return home.",
+          "telugu_meaning": "నేను ఇంటికి తిరిగి వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "帰ります",
+              "meaning_en": "return",
+              "meaning_te": "తిరిగి వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "japanese_word": "が",
+      "hiragana": "が",
+      "romaji": "ga",
+      "telugu_pronunciation": "గా",
+      "english_meaning": "Subject marker particle",
+      "telugu_meaning": "కర్త సూచిక",
+      "description": "が (ga) is a particle used to mark the subject of a sentence. The subject is the person or thing that performs the action or has the described quality. For example, in the sentence 猫がいます (There is a cat), 猫 is the subject and が marks it. Beginners often see が used when introducing new information or answering questions like 'who'. Compared to は, が focuses more on the subject itself.",
+      "letter_breakdown": [
+        {
+          "letter": "が",
+          "telugu_sound": "గా"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "友達が来ます。",
+          "romaji": "Tomodachi ga kimasu.",
+          "telugu_pronunciation": "తోమొదచి గా కిమాస్",
+          "english_meaning": "My friend comes.",
+          "telugu_meaning": "నా స్నేహితుడు వస్తాడు.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "犬がいます。",
+          "romaji": "Inu ga imasu.",
+          "telugu_pronunciation": "ఇను గా ఇమాస్",
+          "english_meaning": "There is a dog.",
+          "telugu_meaning": "ఒక కుక్క ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "犬",
+              "meaning_en": "dog",
+              "meaning_te": "కుక్క"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist (living thing)",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "誰が来ますか。",
+          "romaji": "Dare ga kimasu ka.",
+          "telugu_pronunciation": "దరె గా కిమాస్ కా",
+          "english_meaning": "Who will come?",
+          "telugu_meaning": "ఎవరు వస్తారు?",
+          "word_breakdown": [
+            {
+              "word": "誰",
+              "meaning_en": "who",
+              "meaning_te": "ఎవరు"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "japanese_word": "の",
+      "hiragana": "の",
+      "romaji": "no",
+      "telugu_pronunciation": "నొ",
+      "english_meaning": "Possessive particle",
+      "telugu_meaning": "యొక్క / చెందినది సూచిక",
+      "description": "の (no) is a particle used to show possession or relationship between two nouns. It works similarly to the English word 'of' or the Telugu word 'యొక్క'. For example, わたしの本 means 'my book'. Beginners will see this particle very often when describing ownership or belonging. It connects two nouns together in a simple way.",
+      "letter_breakdown": [
+        {
+          "letter": "の",
+          "telugu_sound": "నొ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "わたしの本です。",
+          "romaji": "Watashi no hon desu.",
+          "telugu_pronunciation": "వతషి నొ హోన్ దేశ్",
+          "english_meaning": "It is my book.",
+          "telugu_meaning": "ఇది నా పుస్తకం.",
+          "word_breakdown": [
+            {
+              "word": "わたし",
+              "meaning_en": "I / me",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possessive marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "日本の学校です。",
+          "romaji": "Nihon no gakkou desu.",
+          "telugu_pronunciation": "నిహోన్ నొ గక్కో దేశ్",
+          "english_meaning": "It is a Japanese school.",
+          "telugu_meaning": "ఇది జపాన్ పాఠశాల.",
+          "word_breakdown": [
+            {
+              "word": "日本",
+              "meaning_en": "Japan",
+              "meaning_te": "జపాన్"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possessive marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたの友達です。",
+          "romaji": "Anata no tomodachi desu.",
+          "telugu_pronunciation": "అనత నొ తోమొదచి దేశ్",
+          "english_meaning": "He is your friend.",
+          "telugu_meaning": "అతను నీ స్నేహితుడు.",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "నువ్వు"
+            },
+            {
+              "word": "の",
+              "meaning_en": "possessive marker",
+              "meaning_te": "యొక్క"
+            },
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "japanese_word": "も",
+      "hiragana": "も",
+      "romaji": "mo",
+      "telugu_pronunciation": "మొ",
+      "english_meaning": "also / too (particle)",
+      "telugu_meaning": "కూడా",
+      "description": "も (mo) is a Japanese particle that means 'also' or 'too'. It is used when something is the same as another thing mentioned before. For example, if someone says 'I am a student', another person can say 'I am also a student' using も. This particle replaces は in many sentences when showing similarity. Beginners should remember that も connects ideas that are similar.",
+      "letter_breakdown": [
+        {
+          "letter": "も",
+          "telugu_sound": "మొ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "わたしも学生です。",
+          "romaji": "Watashi mo gakusei desu.",
+          "telugu_pronunciation": "వతషి మొ గకుసే దేశ్",
+          "english_meaning": "I am also a student.",
+          "telugu_meaning": "నేను కూడా విద్యార్థిని.",
+          "word_breakdown": [
+            {
+              "word": "わたし",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "も",
+              "meaning_en": "also / too",
+              "meaning_te": "కూడా"
+            },
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నాను"
+            }
+          ]
+        },
+        {
+          "sentence": "友達も来ます。",
+          "romaji": "Tomodachi mo kimasu.",
+          "telugu_pronunciation": "తోమొదచి మొ కిమాస్",
+          "english_meaning": "My friend also comes.",
+          "telugu_meaning": "నా స్నేహితుడు కూడా వస్తాడు.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "も",
+              "meaning_en": "also",
+              "meaning_te": "కూడా"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తాడు"
+            }
+          ]
+        },
+        {
+          "sentence": "母も家にいます。",
+          "romaji": "Haha mo ie ni imasu.",
+          "telugu_pronunciation": "హహ మొ ఇఎ ని ఇమాస్",
+          "english_meaning": "My mother is also at home.",
+          "telugu_meaning": "నా తల్లి కూడా ఇంట్లో ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "母",
+              "meaning_en": "mother",
+              "meaning_te": "తల్లి"
+            },
+            {
+              "word": "も",
+              "meaning_en": "also",
+              "meaning_te": "కూడా"
+            },
+            {
+              "word": "家",
+              "meaning_en": "house",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "japanese_word": "で",
+      "hiragana": "で",
+      "romaji": "de",
+      "telugu_pronunciation": "దె",
+      "english_meaning": "place of action particle",
+      "telugu_meaning": "చర్య జరిగే స్థలం సూచిక",
+      "description": "で (de) is a particle used to show where an action happens. It marks the place where a verb activity occurs. For example, 学校で勉強します means 'study at school'. Beginners should remember that に shows location or destination, while で shows where an action takes place. It is often used with verbs like eat, study, work, and play.",
+      "letter_breakdown": [
+        {
+          "letter": "で",
+          "telugu_sound": "దె"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校で勉強します。",
+          "romaji": "Gakkou de benkyou shimasu.",
+          "telugu_pronunciation": "గక్కో దె బెంక్యో షిమాస్",
+          "english_meaning": "I study at school.",
+          "telugu_meaning": "నేను పాఠశాలలో చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "で",
+              "meaning_en": "place of action",
+              "meaning_te": "చర్య స్థలం"
+            },
+            {
+              "word": "勉強",
+              "meaning_en": "study",
+              "meaning_te": "చదువు"
+            },
+            {
+              "word": "します",
+              "meaning_en": "do",
+              "meaning_te": "చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "家でごはんを食べます。",
+          "romaji": "Ie de gohan o tabemasu.",
+          "telugu_pronunciation": "ఇఎ దె గొహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat food at home.",
+          "telugu_meaning": "నేను ఇంట్లో భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "で",
+              "meaning_en": "place marker",
+              "meaning_te": "చర్య స్థలం"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "日本で働きます。",
+          "romaji": "Nihon de hatarakimasu.",
+          "telugu_pronunciation": "నిహోన్ దె హతరకిమాస్",
+          "english_meaning": "I work in Japan.",
+          "telugu_meaning": "నేను జపాన్‌లో పని చేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "日本",
+              "meaning_en": "Japan",
+              "meaning_te": "జపాన్"
+            },
+            {
+              "word": "で",
+              "meaning_en": "place marker",
+              "meaning_te": "చర్య స్థలం"
+            },
+            {
+              "word": "働きます",
+              "meaning_en": "work",
+              "meaning_te": "పని చేస్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "japanese_word": "と",
+      "hiragana": "と",
+      "romaji": "to",
+      "telugu_pronunciation": "తో",
+      "english_meaning": "with / and",
+      "telugu_meaning": "తో / మరియు",
+      "description": "と (to) is a particle that means 'with' or 'and'. When used between people it means doing something together with someone. It can also connect two nouns meaning 'and'. Beginners will see it often in sentences like 'friend and me' or 'talk with someone'. It is useful for showing relationships between people or things.",
+      "letter_breakdown": [
+        {
+          "letter": "と",
+          "telugu_sound": "తో"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "友達と話します。",
+          "romaji": "Tomodachi to hanashimasu.",
+          "telugu_pronunciation": "తోమొదచి తో హనాషిమాస్",
+          "english_meaning": "I talk with my friend.",
+          "telugu_meaning": "నేను నా స్నేహితుడితో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "父と母です。",
+          "romaji": "Chichi to haha desu.",
+          "telugu_pronunciation": "చిచి తో హహ దేశ్",
+          "english_meaning": "(They are) father and mother.",
+          "telugu_meaning": "వాళ్లు నాన్న మరియు అమ్మ.",
+          "word_breakdown": [
+            {
+              "word": "父",
+              "meaning_en": "father",
+              "meaning_te": "తండ్రి"
+            },
+            {
+              "word": "と",
+              "meaning_en": "and",
+              "meaning_te": "మరియు"
+            },
+            {
+              "word": "母",
+              "meaning_en": "mother",
+              "meaning_te": "తల్లి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        },
+        {
+          "sentence": "先生と学校へ行きます。",
+          "romaji": "Sensei to gakkou e ikimasu.",
+          "telugu_pronunciation": "సెన్సే తో గక్కో ఏ ఇకిమాస్",
+          "english_meaning": "I go to school with the teacher.",
+          "telugu_meaning": "నేను గురువుతో పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "japanese_word": "でも",
+      "hiragana": "でも",
+      "romaji": "demo",
+      "telugu_pronunciation": "దెమొ",
+      "english_meaning": "but / however",
+      "telugu_meaning": "కానీ / అయితే",
+      "description": "でも (demo) means 'but' or 'however'. It is used to connect two sentences that contrast each other. Beginners often use it when saying something different from the previous statement. It usually appears at the beginning of a new sentence. It helps show contrast between ideas.",
+      "letter_breakdown": [
+        {
+          "letter": "で",
+          "telugu_sound": "దె"
+        },
+        {
+          "letter": "も",
+          "telugu_sound": "మొ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は忙しいです。でも学校へ行きます。",
+          "romaji": "Kyou wa isogashii desu. Demo gakkou e ikimasu.",
+          "telugu_pronunciation": "క్యో వా ఇసొగషి దేశ్. దెమొ గక్కో ఏ ఇకిమాస్",
+          "english_meaning": "Today I am busy. But I go to school.",
+          "telugu_meaning": "ఈ రోజు నేను బిజీగా ఉన్నాను. కానీ పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "忙しい",
+              "meaning_en": "busy",
+              "meaning_te": "బిజీ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "でも",
+              "meaning_en": "but/however",
+              "meaning_te": "కానీ"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "雨です。でも行きます。",
+          "romaji": "Ame desu. Demo ikimasu.",
+          "telugu_pronunciation": "అమె దేశ్. దెమొ ఇకిమాస్",
+          "english_meaning": "It is raining. But I go.",
+          "telugu_meaning": "వర్షం పడుతోంది. కానీ నేను వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "雨",
+              "meaning_en": "rain",
+              "meaning_te": "వర్షం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "でも",
+              "meaning_en": "but",
+              "meaning_te": "కానీ"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "japanese_word": "そして",
+      "hiragana": "そして",
+      "romaji": "soshite",
+      "telugu_pronunciation": "సొషితె",
+      "english_meaning": "and then / and",
+      "telugu_meaning": "మరియు తరువాత",
+      "description": "そして (soshite) means 'and' or 'and then'. It connects two related sentences or events in order. Beginners often use it when telling a story or describing steps. It usually appears at the beginning of a new sentence. It helps continue the flow of ideas.",
+      "letter_breakdown": [
+        {
+          "letter": "そ",
+          "telugu_sound": "సొ"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        },
+        {
+          "letter": "て",
+          "telugu_sound": "తె"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校へ行きます。そして勉強します。",
+          "romaji": "Gakkou e ikimasu. Soshite benkyou shimasu.",
+          "telugu_pronunciation": "గక్కో ఏ ఇకిమాస్. సొషితె బెంక్యో షిమాస్",
+          "english_meaning": "I go to school. And then I study.",
+          "telugu_meaning": "నేను పాఠశాలకు వెళ్తాను. తరువాత చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            },
+            {
+              "word": "そして",
+              "meaning_en": "and then",
+              "meaning_te": "తర్వాత"
+            },
+            {
+              "word": "勉強",
+              "meaning_en": "study",
+              "meaning_te": "చదువు"
+            },
+            {
+              "word": "します",
+              "meaning_en": "do",
+              "meaning_te": "చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "水を飲みます。そしてごはんを食べます。",
+          "romaji": "Mizu o nomimasu. Soshite gohan o tabemasu.",
+          "telugu_pronunciation": "మిజు ఓ నొమిమాస్. సొషితె గొహన్ ఓ తబేమాస్",
+          "english_meaning": "I drink water. Then I eat food.",
+          "telugu_meaning": "నేను నీరు తాగుతాను. తరువాత భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "水",
+              "meaning_en": "water",
+              "meaning_te": "నీరు"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "飲みます",
+              "meaning_en": "drink",
+              "meaning_te": "తాగుతాను"
+            },
+            {
+              "word": "そして",
+              "meaning_en": "and then",
+              "meaning_te": "తర్వాత"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "japanese_word": "だから",
+      "hiragana": "だから",
+      "romaji": "dakara",
+      "telugu_pronunciation": "దకర",
+      "english_meaning": "therefore / so",
+      "telugu_meaning": "అందువల్ల / కాబట్టి",
+      "description": "だから (dakara) means 'therefore' or 'so'. It is used to show the reason or result of something. Beginners use it when explaining why something happens. It usually comes at the beginning of the second sentence. It connects cause and result in a simple way.",
+      "letter_breakdown": [
+        {
+          "letter": "だ",
+          "telugu_sound": "ద"
+        },
+        {
+          "letter": "か",
+          "telugu_sound": "క"
+        },
+        {
+          "letter": "ら",
+          "telugu_sound": "ర"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は忙しいです。だから行きません。",
+          "romaji": "Kyou wa isogashii desu. Dakara ikimasen.",
+          "telugu_pronunciation": "క్యో వా ఇసొగషి దేశ్. దకర ఇకిమాసెన్",
+          "english_meaning": "Today I am busy. So I do not go.",
+          "telugu_meaning": "ఈ రోజు నేను బిజీగా ఉన్నాను. కాబట్టి నేను వెళ్లను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "忙しい",
+              "meaning_en": "busy",
+              "meaning_te": "బిజీ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "だから",
+              "meaning_en": "therefore",
+              "meaning_te": "కాబట్టి"
+            },
+            {
+              "word": "行きません",
+              "meaning_en": "do not go",
+              "meaning_te": "వెళ్లను"
+            }
+          ]
+        },
+        {
+          "sentence": "雨です。だから家にいます。",
+          "romaji": "Ame desu. Dakara ie ni imasu.",
+          "telugu_pronunciation": "అమె దేశ్. దకర ఇఎ ని ఇమాస్",
+          "english_meaning": "It is raining. Therefore I stay at home.",
+          "telugu_meaning": "వర్షం పడుతోంది. అందువల్ల నేను ఇంట్లో ఉంటాను.",
+          "word_breakdown": [
+            {
+              "word": "雨",
+              "meaning_en": "rain",
+              "meaning_te": "వర్షం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "だから",
+              "meaning_en": "therefore",
+              "meaning_te": "అందువల్ల"
+            },
+            {
+              "word": "家",
+              "meaning_en": "home",
+              "meaning_te": "ఇల్లు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థానం సూచిక"
+            },
+            {
+              "word": "います",
+              "meaning_en": "stay/exist",
+              "meaning_te": "ఉంటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "japanese_word": "忙しい",
+      "hiragana": "いそがしい",
+      "romaji": "isogashii",
+      "telugu_pronunciation": "ఇసొగషి",
+      "english_meaning": "busy",
+      "telugu_meaning": "బిజీగా ఉండటం",
+      "description": "忙しい (いそがしい / isogashii) means 'busy'. It describes a person who has a lot of work or many things to do. Beginners often use it to talk about their daily schedule. In sentences the particle は marks the topic. It is commonly used with です in polite speech.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "そ",
+          "telugu_sound": "సొ"
+        },
+        {
+          "letter": "が",
+          "telugu_sound": "గా"
+        },
+        {
+          "letter": "し",
+          "telugu_sound": "షి"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は忙しいです。",
+          "romaji": "Kyou wa isogashii desu.",
+          "telugu_pronunciation": "క్యో వా ఇసొగషి దేశ్",
+          "english_meaning": "Today I am busy.",
+          "telugu_meaning": "ఈ రోజు నేను బిజీగా ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "忙しい",
+              "meaning_en": "busy",
+              "meaning_te": "బిజీగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "父は忙しいです。",
+          "romaji": "Chichi wa isogashii desu.",
+          "telugu_pronunciation": "చిచి వా ఇసొగషి దేశ్",
+          "english_meaning": "My father is busy.",
+          "telugu_meaning": "నా నాన్న బిజీగా ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "父",
+              "meaning_en": "father",
+              "meaning_te": "తండ్రి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "忙しい",
+              "meaning_en": "busy",
+              "meaning_te": "బిజీగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "japanese_word": "暇",
+      "hiragana": "ひま",
+      "romaji": "hima",
+      "telugu_pronunciation": "హిమ",
+      "english_meaning": "free time / not busy",
+      "telugu_meaning": "ఖాళీగా ఉండటం",
+      "description": "暇 (ひま / hima) means free time or not busy. It describes when someone has nothing to do. Beginners use it when talking about their free time. In sentences the particle は marks the topic being discussed. It is commonly used with です.",
+      "letter_breakdown": [
+        {
+          "letter": "ひ",
+          "telugu_sound": "హి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は暇です。",
+          "romaji": "Kyou wa hima desu.",
+          "telugu_pronunciation": "క్యో వా హిమ దేశ్",
+          "english_meaning": "Today I am free.",
+          "telugu_meaning": "ఈ రోజు నేను ఖాళీగా ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈ రోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "暇",
+              "meaning_en": "free/not busy",
+              "meaning_te": "ఖాళీ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "今暇です。",
+          "romaji": "Ima hima desu.",
+          "telugu_pronunciation": "ఇమ హిమ దేశ్",
+          "english_meaning": "I am free now.",
+          "telugu_meaning": "ఇప్పుడు నేను ఖాళీగా ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "暇",
+              "meaning_en": "free",
+              "meaning_te": "ఖాళీ"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "japanese_word": "いつ",
+      "hiragana": "いつ",
+      "romaji": "itsu",
+      "telugu_pronunciation": "ఇత్సు",
+      "english_meaning": "when",
+      "telugu_meaning": "ఎప్పుడు",
+      "description": "いつ (itsu) means 'when'. It is a question word used to ask about time. Beginners use it to ask when something happens. In questions the particle は may mark the topic. The sentence usually ends with か to show it is a question.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "つ",
+          "telugu_sound": "త్సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学校はいつですか。",
+          "romaji": "Gakkou wa itsu desu ka.",
+          "telugu_pronunciation": "గక్కో వా ఇత్సు దేశ్ కా",
+          "english_meaning": "When is school?",
+          "telugu_meaning": "పాఠశాల ఎప్పుడు ఉంటుంది?",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "いつ",
+              "meaning_en": "when",
+              "meaning_te": "ఎప్పుడు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "あなたはいつ来ますか。",
+          "romaji": "Anata wa itsu kimasu ka.",
+          "telugu_pronunciation": "అనత వా ఇత్సు కిమాస్ కా",
+          "english_meaning": "When will you come?",
+          "telugu_meaning": "నువ్వు ఎప్పుడు వస్తావు?",
+          "word_breakdown": [
+            {
+              "word": "あなた",
+              "meaning_en": "you",
+              "meaning_te": "నువ్వు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "いつ",
+              "meaning_en": "when",
+              "meaning_te": "ఎప్పుడు"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తావు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
