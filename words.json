@@ -5573,6 +5573,1338 @@
           ]
         }
       ]
+    },
+    {
+      "id": 52,
+      "japanese_word": "朝",
+      "hiragana": "あさ",
+      "romaji": "asa",
+      "telugu_pronunciation": "అస",
+      "english_meaning": "morning",
+      "telugu_meaning": "ఉదయం",
+      "description": "朝 (あさ / asa) means morning. It refers to the early part of the day after waking up and before noon. Beginners will often use this word when talking about daily routines like waking up, eating breakfast, or going to school. In sentences like 私は朝に起きます, the particle は marks the topic of the sentence, and に marks the time when the action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "さ",
+          "telugu_sound": "స"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は朝に起きます。",
+          "romaji": "Watashi wa asa ni okimasu.",
+          "telugu_pronunciation": "వతషి వా అస ని ఒకిమస్",
+          "english_meaning": "I wake up in the morning.",
+          "telugu_meaning": "నేను ఉదయం లేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "朝",
+              "meaning_en": "morning",
+              "meaning_te": "ఉదయం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "起きます",
+              "meaning_en": "wake up",
+              "meaning_te": "లేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "朝は涼しいです。",
+          "romaji": "Asa wa suzushii desu.",
+          "telugu_pronunciation": "అస వా సుజుషీ దేశ్",
+          "english_meaning": "Morning is cool.",
+          "telugu_meaning": "ఉదయం చల్లగా ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "朝",
+              "meaning_en": "morning",
+              "meaning_te": "ఉదయం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "涼しい",
+              "meaning_en": "cool",
+              "meaning_te": "చల్లగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "朝に学校へ行きます。",
+          "romaji": "Asa ni gakkou e ikimasu.",
+          "telugu_pronunciation": "అస ని గక్కో ఎ ఇకిమస్",
+          "english_meaning": "I go to school in the morning.",
+          "telugu_meaning": "నేను ఉదయం పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "朝",
+              "meaning_en": "morning",
+              "meaning_te": "ఉదయం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "japanese_word": "昼",
+      "hiragana": "ひる",
+      "romaji": "hiru",
+      "telugu_pronunciation": "హిరు",
+      "english_meaning": "afternoon / noon",
+      "telugu_meaning": "మధ్యాహ్నం",
+      "description": "昼 (ひる / hiru) means afternoon or noon. It refers to the middle of the day when people usually eat lunch. Beginners often use this word when talking about lunch time or daily schedules. In sentences like 昼にごはんを食べます, the particle に shows the time of the action and を marks the object receiving the action.",
+      "letter_breakdown": [
+        {
+          "letter": "ひ",
+          "telugu_sound": "హి"
+        },
+        {
+          "letter": "る",
+          "telugu_sound": "రు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "昼にごはんを食べます。",
+          "romaji": "Hiru ni gohan o tabemasu.",
+          "telugu_pronunciation": "హిరు ని గోహాన్ ఓ తబెమస్",
+          "english_meaning": "I eat rice at noon.",
+          "telugu_meaning": "నేను మధ్యాహ్నం అన్నం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "昼",
+              "meaning_en": "noon",
+              "meaning_te": "మధ్యాహ్నం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "rice/meal",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "昼は忙しいです。",
+          "romaji": "Hiru wa isogashii desu.",
+          "telugu_pronunciation": "హిరు వా ఇసొగషీ దేశ్",
+          "english_meaning": "Afternoon is busy.",
+          "telugu_meaning": "మధ్యాహ్నం బిజీగా ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "昼",
+              "meaning_en": "afternoon",
+              "meaning_te": "మధ్యాహ్నం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "忙しい",
+              "meaning_en": "busy",
+              "meaning_te": "బిజీగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "昼に友達と話します。",
+          "romaji": "Hiru ni tomodachi to hanashimasu.",
+          "telugu_pronunciation": "హిరు ని తోమొదచి తో హనషిమస్",
+          "english_meaning": "I talk with my friend at noon.",
+          "telugu_meaning": "నేను మధ్యాహ్నం స్నేహితుడితో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "昼",
+              "meaning_en": "noon",
+              "meaning_te": "మధ్యాహ్నం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడుతాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "japanese_word": "夜",
+      "hiragana": "よる",
+      "romaji": "yoru",
+      "telugu_pronunciation": "యోరు",
+      "english_meaning": "night",
+      "telugu_meaning": "రాత్రి",
+      "description": "夜 (よる / yoru) means night. It refers to the time after evening when people usually rest or sleep. Beginners use this word to describe activities like eating dinner or sleeping. In sentences like 夜に寝ます, the particle に shows the time when the action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "よ",
+          "telugu_sound": "యో"
+        },
+        {
+          "letter": "る",
+          "telugu_sound": "రు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "夜に寝ます。",
+          "romaji": "Yoru ni nemasu.",
+          "telugu_pronunciation": "యోరు ని నేమస్",
+          "english_meaning": "I sleep at night.",
+          "telugu_meaning": "నేను రాత్రి నిద్రపోతాను.",
+          "word_breakdown": [
+            {
+              "word": "夜",
+              "meaning_en": "night",
+              "meaning_te": "రాత్రి"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "寝ます",
+              "meaning_en": "sleep",
+              "meaning_te": "నిద్రపోతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "夜は静かです。",
+          "romaji": "Yoru wa shizuka desu.",
+          "telugu_pronunciation": "యోరు వా శిజుక దేశ్",
+          "english_meaning": "Night is quiet.",
+          "telugu_meaning": "రాత్రి నిశ్శబ్దంగా ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "夜",
+              "meaning_en": "night",
+              "meaning_te": "రాత్రి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "静か",
+              "meaning_en": "quiet",
+              "meaning_te": "నిశ్శబ్దం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "夜に本を読みます。",
+          "romaji": "Yoru ni hon o yomimasu.",
+          "telugu_pronunciation": "యోరు ని హోన్ ఓ యోమిమస్",
+          "english_meaning": "I read a book at night.",
+          "telugu_meaning": "నేను రాత్రి పుస్తకం చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "夜",
+              "meaning_en": "night",
+              "meaning_te": "రాత్రి"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "読みます",
+              "meaning_en": "read",
+              "meaning_te": "చదువుతాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "japanese_word": "こんばんは",
+      "hiragana": "こんばんは",
+      "romaji": "konbanwa",
+      "telugu_pronunciation": "కొంబన్‌వా",
+      "english_meaning": "good evening",
+      "telugu_meaning": "శుభ సాయంత్రం",
+      "description": "こんばんは (konbanwa) means good evening. It is a greeting used in the evening when meeting someone. Beginners should use this greeting politely when talking to people in the evening. Even though it is written with は, it is pronounced 'wa' because it acts as a greeting particle historically.",
+      "letter_breakdown": [
+        {
+          "letter": "こ",
+          "telugu_sound": "కొ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "ば",
+          "telugu_sound": "బ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "は",
+          "telugu_sound": "హా"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "こんばんは、先生。",
+          "romaji": "Konbanwa sensei.",
+          "telugu_pronunciation": "కొంబన్‌వా సెన్సే",
+          "english_meaning": "Good evening, teacher.",
+          "telugu_meaning": "శుభ సాయంత్రం గురువుగారూ.",
+          "word_breakdown": [
+            {
+              "word": "こんばんは",
+              "meaning_en": "good evening",
+              "meaning_te": "శుభ సాయంత్రం"
+            },
+            {
+              "word": "先生",
+              "meaning_en": "teacher",
+              "meaning_te": "గురువు"
+            }
+          ]
+        },
+        {
+          "sentence": "友達にこんばんはと言います。",
+          "romaji": "Tomodachi ni konbanwa to iimasu.",
+          "telugu_pronunciation": "తోమొదచి ని కొంబన్‌వా తో ఈమస్",
+          "english_meaning": "I say good evening to my friend.",
+          "telugu_meaning": "నేను స్నేహితునికి శుభ సాయంత్రం అంటాను.",
+          "word_breakdown": [
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "direction marker",
+              "meaning_te": "కు"
+            },
+            {
+              "word": "こんばんは",
+              "meaning_en": "good evening",
+              "meaning_te": "శుభ సాయంత్రం"
+            },
+            {
+              "word": "と",
+              "meaning_en": "quotation marker",
+              "meaning_te": "అని"
+            },
+            {
+              "word": "言います",
+              "meaning_en": "say",
+              "meaning_te": "అంటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "japanese_word": "毎日",
+      "hiragana": "まいにち",
+      "romaji": "mainichi",
+      "telugu_pronunciation": "మైని చి",
+      "english_meaning": "every day",
+      "telugu_meaning": "ప్రతి రోజు",
+      "description": "毎日 (まいにち / mainichi) means every day. It describes something that happens daily. Beginners use this word when explaining daily habits or routines. In sentences like 私は毎日働きます, the particle は marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は毎日働きます。",
+          "romaji": "Watashi wa mainichi hatarakimasu.",
+          "telugu_pronunciation": "వతషి వా మైని చి హతరకిమస్",
+          "english_meaning": "I work every day.",
+          "telugu_meaning": "నేను ప్రతి రోజు పని చేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "毎日",
+              "meaning_en": "every day",
+              "meaning_te": "ప్రతి రోజు"
+            },
+            {
+              "word": "働きます",
+              "meaning_en": "work",
+              "meaning_te": "పని చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "毎日日本語を勉強します。",
+          "romaji": "Mainichi nihongo o benkyou shimasu.",
+          "telugu_pronunciation": "మైని చి నిహొంగో ఓ బెంక్యో షిమస్",
+          "english_meaning": "I study Japanese every day.",
+          "telugu_meaning": "నేను ప్రతి రోజు జపనీస్ చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "毎日",
+              "meaning_en": "every day",
+              "meaning_te": "ప్రతి రోజు"
+            },
+            {
+              "word": "日本語",
+              "meaning_en": "Japanese language",
+              "meaning_te": "జపనీస్ భాష"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "勉強します",
+              "meaning_en": "study",
+              "meaning_te": "చదువుతాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "japanese_word": "後で",
+      "hiragana": "あとで",
+      "romaji": "atode",
+      "telugu_pronunciation": "అతోదే",
+      "english_meaning": "later",
+      "telugu_meaning": "తర్వాత",
+      "description": "後で (あとで / atode) means 'later'. It is used when you plan to do something after some time. Beginners use it to talk about future actions happening soon. In sentences like 後で友達と話します, the particle と means 'with' and shows who you do the action with.",
+      "letter_breakdown": [
+        {
+          "letter": "あ",
+          "telugu_sound": "అ"
+        },
+        {
+          "letter": "と",
+          "telugu_sound": "తో"
+        },
+        {
+          "letter": "で",
+          "telugu_sound": "దే"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "後で電話します。",
+          "romaji": "Ato de denwa shimasu.",
+          "telugu_pronunciation": "అతోదే దెన్వా షిమస్",
+          "english_meaning": "I will call later.",
+          "telugu_meaning": "నేను తర్వాత ఫోన్ చేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "後で",
+              "meaning_en": "later",
+              "meaning_te": "తర్వాత"
+            },
+            {
+              "word": "電話します",
+              "meaning_en": "call",
+              "meaning_te": "ఫోన్ చేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "後で友達と話します。",
+          "romaji": "Ato de tomodachi to hanashimasu.",
+          "telugu_pronunciation": "అతోదే తోమొదచి తో హనషిమస్",
+          "english_meaning": "I talk with my friend later.",
+          "telugu_meaning": "నేను తర్వాత స్నేహితుడితో మాట్లాడుతాను.",
+          "word_breakdown": [
+            {
+              "word": "後で",
+              "meaning_en": "later",
+              "meaning_te": "తర్వాత"
+            },
+            {
+              "word": "友達",
+              "meaning_en": "friend",
+              "meaning_te": "స్నేహితుడు"
+            },
+            {
+              "word": "と",
+              "meaning_en": "with",
+              "meaning_te": "తో"
+            },
+            {
+              "word": "話します",
+              "meaning_en": "talk",
+              "meaning_te": "మాట్లాడుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "後でごはんを食べます。",
+          "romaji": "Ato de gohan o tabemasu.",
+          "telugu_pronunciation": "అతోదే గోహాన్ ఓ తబెమస్",
+          "english_meaning": "I will eat later.",
+          "telugu_meaning": "నేను తర్వాత తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "後で",
+              "meaning_en": "later",
+              "meaning_te": "తర్వాత"
+            },
+            {
+              "word": "ごはん",
+              "meaning_en": "meal",
+              "meaning_te": "అన్నం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "japanese_word": "早い",
+      "hiragana": "はやい",
+      "romaji": "hayai",
+      "telugu_pronunciation": "హయై",
+      "english_meaning": "early / fast",
+      "telugu_meaning": "త్వరగా / ముందుగా",
+      "description": "早い (はやい / hayai) means early or fast. It can describe time or speed. Beginners often use it when talking about waking up early or something happening quickly. In sentences like 朝は早いです, the particle は marks the topic being described.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "や",
+          "telugu_sound": "య"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "朝は早いです。",
+          "romaji": "Asa wa hayai desu.",
+          "telugu_pronunciation": "అస వా హయై దేశ్",
+          "english_meaning": "Morning is early.",
+          "telugu_meaning": "ఉదయం త్వరగా ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "朝",
+              "meaning_en": "morning",
+              "meaning_te": "ఉదయం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "早い",
+              "meaning_en": "early",
+              "meaning_te": "త్వరగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "私は早いです。",
+          "romaji": "Watashi wa hayai desu.",
+          "telugu_pronunciation": "వతషి వా హయై దేశ్",
+          "english_meaning": "I am fast.",
+          "telugu_meaning": "నేను వేగంగా ఉంటాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "早い",
+              "meaning_en": "fast",
+              "meaning_te": "వేగంగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "電車は早いです。",
+          "romaji": "Densha wa hayai desu.",
+          "telugu_pronunciation": "దెన్షా వా హయై దేశ్",
+          "english_meaning": "The train is fast.",
+          "telugu_meaning": "రైలు వేగంగా ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "電車",
+              "meaning_en": "train",
+              "meaning_te": "రైలు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "早い",
+              "meaning_en": "fast",
+              "meaning_te": "వేగంగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "japanese_word": "遅い",
+      "hiragana": "おそい",
+      "romaji": "osoi",
+      "telugu_pronunciation": "ఒసోయి",
+      "english_meaning": "late / slow",
+      "telugu_meaning": "ఆలస్యంగా / నెమ్మదిగా",
+      "description": "遅い (おそい / osoi) means late or slow. It is the opposite of 早い. Beginners use it when something happens later than expected or moves slowly. In sentences like 電車は遅いです, the particle は marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "そ",
+          "telugu_sound": "సో"
+        },
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "電車は遅いです。",
+          "romaji": "Densha wa osoi desu.",
+          "telugu_pronunciation": "దెన్షా వా ఒసోయి దేశ్",
+          "english_meaning": "The train is slow.",
+          "telugu_meaning": "రైలు నెమ్మదిగా ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "電車",
+              "meaning_en": "train",
+              "meaning_te": "రైలు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "遅い",
+              "meaning_en": "slow",
+              "meaning_te": "నెమ్మదిగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "今日は遅いです。",
+          "romaji": "Kyou wa osoi desu.",
+          "telugu_pronunciation": "క్యో వా ఒసోయి దేశ్",
+          "english_meaning": "Today is late.",
+          "telugu_meaning": "ఈరోజు ఆలస్యంగా ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈరోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "遅い",
+              "meaning_en": "late",
+              "meaning_te": "ఆలస్యంగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "私は遅いです。",
+          "romaji": "Watashi wa osoi desu.",
+          "telugu_pronunciation": "వతషి వా ఒసోయి దేశ్",
+          "english_meaning": "I am slow.",
+          "telugu_meaning": "నేను నెమ్మదిగా ఉన్నాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "遅い",
+              "meaning_en": "slow",
+              "meaning_te": "నెమ్మదిగా"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "japanese_word": "起きます",
+      "hiragana": "おきます",
+      "romaji": "okimasu",
+      "telugu_pronunciation": "ఒకిమస్",
+      "english_meaning": "wake up / get up",
+      "telugu_meaning": "ఎద్దురుకుళ్ళు / లేచేవి",
+      "description": "起きます (おきます / okimasu) means 'to wake up' or 'to get up'. It is commonly used when talking about waking up in the morning. Beginners often use it to describe their daily routine. In sentences like 毎朝6時に起きます, the particle に shows the time when the action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "お",
+          "telugu_sound": "ఒ"
+        },
+        {
+          "letter": "き",
+          "telugu_sound": "కీ"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は朝6時に起きます。",
+          "romaji": "Watashi wa asa rokuji ni okimasu.",
+          "telugu_pronunciation": "వతషి వా అసా రొకుజి ని ఒకిమస్",
+          "english_meaning": "I wake up at 6 AM.",
+          "telugu_meaning": "నేను ఉదయం 6 గంటలకు లేచేవి.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "朝",
+              "meaning_en": "morning",
+              "meaning_te": "ఉదయం"
+            },
+            {
+              "word": "6時",
+              "meaning_en": "6 o'clock",
+              "meaning_te": "6 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "起きます",
+              "meaning_en": "wake up",
+              "meaning_te": "లేచేవి"
+            }
+          ]
+        },
+        {
+          "sentence": "毎朝7時に起きます。",
+          "romaji": "Maiasa shichiji ni okimasu.",
+          "telugu_pronunciation": "మైఅసా షిచిజి ని ఒకిమస్",
+          "english_meaning": "I wake up at 7 every morning.",
+          "telugu_meaning": "నేను ప్రతి ఉదయం 7 గంటలకు లేచేవి.",
+          "word_breakdown": [
+            {
+              "word": "毎朝",
+              "meaning_en": "every morning",
+              "meaning_te": "ప్రతి ఉదయం"
+            },
+            {
+              "word": "7時",
+              "meaning_en": "7 o'clock",
+              "meaning_te": "7 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "起きます",
+              "meaning_en": "wake up",
+              "meaning_te": "లేచేవి"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "japanese_word": "寝ます",
+      "hiragana": "ねます",
+      "romaji": "nemasu",
+      "telugu_pronunciation": "నేమస్",
+      "english_meaning": "sleep / go to bed",
+      "telugu_meaning": "నిద్రపోవడం",
+      "description": "寝ます (ねます / nemasu) means 'to sleep' or 'to go to bed'. It is used when talking about sleeping at night or taking a nap. Beginners use it to describe their daily routine. In sentences like 夜10時に寝ます, the particle に shows the time when the action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "ね",
+          "telugu_sound": "నె"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は夜10時に寝ます。",
+          "romaji": "Watashi wa yoru juuji ni nemasu.",
+          "telugu_pronunciation": "వతషి వా యోరు జూజి ని నేమస్",
+          "english_meaning": "I go to bed at 10 PM.",
+          "telugu_meaning": "నేను రాత్రి 10 గంటలకు నిద్రపోతాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "夜",
+              "meaning_en": "night",
+              "meaning_te": "రాత్రి"
+            },
+            {
+              "word": "10時",
+              "meaning_en": "10 o'clock",
+              "meaning_te": "10 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "寝ます",
+              "meaning_en": "sleep",
+              "meaning_te": "నిద్రపోవడం"
+            }
+          ]
+        },
+        {
+          "sentence": "毎晩11時に寝ます。",
+          "romaji": "Maiban juuichi ji ni nemasu.",
+          "telugu_pronunciation": "మైబన్ జూఇచి జి ని నేమస్",
+          "english_meaning": "I sleep at 11 PM every night.",
+          "telugu_meaning": "నేను ప్రతి రాత్రి 11 గంటలకు నిద్రపోతాను.",
+          "word_breakdown": [
+            {
+              "word": "毎晩",
+              "meaning_en": "every night",
+              "meaning_te": "ప్రతి రాత్రి"
+            },
+            {
+              "word": "11時",
+              "meaning_en": "11 o'clock",
+              "meaning_te": "11 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "寝ます",
+              "meaning_en": "sleep",
+              "meaning_te": "నిద్రపోవడం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "japanese_word": "働きます",
+      "hiragana": "はたらきます",
+      "romaji": "hatarakimasu",
+      "telugu_pronunciation": "హతరకిమస్",
+      "english_meaning": "work",
+      "telugu_meaning": "పని చేయడం",
+      "description": "働きます (はたらきます / hatarakimasu) means 'to work'. It is commonly used when talking about going to a job or performing tasks. Beginners use it to describe their daily work routine. In sentences like 毎日働きます, は marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "た",
+          "telugu_sound": "త"
+        },
+        {
+          "letter": "ら",
+          "telugu_sound": "ర"
+        },
+        {
+          "letter": "き",
+          "telugu_sound": "కీ"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "私は毎日働きます。",
+          "romaji": "Watashi wa mainichi hatarakimasu.",
+          "telugu_pronunciation": "వతషి వా మైని చి హతరకిమస్",
+          "english_meaning": "I work every day.",
+          "telugu_meaning": "నేను ప్రతి రోజు పని చేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "毎日",
+              "meaning_en": "every day",
+              "meaning_te": "ప్రతి రోజు"
+            },
+            {
+              "word": "働きます",
+              "meaning_en": "work",
+              "meaning_te": "పని చేయడం"
+            }
+          ]
+        },
+        {
+          "sentence": "父は会社で働きます。",
+          "romaji": "Chichi wa kaisha de hatarakimasu.",
+          "telugu_pronunciation": "చిచి వా కైషా దే హతరకిమస్",
+          "english_meaning": "My father works at the company.",
+          "telugu_meaning": "నా తండ్రి కంపెనీలో పని చేస్తారు.",
+          "word_breakdown": [
+            {
+              "word": "父",
+              "meaning_en": "father",
+              "meaning_te": "తండ్రి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "会社",
+              "meaning_en": "company",
+              "meaning_te": "కంపెనీ"
+            },
+            {
+              "word": "で",
+              "meaning_en": "location marker",
+              "meaning_te": "స్థలం సూచిక"
+            },
+            {
+              "word": "働きます",
+              "meaning_en": "work",
+              "meaning_te": "పని చేయడం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "japanese_word": "休みます",
+      "hiragana": "やすみます",
+      "romaji": "yasumimasu",
+      "telugu_pronunciation": "యాసుమిమస్",
+      "english_meaning": "rest / take a break / be absent",
+      "telugu_meaning": "విరామం తీసుకోవడం / విశ్రాంతి",
+      "description": "休みます (やすみます / yasumimasu) means 'to rest' or 'take a break'. It is used when someone is resting, taking leave from work, or taking a day off. Beginners can use it to talk about relaxing or not going to work or school. In sentences like 今日は休みます, は marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "や",
+          "telugu_sound": "యా"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        },
+        {
+          "letter": "み",
+          "telugu_sound": "మీ"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今日は休みます。",
+          "romaji": "Kyou wa yasumimasu.",
+          "telugu_pronunciation": "క్యో వా యాసుమిమస్",
+          "english_meaning": "I will rest today.",
+          "telugu_meaning": "నేను ఈరోజు విశ్రాంతి తీసుకుంటాను.",
+          "word_breakdown": [
+            {
+              "word": "今日",
+              "meaning_en": "today",
+              "meaning_te": "ఈరోజు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "休みます",
+              "meaning_en": "rest",
+              "meaning_te": "విశ్రాంతి తీసుకోవడం"
+            }
+          ]
+        },
+        {
+          "sentence": "明日は休みます。",
+          "romaji": "Ashita wa yasumimasu.",
+          "telugu_pronunciation": "అశితా వా యాసుమిమస్",
+          "english_meaning": "I will rest tomorrow.",
+          "telugu_meaning": "నేను రేపు విశ్రాంతి తీసుకుంటాను.",
+          "word_breakdown": [
+            {
+              "word": "明日",
+              "meaning_en": "tomorrow",
+              "meaning_te": "రేపు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "休みます",
+              "meaning_en": "rest",
+              "meaning_te": "విశ్రాంతి తీసుకోవడం"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "japanese_word": "始まります",
+      "hiragana": "はじまります",
+      "romaji": "hajimarimasu",
+      "telugu_pronunciation": "హజిమరిమస్",
+      "english_meaning": "begin / start",
+      "telugu_meaning": "ప్రారంభించు",
+      "description": "始まります (はじまります / hajimarimasu) means 'to begin' or 'to start'. It is used when an event, class, or activity begins. Beginners use it when describing the start of lessons, meetings, or events. In sentences like 授業は9時に始まります, は marks the topic and に shows the time of the event.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "り",
+          "telugu_sound": "రి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "す",
+          "telugu_sound": "సు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "授業は9時に始まります。",
+          "romaji": "Jugyou wa kuji ni hajimarimasu.",
+          "telugu_pronunciation": "జుయ్గ్యో వా కుజి ని హజిమరిమస్",
+          "english_meaning": "The class starts at 9 o'clock.",
+          "telugu_meaning": "పాఠం 9 గంటలకు ప్రారంభమవుతుంది.",
+          "word_breakdown": [
+            {
+              "word": "授業",
+              "meaning_en": "class/lesson",
+              "meaning_te": "పాఠం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "9時",
+              "meaning_en": "9 o'clock",
+              "meaning_te": "9 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "始まります",
+              "meaning_en": "start",
+              "meaning_te": "ప్రారంభమవుతుంది"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は午後3時に始まります。",
+          "romaji": "Kaigi wa gogo sanji ni hajimarimasu.",
+          "telugu_pronunciation": "కైగి వా గొగో సాంజి ని హజిమరిమస్",
+          "english_meaning": "The meeting starts at 3 PM.",
+          "telugu_meaning": "సభా మధ్యాహ్నం 3 గంటలకు ప్రారంభమవుతుంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సభా"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయం సూచిక"
+            },
+            {
+              "word": "午後3時",
+              "meaning_en": "3 PM",
+              "meaning_te": "మధ్యాహ్నం 3 గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "始まります",
+              "meaning_en": "start",
+              "meaning_te": "ప్రారంభమవుతుంది"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
