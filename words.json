@@ -6905,6 +6905,3547 @@
           ]
         }
       ]
+    },
+    {
+      "id": 65,
+      "japanese_word": "一",
+      "hiragana": "いち",
+      "romaji": "ichi",
+      "telugu_pronunciation": "ఇచి",
+      "english_meaning": "one",
+      "telugu_meaning": "ఒకటి",
+      "description": "一 (いち / ichi) means the number one in Japanese. It is the first number in counting and is used when counting objects, people, or steps. Beginners often see it in simple counting or when talking about quantity. In sentences, particles like 「は」 mark the topic of the sentence. For example, in 一つはりんごです, 「は」 shows that 'one item' is the topic being explained.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが一つあります。",
+          "romaji": "Ringo ga hitotsu arimasu.",
+          "telugu_pronunciation": "రింగో గా హితోత్సు అరిమాస్",
+          "english_meaning": "There is one apple.",
+          "telugu_meaning": "ఒక ఆపిల్ ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "一つ",
+              "meaning_en": "one item",
+              "meaning_te": "ఒకటి"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist (non-living)",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "一つください。",
+          "romaji": "Hitotsu kudasai.",
+          "telugu_pronunciation": "హితోత్సు కుదసై",
+          "english_meaning": "Please give me one.",
+          "telugu_meaning": "దయచేసి ఒకటి ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "一つ",
+              "meaning_en": "one item",
+              "meaning_te": "ఒకటి"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "దయచేసి ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "これは一つです。",
+          "romaji": "Kore wa hitotsu desu.",
+          "telugu_pronunciation": "కొరె వా హితోత్సు దేశ్",
+          "english_meaning": "This is one.",
+          "telugu_meaning": "ఇది ఒకటి.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "一つ",
+              "meaning_en": "one",
+              "meaning_te": "ఒకటి"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "japanese_word": "二",
+      "hiragana": "に",
+      "romaji": "ni",
+      "telugu_pronunciation": "ని",
+      "english_meaning": "two",
+      "telugu_meaning": "రెండు",
+      "description": "二 (に / ni) means the number two. It is used when counting two items, people, or objects. Beginners will see it often when counting things in daily life. In sentences, particles like 「が」 can mark the subject of the sentence. This means the counted object is the thing being talked about.",
+      "letter_breakdown": [
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが二つあります。",
+          "romaji": "Ringo ga futatsu arimasu.",
+          "telugu_pronunciation": "రింగో గా ఫుతత్సు అరిమాస్",
+          "english_meaning": "There are two apples.",
+          "telugu_meaning": "రెండు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "二つ",
+              "meaning_en": "two items",
+              "meaning_te": "రెండు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "二つください。",
+          "romaji": "Futatsu kudasai.",
+          "telugu_pronunciation": "ఫుతత్సు కుదసై",
+          "english_meaning": "Please give me two.",
+          "telugu_meaning": "దయచేసి రెండు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "二つ",
+              "meaning_en": "two",
+              "meaning_te": "రెండు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "これは二つです。",
+          "romaji": "Kore wa futatsu desu.",
+          "telugu_pronunciation": "కొరె వా ఫుతత్సు దేశ్",
+          "english_meaning": "These are two.",
+          "telugu_meaning": "ఇవి రెండు.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "二つ",
+              "meaning_en": "two",
+              "meaning_te": "రెండు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "japanese_word": "三",
+      "hiragana": "さん",
+      "romaji": "san",
+      "telugu_pronunciation": "సాన్",
+      "english_meaning": "three",
+      "telugu_meaning": "మూడు",
+      "description": "三 (さん / san) means the number three. It is used when counting three items or people. Beginners often see this number in dates, counting, and basic math. The particle 「が」 can mark the subject in sentences with numbers. This shows what objects are being counted.",
+      "letter_breakdown": [
+        {
+          "letter": "さ",
+          "telugu_sound": "స"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが三つあります。",
+          "romaji": "Ringo ga mittsu arimasu.",
+          "telugu_pronunciation": "రింగో గా మిత్సు అరిమాస్",
+          "english_meaning": "There are three apples.",
+          "telugu_meaning": "మూడు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "三つ",
+              "meaning_en": "three items",
+              "meaning_te": "మూడు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "三つください。",
+          "romaji": "Mittsu kudasai.",
+          "telugu_pronunciation": "మిత్సు కుదసై",
+          "english_meaning": "Please give me three.",
+          "telugu_meaning": "దయచేసి మూడు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "三つ",
+              "meaning_en": "three",
+              "meaning_te": "మూడు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "三人います。",
+          "romaji": "San nin imasu.",
+          "telugu_pronunciation": "సాన్ నిన్ ఇమాస్",
+          "english_meaning": "There are three people.",
+          "telugu_meaning": "మూడు మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "三",
+              "meaning_en": "three",
+              "meaning_te": "మూడు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist (living)",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "japanese_word": "四",
+      "hiragana": "よん",
+      "romaji": "yon",
+      "telugu_pronunciation": "యోన్",
+      "english_meaning": "four",
+      "telugu_meaning": "నాలుగు",
+      "description": "四 (よん / yon) means the number four. It is used when counting four items or people. Beginners should know that four sometimes has another reading 'shi', but 'yon' is commonly used in daily conversation. The particle 「が」 marks the subject when counting objects in a sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "よ",
+          "telugu_sound": "యొ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが四つあります。",
+          "romaji": "Ringo ga yottsu arimasu.",
+          "telugu_pronunciation": "రింగో గా యోత్సు అరిమాస్",
+          "english_meaning": "There are four apples.",
+          "telugu_meaning": "నాలుగు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "四つ",
+              "meaning_en": "four items",
+              "meaning_te": "నాలుగు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "四つください。",
+          "romaji": "Yottsu kudasai.",
+          "telugu_pronunciation": "యోత్సు కుదసై",
+          "english_meaning": "Please give me four.",
+          "telugu_meaning": "దయచేసి నాలుగు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "四つ",
+              "meaning_en": "four",
+              "meaning_te": "నాలుగు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "四人います。",
+          "romaji": "Yon nin imasu.",
+          "telugu_pronunciation": "యోన్ నిన్ ఇమాస్",
+          "english_meaning": "There are four people.",
+          "telugu_meaning": "నాలుగు మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "四",
+              "meaning_en": "four",
+              "meaning_te": "నాలుగు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "japanese_word": "五",
+      "hiragana": "ご",
+      "romaji": "go",
+      "telugu_pronunciation": "గొ",
+      "english_meaning": "five",
+      "telugu_meaning": "ఐదు",
+      "description": "五 (ご / go) means the number five. It is used when counting five objects or people. Beginners will see it in counting, dates, and everyday situations. The particle 「が」 can mark the subject when counting objects. This shows the objects that exist or are being described.",
+      "letter_breakdown": [
+        {
+          "letter": "ご",
+          "telugu_sound": "గొ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが五つあります。",
+          "romaji": "Ringo ga itsutsu arimasu.",
+          "telugu_pronunciation": "రింగో గా ఇత్సుత్సు అరిమాస్",
+          "english_meaning": "There are five apples.",
+          "telugu_meaning": "ఐదు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "五つ",
+              "meaning_en": "five items",
+              "meaning_te": "ఐదు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "五つください。",
+          "romaji": "Itsutsu kudasai.",
+          "telugu_pronunciation": "ఇత్సుత్సు కుదసై",
+          "english_meaning": "Please give me five.",
+          "telugu_meaning": "దయచేసి ఐదు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "五つ",
+              "meaning_en": "five",
+              "meaning_te": "ఐదు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "五人います。",
+          "romaji": "Go nin imasu.",
+          "telugu_pronunciation": "గొ నిన్ ఇమాస్",
+          "english_meaning": "There are five people.",
+          "telugu_meaning": "ఐదు మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "五",
+              "meaning_en": "five",
+              "meaning_te": "ఐదు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "japanese_word": "六",
+      "hiragana": "ろく",
+      "romaji": "roku",
+      "telugu_pronunciation": "రోకు",
+      "english_meaning": "six",
+      "telugu_meaning": "ఆరు",
+      "description": "六 (ろく / roku) means the number six in Japanese. It is used when counting six objects, people, or items. Beginners often see it in daily counting such as six apples or six people. In sentences, the particle 「が」 marks the subject, meaning the thing that exists or is being counted. This helps clearly show what item the number is describing.",
+      "letter_breakdown": [
+        {
+          "letter": "ろ",
+          "telugu_sound": "రో"
+        },
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが六つあります。",
+          "romaji": "Ringo ga muttsu arimasu.",
+          "telugu_pronunciation": "రింగో గా ముత్సు అరిమాస్",
+          "english_meaning": "There are six apples.",
+          "telugu_meaning": "ఆరు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "六つ",
+              "meaning_en": "six items",
+              "meaning_te": "ఆరు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist (non-living)",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "六つください。",
+          "romaji": "Muttsu kudasai.",
+          "telugu_pronunciation": "ముత్సు కుదసై",
+          "english_meaning": "Please give me six.",
+          "telugu_meaning": "దయచేసి ఆరు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "六つ",
+              "meaning_en": "six",
+              "meaning_te": "ఆరు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "దయచేసి ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "六人います。",
+          "romaji": "Roku nin imasu.",
+          "telugu_pronunciation": "రోకు నిన్ ఇమాస్",
+          "english_meaning": "There are six people.",
+          "telugu_meaning": "ఆరు మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "六",
+              "meaning_en": "six",
+              "meaning_te": "ఆరు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist (living)",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "japanese_word": "七",
+      "hiragana": "なな",
+      "romaji": "nana",
+      "telugu_pronunciation": "నన",
+      "english_meaning": "seven",
+      "telugu_meaning": "ఏడు",
+      "description": "七 (なな / nana) means the number seven in Japanese. It is commonly used when counting seven items or people. Sometimes the reading 'shichi' is also used, but 'nana' is easier and more common in conversation. In sentences, the particle 「が」 marks the subject, meaning the counted objects. This helps learners understand what items are being described.",
+      "letter_breakdown": [
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        },
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが七つあります。",
+          "romaji": "Ringo ga nanatsu arimasu.",
+          "telugu_pronunciation": "రింగో గా ననత్సు అరిమాస్",
+          "english_meaning": "There are seven apples.",
+          "telugu_meaning": "ఏడు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "七つ",
+              "meaning_en": "seven items",
+              "meaning_te": "ఏడు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "七つください。",
+          "romaji": "Nanatsu kudasai.",
+          "telugu_pronunciation": "ననత్సు కుదసై",
+          "english_meaning": "Please give me seven.",
+          "telugu_meaning": "దయచేసి ఏడు ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "七つ",
+              "meaning_en": "seven",
+              "meaning_te": "ఏడు"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "七人います。",
+          "romaji": "Nana nin imasu.",
+          "telugu_pronunciation": "నన నిన్ ఇమాస్",
+          "english_meaning": "There are seven people.",
+          "telugu_meaning": "ఏడు మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "七",
+              "meaning_en": "seven",
+              "meaning_te": "ఏడు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "japanese_word": "八",
+      "hiragana": "はち",
+      "romaji": "hachi",
+      "telugu_pronunciation": "హచి",
+      "english_meaning": "eight",
+      "telugu_meaning": "ఎనిమిది",
+      "description": "八 (はち / hachi) means the number eight in Japanese. It is used when counting eight objects, people, or items. Beginners often see it in basic counting and daily conversation. In example sentences, the particle 「が」 marks the subject, meaning the things being counted. This helps clearly identify the objects that exist.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが八つあります。",
+          "romaji": "Ringo ga yattsu arimasu.",
+          "telugu_pronunciation": "రింగో గా యాత్సు అరిమాస్",
+          "english_meaning": "There are eight apples.",
+          "telugu_meaning": "ఎనిమిది ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "八つ",
+              "meaning_en": "eight items",
+              "meaning_te": "ఎనిమిది"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "八つください。",
+          "romaji": "Yattsu kudasai.",
+          "telugu_pronunciation": "యాత్సు కుదసై",
+          "english_meaning": "Please give me eight.",
+          "telugu_meaning": "దయచేసి ఎనిమిది ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "八つ",
+              "meaning_en": "eight",
+              "meaning_te": "ఎనిమిది"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "八人います。",
+          "romaji": "Hachi nin imasu.",
+          "telugu_pronunciation": "హచి నిన్ ఇమాస్",
+          "english_meaning": "There are eight people.",
+          "telugu_meaning": "ఎనిమిది మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "八",
+              "meaning_en": "eight",
+              "meaning_te": "ఎనిమిది"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "japanese_word": "九",
+      "hiragana": "きゅう",
+      "romaji": "kyuu",
+      "telugu_pronunciation": "క్యూ",
+      "english_meaning": "nine",
+      "telugu_meaning": "తొమ్మిది",
+      "description": "九 (きゅう / kyuu) means the number nine in Japanese. It is used when counting nine items or people. Another reading 'ku' exists, but 'kyuu' is commonly used in many situations. The particle 「が」 marks the subject in counting sentences. This shows the objects that exist or are being counted.",
+      "letter_breakdown": [
+        {
+          "letter": "きょ",
+          "telugu_sound": "క్యో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが九つあります。",
+          "romaji": "Ringo ga kokonotsu arimasu.",
+          "telugu_pronunciation": "రింగో గా కొకొనోత్సు అరిమాస్",
+          "english_meaning": "There are nine apples.",
+          "telugu_meaning": "తొమ్మిది ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "九つ",
+              "meaning_en": "nine items",
+              "meaning_te": "తొమ్మిది"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "九つください。",
+          "romaji": "Kokonotsu kudasai.",
+          "telugu_pronunciation": "కొకొనోత్సు కుదసై",
+          "english_meaning": "Please give me nine.",
+          "telugu_meaning": "దయచేసి తొమ్మిది ఇవ్వండి.",
+          "word_breakdown": [
+            {
+              "word": "九つ",
+              "meaning_en": "nine",
+              "meaning_te": "తొమ్మిది"
+            },
+            {
+              "word": "ください",
+              "meaning_en": "please give",
+              "meaning_te": "ఇవ్వండి"
+            }
+          ]
+        },
+        {
+          "sentence": "九人います。",
+          "romaji": "Kyuu nin imasu.",
+          "telugu_pronunciation": "క్యూ నిన్ ఇమాస్",
+          "english_meaning": "There are nine people.",
+          "telugu_meaning": "తొమ్మిది మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "九",
+              "meaning_en": "nine",
+              "meaning_te": "తొమ్మిది"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "japanese_word": "十",
+      "hiragana": "じゅう",
+      "romaji": "juu",
+      "telugu_pronunciation": "జ్యూ",
+      "english_meaning": "ten",
+      "telugu_meaning": "పది",
+      "description": "十 (じゅう / juu) means the number ten in Japanese. It is used when counting ten items or describing quantities. Beginners will see it often in numbers like eleven, twelve, and so on. The particle 「が」 can mark the subject in counting sentences, showing the objects that exist. Learning this number helps understand larger Japanese numbers.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅ",
+          "telugu_sound": "జ్యు"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが十あります。",
+          "romaji": "Ringo ga juu arimasu.",
+          "telugu_pronunciation": "రింగో గా జ్యూ అరిమాస్",
+          "english_meaning": "There are ten apples.",
+          "telugu_meaning": "పది ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        },
+        {
+          "sentence": "十人います。",
+          "romaji": "Juu nin imasu.",
+          "telugu_pronunciation": "జ్యూ నిన్ ఇమాస్",
+          "english_meaning": "There are ten people.",
+          "telugu_meaning": "పది మంది ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        },
+        {
+          "sentence": "これは十です。",
+          "romaji": "Kore wa juu desu.",
+          "telugu_pronunciation": "కొరె వా జ్యూ దేశ్",
+          "english_meaning": "This is ten.",
+          "telugu_meaning": "ఇది పది.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "japanese_word": "十一",
+      "hiragana": "じゅういち",
+      "romaji": "juuichi",
+      "telugu_pronunciation": "జ్యూఇచి",
+      "english_meaning": "eleven",
+      "telugu_meaning": "పదకొండు",
+      "description": "十一 (じゅういち / juuichi) means eleven. It is formed by combining 十 (ten) and 一 (one), literally meaning 'ten plus one'. Japanese numbers after ten are usually formed by combining ten with another number. Understanding this pattern helps learners easily understand numbers like twelve, thirteen, and so on.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅう",
+          "telugu_sound": "జ్యూ"
+        },
+        {
+          "letter": "いち",
+          "telugu_sound": "ఇచి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが十一あります。",
+          "romaji": "Ringo ga juuichi arimasu.",
+          "telugu_pronunciation": "రింగో గా జ్యూఇచి అరిమాస్",
+          "english_meaning": "There are eleven apples.",
+          "telugu_meaning": "పదకొండు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "十一",
+              "meaning_en": "eleven",
+              "meaning_te": "పదకొండు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "japanese_word": "十二",
+      "hiragana": "じゅうに",
+      "romaji": "juuni",
+      "telugu_pronunciation": "జ్యూని",
+      "english_meaning": "twelve",
+      "telugu_meaning": "పన్నెండు",
+      "description": "十二 (じゅうに / juuni) means twelve. It is formed by combining 十 (ten) and 二 (two), meaning 'ten plus two'. This is part of the basic Japanese counting pattern where numbers after ten are created by adding another number to ten.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅう",
+          "telugu_sound": "జ్యూ"
+        },
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学生が十二人います。",
+          "romaji": "Gakusei ga juuni nin imasu.",
+          "telugu_pronunciation": "గక్సే గా జ్యూని నిన్ ఇమాస్",
+          "english_meaning": "There are twelve students.",
+          "telugu_meaning": "పన్నెండు మంది విద్యార్థులు ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "十二",
+              "meaning_en": "twelve",
+              "meaning_te": "పన్నెండు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist (living)",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "japanese_word": "十三",
+      "hiragana": "じゅうさん",
+      "romaji": "juusan",
+      "telugu_pronunciation": "జ్యూసాన్",
+      "english_meaning": "thirteen",
+      "telugu_meaning": "పదమూడు",
+      "description": "十三 (じゅうさん / juusan) means thirteen. It combines 十 (ten) and 三 (three), meaning 'ten plus three'. This number follows the same pattern used for numbers after ten in Japanese counting.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅう",
+          "telugu_sound": "జ్యూ"
+        },
+        {
+          "letter": "さん",
+          "telugu_sound": "సాన్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごが十三あります。",
+          "romaji": "Ringo ga juusan arimasu.",
+          "telugu_pronunciation": "రింగో గా జ్యూసాన్ అరిమాస్",
+          "english_meaning": "There are thirteen apples.",
+          "telugu_meaning": "పదమూడు ఆపిల్స్ ఉన్నాయి.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "十三",
+              "meaning_en": "thirteen",
+              "meaning_te": "పదమూడు"
+            },
+            {
+              "word": "あります",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నాయి"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "japanese_word": "十四",
+      "hiragana": "じゅうよん",
+      "romaji": "juuyon",
+      "telugu_pronunciation": "జ్యూయోన్",
+      "english_meaning": "fourteen",
+      "telugu_meaning": "పద్నాలుగు",
+      "description": "十四 (じゅうよん / juuyon) means fourteen. It combines 十 (ten) and 四 (four), meaning 'ten plus four'. The reading 'yon' is commonly used instead of 'shi' because it is easier and avoids confusion with words related to death in Japanese.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅう",
+          "telugu_sound": "జ్యూ"
+        },
+        {
+          "letter": "よん",
+          "telugu_sound": "యోన్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "学生が十四人います。",
+          "romaji": "Gakusei ga juuyon nin imasu.",
+          "telugu_pronunciation": "గక్సే గా జ్యూయోన్ నిన్ ఇమాస్",
+          "english_meaning": "There are fourteen students.",
+          "telugu_meaning": "పద్నాలుగు మంది విద్యార్థులు ఉన్నారు.",
+          "word_breakdown": [
+            {
+              "word": "学生",
+              "meaning_en": "student",
+              "meaning_te": "విద్యార్థి"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "十四",
+              "meaning_en": "fourteen",
+              "meaning_te": "పద్నాలుగు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "います",
+              "meaning_en": "exist",
+              "meaning_te": "ఉన్నారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "japanese_word": "時",
+      "hiragana": "じ",
+      "romaji": "ji",
+      "telugu_pronunciation": "జి",
+      "english_meaning": "hour / o'clock (time indicator)",
+      "telugu_meaning": "గంట (సమయం సూచిక)",
+      "description": "じ (時 / ji) is used in Japanese to indicate the hour of the day. It is added after numbers to tell time, such as いちじ (1 o'clock) or にじ (2 o'clock). In daily conversation, it helps people talk about schedules, meetings, or activities. In example sentences, the particle 「は」 marks the topic of the sentence, meaning the sentence is talking about that time. The particle 「に」 marks the time when an action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "いまは三時です。",
+          "romaji": "Ima wa sanji desu.",
+          "telugu_pronunciation": "ఇమా వా సాంజి దేశ్",
+          "english_meaning": "It is three o'clock now.",
+          "telugu_meaning": "ఇప్పుడు మూడు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "いま",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "学校は八時です。",
+          "romaji": "Gakkou wa hachiji desu.",
+          "telugu_pronunciation": "గక్కో వా హచిజి దేశ్",
+          "english_meaning": "School starts at eight o'clock.",
+          "telugu_meaning": "పాఠశాల ఎనిమిది గంటలకు ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "九時に行きます。",
+          "romaji": "Kuji ni ikimasu.",
+          "telugu_pronunciation": "కుజి ని ఇకిమాస్",
+          "english_meaning": "I go at nine o'clock.",
+          "telugu_meaning": "నేను తొమ్మిది గంటలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "九時",
+              "meaning_en": "nine o'clock",
+              "meaning_te": "తొమ్మిది గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "japanese_word": "一時",
+      "hiragana": "いちじ",
+      "romaji": "ichiji",
+      "telugu_pronunciation": "ఇచిజి",
+      "english_meaning": "one o'clock",
+      "telugu_meaning": "ఒక గంట",
+      "description": "いちじ (一時 / ichiji) means one o'clock. It is formed by combining the number one (いち) and the time marker じ. It is commonly used when talking about schedules or meeting times. In example sentences, 「に」 is used to mark the exact time when an action happens. The particle 「は」 marks the topic of the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "一時です。",
+          "romaji": "Ichiji desu.",
+          "telugu_pronunciation": "ఇచిజి దేశ్",
+          "english_meaning": "It is one o'clock.",
+          "telugu_meaning": "ఇది ఒక గంట.",
+          "word_breakdown": [
+            {
+              "word": "一時",
+              "meaning_en": "one o'clock",
+              "meaning_te": "ఒక గంట"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "一時に昼ごはんを食べます。",
+          "romaji": "Ichiji ni hirugohan o tabemasu.",
+          "telugu_pronunciation": "ఇచిజి ని హిరుగోహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat lunch at one o'clock.",
+          "telugu_meaning": "నేను ఒక గంటకు మధ్యాహ్న భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "一時",
+              "meaning_en": "one o'clock",
+              "meaning_te": "ఒక గంట"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "昼ごはん",
+              "meaning_en": "lunch",
+              "meaning_te": "మధ్యాహ్న భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は一時です。",
+          "romaji": "Kaigi wa ichiji desu.",
+          "telugu_pronunciation": "కైగి వా ఇచిజి దేశ్",
+          "english_meaning": "The meeting is at one o'clock.",
+          "telugu_meaning": "సమావేశం ఒక గంటకు ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "一時",
+              "meaning_en": "one o'clock",
+              "meaning_te": "ఒక గంట"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "japanese_word": "二時",
+      "hiragana": "にじ",
+      "romaji": "niji",
+      "telugu_pronunciation": "నిజి",
+      "english_meaning": "two o'clock",
+      "telugu_meaning": "రెండు గంటలు",
+      "description": "にじ (二時 / niji) means two o'clock. It combines 二 (two) with 時 (hour). It is used when talking about schedules, classes, or appointments. In example sentences, 「に」 marks the time when an action happens. The particle 「は」 marks the topic being discussed in the sentence.",
+      "letter_breakdown": [
+        {
+          "letter": "に",
+          "telugu_sound": "ని"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "二時です。",
+          "romaji": "Niji desu.",
+          "telugu_pronunciation": "నిజి దేశ్",
+          "english_meaning": "It is two o'clock.",
+          "telugu_meaning": "ఇది రెండు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "二時",
+              "meaning_en": "two o'clock",
+              "meaning_te": "రెండు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "二時に学校へ行きます。",
+          "romaji": "Niji ni gakkou e ikimasu.",
+          "telugu_pronunciation": "నిజి ని గక్కో ఎ ఇకిమాస్",
+          "english_meaning": "I go to school at two o'clock.",
+          "telugu_meaning": "నేను రెండు గంటలకు పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "二時",
+              "meaning_en": "two o'clock",
+              "meaning_te": "రెండు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "映画は二時です。",
+          "romaji": "Eiga wa niji desu.",
+          "telugu_pronunciation": "ఏగా వా నిజి దేశ్",
+          "english_meaning": "The movie is at two o'clock.",
+          "telugu_meaning": "సినిమా రెండు గంటలకు ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "映画",
+              "meaning_en": "movie",
+              "meaning_te": "సినిమా"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "二時",
+              "meaning_en": "two o'clock",
+              "meaning_te": "రెండు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "japanese_word": "三時",
+      "hiragana": "さんじ",
+      "romaji": "sanji",
+      "telugu_pronunciation": "సాంజి",
+      "english_meaning": "three o'clock",
+      "telugu_meaning": "మూడు గంటలు",
+      "description": "さんじ (三時 / sanji) means three o'clock. It is formed by combining 三 (three) and 時 (hour). Japanese commonly expresses time by placing a number before 時. In sentences, the particle 「に」 marks the specific time when an action happens. The particle 「は」 marks the topic of the sentence when we are talking about a specific time.",
+      "letter_breakdown": [
+        {
+          "letter": "さ",
+          "telugu_sound": "స"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "三時です。",
+          "romaji": "Sanji desu.",
+          "telugu_pronunciation": "సాంజి దేశ్",
+          "english_meaning": "It is three o'clock.",
+          "telugu_meaning": "ఇది మూడు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "三時に帰ります。",
+          "romaji": "Sanji ni kaerimasu.",
+          "telugu_pronunciation": "సాంజి ని కాయెరిమాస్",
+          "english_meaning": "I go home at three o'clock.",
+          "telugu_meaning": "నేను మూడు గంటలకు ఇంటికి వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "帰ります",
+              "meaning_en": "return home",
+              "meaning_te": "ఇంటికి వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は三時です。",
+          "romaji": "Kaigi wa sanji desu.",
+          "telugu_pronunciation": "కైగి వా సాంజి దేశ్",
+          "english_meaning": "The meeting is at three o'clock.",
+          "telugu_meaning": "సమావేశం మూడు గంటలకు ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "japanese_word": "四時",
+      "hiragana": "よじ",
+      "romaji": "yoji",
+      "telugu_pronunciation": "యోజి",
+      "english_meaning": "four o'clock",
+      "telugu_meaning": "నాలుగు గంటలు",
+      "description": "よじ (四時 / yoji) means four o'clock. The number 四 can be read as よん or し, but when telling time it becomes よじ. It is used when talking about daily schedules like classes, work, or meetings. The particle 「に」 marks the time when something happens. The particle 「は」 marks the topic when the sentence is describing a schedule or time.",
+      "letter_breakdown": [
+        {
+          "letter": "よ",
+          "telugu_sound": "యొ"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "四時です。",
+          "romaji": "Yoji desu.",
+          "telugu_pronunciation": "యోజి దేశ్",
+          "english_meaning": "It is four o'clock.",
+          "telugu_meaning": "ఇది నాలుగు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "四時",
+              "meaning_en": "four o'clock",
+              "meaning_te": "నాలుగు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "四時に勉強します。",
+          "romaji": "Yoji ni benkyou shimasu.",
+          "telugu_pronunciation": "యోజి ని బెంక్యో శిమాస్",
+          "english_meaning": "I study at four o'clock.",
+          "telugu_meaning": "నేను నాలుగు గంటలకు చదువుతాను.",
+          "word_breakdown": [
+            {
+              "word": "四時",
+              "meaning_en": "four o'clock",
+              "meaning_te": "నాలుగు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "勉強します",
+              "meaning_en": "study",
+              "meaning_te": "చదువుతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "店は四時に開きます。",
+          "romaji": "Mise wa yoji ni akimasu.",
+          "telugu_pronunciation": "మిసే వా యోజి ని అకిమాస్",
+          "english_meaning": "The shop opens at four o'clock.",
+          "telugu_meaning": "దుకాణం నాలుగు గంటలకు తెరుచుకుంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "店",
+              "meaning_en": "shop",
+              "meaning_te": "దుకాణం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "四時",
+              "meaning_en": "four o'clock",
+              "meaning_te": "నాలుగు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "開きます",
+              "meaning_en": "open",
+              "meaning_te": "తెరుచుకుంటుంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "japanese_word": "五時",
+      "hiragana": "ごじ",
+      "romaji": "goji",
+      "telugu_pronunciation": "గోజి",
+      "english_meaning": "five o'clock",
+      "telugu_meaning": "ఐదు గంటలు",
+      "description": "ごじ (五時 / goji) means five o'clock. It is formed by combining 五 (five) and 時 (hour). It is used when talking about daily activities like finishing work or meeting someone. In sentences, 「に」 marks the time when an action happens. The particle 「は」 marks the topic when we talk about schedules.",
+      "letter_breakdown": [
+        {
+          "letter": "ご",
+          "telugu_sound": "గొ"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "五時です。",
+          "romaji": "Goji desu.",
+          "telugu_pronunciation": "గోజి దేశ్",
+          "english_meaning": "It is five o'clock.",
+          "telugu_meaning": "ఇది ఐదు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "五時",
+              "meaning_en": "five o'clock",
+              "meaning_te": "ఐదు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "五時に仕事が終わります。",
+          "romaji": "Goji ni shigoto ga owarimasu.",
+          "telugu_pronunciation": "గోజి ని శిగొతో గా ఒవారిమాస్",
+          "english_meaning": "Work finishes at five o'clock.",
+          "telugu_meaning": "పని ఐదు గంటలకు ముగుస్తుంది.",
+          "word_breakdown": [
+            {
+              "word": "五時",
+              "meaning_en": "five o'clock",
+              "meaning_te": "ఐదు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "仕事",
+              "meaning_en": "work",
+              "meaning_te": "పని"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "終わります",
+              "meaning_en": "finish",
+              "meaning_te": "ముగుస్తుంది"
+            }
+          ]
+        },
+        {
+          "sentence": "映画は五時です。",
+          "romaji": "Eiga wa goji desu.",
+          "telugu_pronunciation": "ఏగా వా గోజి దేశ్",
+          "english_meaning": "The movie is at five o'clock.",
+          "telugu_meaning": "సినిమా ఐదు గంటలకు ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "映画",
+              "meaning_en": "movie",
+              "meaning_te": "సినిమా"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "五時",
+              "meaning_en": "five o'clock",
+              "meaning_te": "ఐదు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "japanese_word": "六時",
+      "hiragana": "ろくじ",
+      "romaji": "rokuji",
+      "telugu_pronunciation": "రోకుజి",
+      "english_meaning": "six o'clock",
+      "telugu_meaning": "ఆరు గంటలు",
+      "description": "ろくじ (六時 / rokuji) means six o'clock. It is formed by combining 六 (six) and 時 (hour). This word is commonly used when talking about morning routines or evening schedules. The particle 「に」 marks the exact time when something happens. The particle 「は」 marks the topic when describing a schedule.",
+      "letter_breakdown": [
+        {
+          "letter": "ろ",
+          "telugu_sound": "రో"
+        },
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "六時です。",
+          "romaji": "Rokuji desu.",
+          "telugu_pronunciation": "రోకుజి దేశ్",
+          "english_meaning": "It is six o'clock.",
+          "telugu_meaning": "ఇది ఆరు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "六時",
+              "meaning_en": "six o'clock",
+              "meaning_te": "ఆరు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "六時に起きます。",
+          "romaji": "Rokuji ni okimasu.",
+          "telugu_pronunciation": "రోకుజి ని ఒకిమాస్",
+          "english_meaning": "I wake up at six o'clock.",
+          "telugu_meaning": "నేను ఆరు గంటలకు లేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "六時",
+              "meaning_en": "six o'clock",
+              "meaning_te": "ఆరు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "起きます",
+              "meaning_en": "wake up",
+              "meaning_te": "లేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "朝ごはんは六時です。",
+          "romaji": "Asagohan wa rokuji desu.",
+          "telugu_pronunciation": "అసాగోహన్ వా రోకుజి దేశ్",
+          "english_meaning": "Breakfast is at six o'clock.",
+          "telugu_meaning": "ఉదయం భోజనం ఆరు గంటలకు ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "朝ごはん",
+              "meaning_en": "breakfast",
+              "meaning_te": "ఉదయం భోజనం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "六時",
+              "meaning_en": "six o'clock",
+              "meaning_te": "ఆరు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "japanese_word": "七時",
+      "hiragana": "しちじ",
+      "romaji": "shichiji",
+      "telugu_pronunciation": "శిచిజి",
+      "english_meaning": "seven o'clock",
+      "telugu_meaning": "ఏడు గంటలు",
+      "description": "しちじ (七時 / shichiji) means seven o'clock. The number 七 can be read as なな or しち, but when telling time it is commonly read as しちじ. This word is used when talking about schedules such as dinner or meetings. The particle 「に」 marks the time when an action happens. The particle 「は」 marks the topic when describing schedules.",
+      "letter_breakdown": [
+        {
+          "letter": "し",
+          "telugu_sound": "శి"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "七時です。",
+          "romaji": "Shichiji desu.",
+          "telugu_pronunciation": "శిచిజి దేశ్",
+          "english_meaning": "It is seven o'clock.",
+          "telugu_meaning": "ఇది ఏడు గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "七時",
+              "meaning_en": "seven o'clock",
+              "meaning_te": "ఏడు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "七時に夕ごはんを食べます。",
+          "romaji": "Shichiji ni yuugohan o tabemasu.",
+          "telugu_pronunciation": "శిచిజి ని యూగోహన్ ఓ తబేమాస్",
+          "english_meaning": "I eat dinner at seven o'clock.",
+          "telugu_meaning": "నేను ఏడు గంటలకు రాత్రి భోజనం తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "七時",
+              "meaning_en": "seven o'clock",
+              "meaning_te": "ఏడు గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "夕ごはん",
+              "meaning_en": "dinner",
+              "meaning_te": "రాత్రి భోజనం"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は七時です。",
+          "romaji": "Kaigi wa shichiji desu.",
+          "telugu_pronunciation": "కైగి వా శిచిజి దేశ్",
+          "english_meaning": "The meeting is at seven o'clock.",
+          "telugu_meaning": "సమావేశం ఏడు గంటలకు ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "七時",
+              "meaning_en": "seven o'clock",
+              "meaning_te": "ఏడు గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "japanese_word": "八時",
+      "hiragana": "はちじ",
+      "romaji": "hachiji",
+      "telugu_pronunciation": "హచిజి",
+      "english_meaning": "eight o'clock",
+      "telugu_meaning": "ఎనిమిది గంటలు",
+      "description": "はちじ (八時 / hachiji) means eight o'clock. It is formed by combining 八 (eight) and 時 (hour). This word is commonly used when talking about daily schedules such as school, work, or meals. In Japanese, the particle 「に」 is used to mark the exact time when an action happens. The particle 「は」 marks the topic of the sentence when we are describing a schedule or routine.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "八時です。",
+          "romaji": "Hachiji desu.",
+          "telugu_pronunciation": "హచిజి దేశ్",
+          "english_meaning": "It is eight o'clock.",
+          "telugu_meaning": "ఇది ఎనిమిది గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "八時に学校へ行きます。",
+          "romaji": "Hachiji ni gakkou e ikimasu.",
+          "telugu_pronunciation": "హచిజి ని గక్కో ఎ ఇకిమాస్",
+          "english_meaning": "I go to school at eight o'clock.",
+          "telugu_meaning": "నేను ఎనిమిది గంటలకు పాఠశాలకు వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "学校",
+              "meaning_en": "school",
+              "meaning_te": "పాఠశాల"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は八時です。",
+          "romaji": "Kaigi wa hachiji desu.",
+          "telugu_pronunciation": "కైగి వా హచిజి దేశ్",
+          "english_meaning": "The meeting is at eight o'clock.",
+          "telugu_meaning": "సమావేశం ఎనిమిది గంటలకు ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "japanese_word": "九時",
+      "hiragana": "くじ",
+      "romaji": "kuji",
+      "telugu_pronunciation": "కుజి",
+      "english_meaning": "nine o'clock",
+      "telugu_meaning": "తొమ్మిది గంటలు",
+      "description": "くじ (九時 / kuji) means nine o'clock. It is formed by combining 九 (nine) and 時 (hour). This word is used when talking about schedules, appointments, or daily routines. The particle 「に」 marks the exact time when an action happens. The particle 「は」 marks the topic of the sentence when describing time.",
+      "letter_breakdown": [
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "九時です。",
+          "romaji": "Kuji desu.",
+          "telugu_pronunciation": "కుజి దేశ్",
+          "english_meaning": "It is nine o'clock.",
+          "telugu_meaning": "ఇది తొమ్మిది గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "九時",
+              "meaning_en": "nine o'clock",
+              "meaning_te": "తొమ్మిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "九時に会社へ行きます。",
+          "romaji": "Kuji ni kaisha e ikimasu.",
+          "telugu_pronunciation": "కుజి ని కైషా ఎ ఇకిమాస్",
+          "english_meaning": "I go to the office at nine o'clock.",
+          "telugu_meaning": "నేను తొమ్మిది గంటలకు కార్యాలయానికి వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "九時",
+              "meaning_en": "nine o'clock",
+              "meaning_te": "తొమ్మిది గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "会社",
+              "meaning_en": "company/office",
+              "meaning_te": "కార్యాలయం"
+            },
+            {
+              "word": "へ",
+              "meaning_en": "direction marker",
+              "meaning_te": "దిశ సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "授業は九時です。",
+          "romaji": "Jugyou wa kuji desu.",
+          "telugu_pronunciation": "జుగ్యో వా కుజి దేశ్",
+          "english_meaning": "The class is at nine o'clock.",
+          "telugu_meaning": "తరగతి తొమ్మిది గంటలకు ఉంటుంది.",
+          "word_breakdown": [
+            {
+              "word": "授業",
+              "meaning_en": "class/lesson",
+              "meaning_te": "తరగతి"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "九時",
+              "meaning_en": "nine o'clock",
+              "meaning_te": "తొమ్మిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "japanese_word": "十時",
+      "hiragana": "じゅうじ",
+      "romaji": "juuji",
+      "telugu_pronunciation": "జూజి",
+      "english_meaning": "ten o'clock",
+      "telugu_meaning": "పది గంటలు",
+      "description": "じゅうじ (十時 / juuji) means ten o'clock. It is formed by combining 十 (ten) and 時 (hour). It is used when talking about time in daily schedules like work, school, or meetings. In example sentences, 「に」 marks the time when an action happens. The particle 「は」 marks the topic of the sentence when describing a schedule.",
+      "letter_breakdown": [
+        {
+          "letter": "じゅ",
+          "telugu_sound": "జ్యు"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "十時です。",
+          "romaji": "Juuji desu.",
+          "telugu_pronunciation": "జూజి దేశ్",
+          "english_meaning": "It is ten o'clock.",
+          "telugu_meaning": "ఇది పది గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "十時",
+              "meaning_en": "ten o'clock",
+              "meaning_te": "పది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "十時に寝ます。",
+          "romaji": "Juuji ni nemasu.",
+          "telugu_pronunciation": "జూజి ని నేమాస్",
+          "english_meaning": "I sleep at ten o'clock.",
+          "telugu_meaning": "నేను పది గంటలకు నిద్రపోతాను.",
+          "word_breakdown": [
+            {
+              "word": "十時",
+              "meaning_en": "ten o'clock",
+              "meaning_te": "పది గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "寝ます",
+              "meaning_en": "sleep",
+              "meaning_te": "నిద్రపోతాను"
+            }
+          ]
+        },
+        {
+          "sentence": "店は十時に閉まります。",
+          "romaji": "Mise wa juuji ni shimarimasu.",
+          "telugu_pronunciation": "మిసే వా జూజి ని శిమరిమాస్",
+          "english_meaning": "The shop closes at ten o'clock.",
+          "telugu_meaning": "దుకాణం పది గంటలకు మూసివేస్తుంది.",
+          "word_breakdown": [
+            {
+              "word": "店",
+              "meaning_en": "shop",
+              "meaning_te": "దుకాణం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "十時",
+              "meaning_en": "ten o'clock",
+              "meaning_te": "పది గంటలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "閉まります",
+              "meaning_en": "close",
+              "meaning_te": "మూసివేస్తుంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "japanese_word": "今何時",
+      "hiragana": "いまなんじ",
+      "romaji": "ima nanji",
+      "telugu_pronunciation": "ఇమా నాంజి",
+      "english_meaning": "what time is it now?",
+      "telugu_meaning": "ఇప్పుడు ఎంత గంట?",
+      "description": "いまなんじ (今何時 / ima nanji) means 'what time is it now?'. It is a common question used in daily conversation when asking the current time. 今 means 'now', and 何時 means 'what time'. In example sentences, 「は」 marks the topic of the sentence when asking about the time. This phrase is very useful for beginners when learning to ask about time.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "じ",
+          "telugu_sound": "జి"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今何時ですか。",
+          "romaji": "Ima nanji desu ka.",
+          "telugu_pronunciation": "ఇమా నాంజి దేశ్ కా",
+          "english_meaning": "What time is it now?",
+          "telugu_meaning": "ఇప్పుడు ఎంత గంట?",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "何時",
+              "meaning_en": "what time",
+              "meaning_te": "ఎంత గంట"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "今は八時です。",
+          "romaji": "Ima wa hachiji desu.",
+          "telugu_pronunciation": "ఇమా వా హచిజి దేశ్",
+          "english_meaning": "It is eight o'clock now.",
+          "telugu_meaning": "ఇప్పుడు ఎనిమిది గంటలు.",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "今何時に行きますか。",
+          "romaji": "Ima nanji ni ikimasu ka.",
+          "telugu_pronunciation": "ఇమా నాంజి ని ఇకిమాస్ కా",
+          "english_meaning": "At what time will you go now?",
+          "telugu_meaning": "ఇప్పుడు ఎంత గంటకు వెళ్తారు?",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "何時",
+              "meaning_en": "what time",
+              "meaning_te": "ఎంత గంట"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "japanese_word": "半",
+      "hiragana": "はん",
+      "romaji": "han",
+      "telugu_pronunciation": "హాన్",
+      "english_meaning": "half / half past",
+      "telugu_meaning": "అరగంట",
+      "description": "はん (半 / han) means half. In time expressions, it is used to say 'half past' an hour, such as 三時半 meaning 3:30. It is very common when telling time in daily conversation. In sentences, 「に」 marks the time when an action happens. The particle 「は」 marks the topic when describing schedules.",
+      "letter_breakdown": [
+        {
+          "letter": "は",
+          "telugu_sound": "హ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "三時半です。",
+          "romaji": "Sanji han desu.",
+          "telugu_pronunciation": "సాంజి హాన్ దేశ్",
+          "english_meaning": "It is three thirty.",
+          "telugu_meaning": "మూడు గంటల అర.",
+          "word_breakdown": [
+            {
+              "word": "三時",
+              "meaning_en": "three o'clock",
+              "meaning_te": "మూడు గంటలు"
+            },
+            {
+              "word": "半",
+              "meaning_en": "half",
+              "meaning_te": "అర"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "六時半に起きます。",
+          "romaji": "Rokuji han ni okimasu.",
+          "telugu_pronunciation": "రోకుజి హాన్ ని ఒకిమాస్",
+          "english_meaning": "I wake up at six thirty.",
+          "telugu_meaning": "నేను ఆరు ముప్పైకి లేస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "六時",
+              "meaning_en": "six o'clock",
+              "meaning_te": "ఆరు గంటలు"
+            },
+            {
+              "word": "半",
+              "meaning_en": "half",
+              "meaning_te": "అర"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "起きます",
+              "meaning_en": "wake up",
+              "meaning_te": "లేస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は九時半です。",
+          "romaji": "Kaigi wa kuji han desu.",
+          "telugu_pronunciation": "కైగి వా కుజి హాన్ దేశ్",
+          "english_meaning": "The meeting is at nine thirty.",
+          "telugu_meaning": "సమావేశం తొమ్మిది ముప్పైకి ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "九時",
+              "meaning_en": "nine o'clock",
+              "meaning_te": "తొమ్మిది గంటలు"
+            },
+            {
+              "word": "半",
+              "meaning_en": "half",
+              "meaning_te": "అర"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "japanese_word": "頃",
+      "hiragana": "ごろ",
+      "romaji": "goro",
+      "telugu_pronunciation": "గోరో",
+      "english_meaning": "around / about (time)",
+      "telugu_meaning": "సుమారు (సమయం)",
+      "description": "ごろ (頃 / goro) means 'around' or 'about' when talking about time. It is used when the exact time is not precise, such as 'around five o'clock'. This word helps speakers give approximate times in conversation. In sentences, 「に」 marks the time when an action happens. The particle 「は」 marks the topic when describing a schedule.",
+      "letter_breakdown": [
+        {
+          "letter": "ご",
+          "telugu_sound": "గొ"
+        },
+        {
+          "letter": "ろ",
+          "telugu_sound": "రో"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "五時ごろ帰ります。",
+          "romaji": "Goji goro kaerimasu.",
+          "telugu_pronunciation": "గోజి గోరో కాయెరిమాస్",
+          "english_meaning": "I go home around five o'clock.",
+          "telugu_meaning": "నేను ఐదు గంటల సమయంలో ఇంటికి వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "五時",
+              "meaning_en": "five o'clock",
+              "meaning_te": "ఐదు గంటలు"
+            },
+            {
+              "word": "ごろ",
+              "meaning_en": "around/about",
+              "meaning_te": "సుమారు"
+            },
+            {
+              "word": "帰ります",
+              "meaning_en": "return home",
+              "meaning_te": "ఇంటికి వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "七時ごろ食べます。",
+          "romaji": "Shichiji goro tabemasu.",
+          "telugu_pronunciation": "శిచిజి గోరో తబేమాస్",
+          "english_meaning": "I eat around seven o'clock.",
+          "telugu_meaning": "నేను ఏడు గంటల సమయంలో తింటాను.",
+          "word_breakdown": [
+            {
+              "word": "七時",
+              "meaning_en": "seven o'clock",
+              "meaning_te": "ఏడు గంటలు"
+            },
+            {
+              "word": "ごろ",
+              "meaning_en": "around/about",
+              "meaning_te": "సుమారు"
+            },
+            {
+              "word": "食べます",
+              "meaning_en": "eat",
+              "meaning_te": "తింటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "会議は八時ごろです。",
+          "romaji": "Kaigi wa hachiji goro desu.",
+          "telugu_pronunciation": "కైగి వా హచిజి గోరో దేశ్",
+          "english_meaning": "The meeting is around eight o'clock.",
+          "telugu_meaning": "సమావేశం సుమారు ఎనిమిది గంటలకు ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "会議",
+              "meaning_en": "meeting",
+              "meaning_te": "సమావేశం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "八時",
+              "meaning_en": "eight o'clock",
+              "meaning_te": "ఎనిమిది గంటలు"
+            },
+            {
+              "word": "ごろ",
+              "meaning_en": "around/about",
+              "meaning_te": "సుమారు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "japanese_word": "百",
+      "hiragana": "ひゃく",
+      "romaji": "hyaku",
+      "telugu_pronunciation": "హ్యాకు",
+      "english_meaning": "hundred",
+      "telugu_meaning": "వంద",
+      "description": "ひゃく (百 / hyaku) means one hundred. It is a basic number used when counting money, people, or objects. In daily life it is often used with yen when talking about prices. In example sentences the particle 「は」 marks the topic of the sentence. When 「に」 appears, it marks the time when an action happens.",
+      "letter_breakdown": [
+        {
+          "letter": "ひゃ",
+          "telugu_sound": "హ్యా"
+        },
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "りんごは百円です。",
+          "romaji": "Ringo wa hyaku en desu.",
+          "telugu_pronunciation": "రింగో వా హ్యాకు ఎన్ దేశ్",
+          "english_meaning": "The apple is 100 yen.",
+          "telugu_meaning": "ఆపిల్ ధర వంద యెన్.",
+          "word_breakdown": [
+            {
+              "word": "りんご",
+              "meaning_en": "apple",
+              "meaning_te": "ఆపిల్"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "百",
+              "meaning_en": "hundred",
+              "meaning_te": "వంద"
+            },
+            {
+              "word": "円",
+              "meaning_en": "yen",
+              "meaning_te": "యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "百人が来ます。",
+          "romaji": "Hyaku nin ga kimasu.",
+          "telugu_pronunciation": "హ్యాకు నిన్ గా కిమాస్",
+          "english_meaning": "One hundred people will come.",
+          "telugu_meaning": "వంద మంది వస్తారు.",
+          "word_breakdown": [
+            {
+              "word": "百",
+              "meaning_en": "hundred",
+              "meaning_te": "వంద"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            }
+          ]
+        },
+        {
+          "sentence": "私は百円を持っています。",
+          "romaji": "Watashi wa hyaku en o motte imasu.",
+          "telugu_pronunciation": "వతషి వా హ్యాకు ఎన్ ఓ మోత్తే ఇమాస్",
+          "english_meaning": "I have 100 yen.",
+          "telugu_meaning": "నా దగ్గర వంద యెన్ ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "百円",
+              "meaning_en": "100 yen",
+              "meaning_te": "వంద యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "持っています",
+              "meaning_en": "have/hold",
+              "meaning_te": "కలిగి ఉన్నాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "japanese_word": "五百",
+      "hiragana": "ごひゃく",
+      "romaji": "gohyaku",
+      "telugu_pronunciation": "గోహ్యాకు",
+      "english_meaning": "five hundred",
+      "telugu_meaning": "ఐదు వందలు",
+      "description": "ごひゃく (五百 / gohyaku) means five hundred. It combines 五 (five) and 百 (hundred). This number is commonly used when talking about prices or counting items. The particle 「は」 marks the topic of the sentence. The particle 「を」 marks the object that receives the action.",
+      "letter_breakdown": [
+        {
+          "letter": "ご",
+          "telugu_sound": "గో"
+        },
+        {
+          "letter": "ひゃ",
+          "telugu_sound": "హ్యా"
+        },
+        {
+          "letter": "く",
+          "telugu_sound": "కు"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "この本は五百円です。",
+          "romaji": "Kono hon wa gohyaku en desu.",
+          "telugu_pronunciation": "కోనో హోన్ వా గోహ్యాకు ఎన్ దేశ్",
+          "english_meaning": "This book is 500 yen.",
+          "telugu_meaning": "ఈ పుస్తకం ధర ఐదు వందల యెన్.",
+          "word_breakdown": [
+            {
+              "word": "この",
+              "meaning_en": "this",
+              "meaning_te": "ఈ"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "五百円",
+              "meaning_en": "500 yen",
+              "meaning_te": "ఐదు వందల యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "五百円を払います。",
+          "romaji": "Gohyaku en o haraimasu.",
+          "telugu_pronunciation": "గోహ్యాకు ఎన్ ఓ హరైమాస్",
+          "english_meaning": "I pay 500 yen.",
+          "telugu_meaning": "నేను ఐదు వందల యెన్ చెల్లిస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "五百円",
+              "meaning_en": "500 yen",
+              "meaning_te": "ఐదు వందల యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "払います",
+              "meaning_en": "pay",
+              "meaning_te": "చెల్లిస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "五百人が集まります。",
+          "romaji": "Gohyaku nin ga atsumarimasu.",
+          "telugu_pronunciation": "గోహ్యాకు నిన్ గా అత్సుమరిమాస్",
+          "english_meaning": "Five hundred people gather.",
+          "telugu_meaning": "ఐదు వందల మంది చేరుకుంటారు.",
+          "word_breakdown": [
+            {
+              "word": "五百",
+              "meaning_en": "five hundred",
+              "meaning_te": "ఐదు వందలు"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "集まります",
+              "meaning_en": "gather",
+              "meaning_te": "చేరుకుంటారు"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "japanese_word": "千",
+      "hiragana": "せん",
+      "romaji": "sen",
+      "telugu_pronunciation": "సెన్",
+      "english_meaning": "thousand",
+      "telugu_meaning": "వెయ్యి",
+      "description": "せん (千 / sen) means one thousand. It is used when counting large numbers like money or people. It often appears with yen when talking about prices. The particle 「は」 marks the topic of the sentence. The particle 「が」 marks the subject performing the action.",
+      "letter_breakdown": [
+        {
+          "letter": "せ",
+          "telugu_sound": "సే"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "この時計は千円です。",
+          "romaji": "Kono tokei wa sen en desu.",
+          "telugu_pronunciation": "కోనో టోకే వా సెన్ ఎన్ దేశ్",
+          "english_meaning": "This watch is 1000 yen.",
+          "telugu_meaning": "ఈ గడియారం ధర వెయ్యి యెన్.",
+          "word_breakdown": [
+            {
+              "word": "この",
+              "meaning_en": "this",
+              "meaning_te": "ఈ"
+            },
+            {
+              "word": "時計",
+              "meaning_en": "watch",
+              "meaning_te": "గడియారం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "千円",
+              "meaning_en": "1000 yen",
+              "meaning_te": "వెయ్యి యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "千人が来ます。",
+          "romaji": "Sen nin ga kimasu.",
+          "telugu_pronunciation": "సెన్ నిన్ గా కిమాస్",
+          "english_meaning": "One thousand people come.",
+          "telugu_meaning": "వెయ్యి మంది వస్తారు.",
+          "word_breakdown": [
+            {
+              "word": "千",
+              "meaning_en": "thousand",
+              "meaning_te": "వెయ్యి"
+            },
+            {
+              "word": "人",
+              "meaning_en": "people",
+              "meaning_te": "మంది"
+            },
+            {
+              "word": "が",
+              "meaning_en": "subject marker",
+              "meaning_te": "కర్త సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            }
+          ]
+        },
+        {
+          "sentence": "私は千円を持っています。",
+          "romaji": "Watashi wa sen en o motte imasu.",
+          "telugu_pronunciation": "వతషి వా సెన్ ఎన్ ఓ మోత్తే ఇమాస్",
+          "english_meaning": "I have 1000 yen.",
+          "telugu_meaning": "నా దగ్గర వెయ్యి యెన్ ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "千円",
+              "meaning_en": "1000 yen",
+              "meaning_te": "వెయ్యి యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "持っています",
+              "meaning_en": "have",
+              "meaning_te": "కలిగి ఉన్నాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "japanese_word": "一万",
+      "hiragana": "いちまん",
+      "romaji": "ichiman",
+      "telugu_pronunciation": "ఇచిమాన్",
+      "english_meaning": "ten thousand",
+      "telugu_meaning": "పది వేల",
+      "description": "いちまん (一万 / ichiman) means ten thousand. Japanese numbers group differently compared to English because 万 represents ten thousand. It is often used when talking about large amounts of money. The particle 「は」 marks the topic of the sentence. The particle 「を」 marks the object receiving the action.",
+      "letter_breakdown": [
+        {
+          "letter": "い",
+          "telugu_sound": "ఇ"
+        },
+        {
+          "letter": "ち",
+          "telugu_sound": "చి"
+        },
+        {
+          "letter": "ま",
+          "telugu_sound": "మ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "このかばんは一万円です。",
+          "romaji": "Kono kaban wa ichiman en desu.",
+          "telugu_pronunciation": "కోనో కబాన్ వా ఇచిమాన్ ఎన్ దేశ్",
+          "english_meaning": "This bag is 10,000 yen.",
+          "telugu_meaning": "ఈ బ్యాగ్ ధర పది వేల యెన్.",
+          "word_breakdown": [
+            {
+              "word": "この",
+              "meaning_en": "this",
+              "meaning_te": "ఈ"
+            },
+            {
+              "word": "かばん",
+              "meaning_en": "bag",
+              "meaning_te": "బ్యాగ్"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "一万円",
+              "meaning_en": "10,000 yen",
+              "meaning_te": "పది వేల యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "一万円を払います。",
+          "romaji": "Ichiman en o haraimasu.",
+          "telugu_pronunciation": "ఇచిమాన్ ఎన్ ఓ హరైమాస్",
+          "english_meaning": "I pay 10,000 yen.",
+          "telugu_meaning": "నేను పది వేల యెన్ చెల్లిస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "一万円",
+              "meaning_en": "10,000 yen",
+              "meaning_te": "పది వేల యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "払います",
+              "meaning_en": "pay",
+              "meaning_te": "చెల్లిస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "私は一万円を持っています。",
+          "romaji": "Watashi wa ichiman en o motte imasu.",
+          "telugu_pronunciation": "వతషి వా ఇచిమాన్ ఎన్ ఓ మోత్తే ఇమాస్",
+          "english_meaning": "I have 10,000 yen.",
+          "telugu_meaning": "నా దగ్గర పది వేల యెన్ ఉంది.",
+          "word_breakdown": [
+            {
+              "word": "私",
+              "meaning_en": "I",
+              "meaning_te": "నేను"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "一万円",
+              "meaning_en": "10,000 yen",
+              "meaning_te": "పది వేల యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "持っています",
+              "meaning_en": "have",
+              "meaning_te": "కలిగి ఉన్నాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "japanese_word": "円",
+      "hiragana": "えん",
+      "romaji": "en",
+      "telugu_pronunciation": "ఎన్",
+      "english_meaning": "yen (Japanese currency)",
+      "telugu_meaning": "యెన్ (జపాన్ కరెన్సీ)",
+      "description": "えん (円 / en) means yen, the currency used in Japan. It is used when talking about prices, shopping, and money. Numbers usually come before 円 to show the amount of money. The particle 「は」 marks the topic when describing the price of something. The particle 「を」 marks the money being paid.",
+      "letter_breakdown": [
+        {
+          "letter": "え",
+          "telugu_sound": "ఎ"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "これは百円です。",
+          "romaji": "Kore wa hyaku en desu.",
+          "telugu_pronunciation": "కోరే వా హ్యాకు ఎన్ దేశ్",
+          "english_meaning": "This is 100 yen.",
+          "telugu_meaning": "ఇది వంద యెన్.",
+          "word_breakdown": [
+            {
+              "word": "これ",
+              "meaning_en": "this",
+              "meaning_te": "ఇది"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "百円",
+              "meaning_en": "100 yen",
+              "meaning_te": "వంద యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "五百円を払います。",
+          "romaji": "Gohyaku en o haraimasu.",
+          "telugu_pronunciation": "గోహ్యాకు ఎన్ ఓ హరైమాస్",
+          "english_meaning": "I pay 500 yen.",
+          "telugu_meaning": "నేను ఐదు వందల యెన్ చెల్లిస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "五百円",
+              "meaning_en": "500 yen",
+              "meaning_te": "ఐదు వందల యెన్"
+            },
+            {
+              "word": "を",
+              "meaning_en": "object marker",
+              "meaning_te": "కర్మ సూచిక"
+            },
+            {
+              "word": "払います",
+              "meaning_en": "pay",
+              "meaning_te": "చెల్లిస్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "この本は千円です。",
+          "romaji": "Kono hon wa sen en desu.",
+          "telugu_pronunciation": "కోనో హోన్ వా సెన్ ఎన్ దేశ్",
+          "english_meaning": "This book is 1000 yen.",
+          "telugu_meaning": "ఈ పుస్తకం ధర వెయ్యి యెన్.",
+          "word_breakdown": [
+            {
+              "word": "この",
+              "meaning_en": "this",
+              "meaning_te": "ఈ"
+            },
+            {
+              "word": "本",
+              "meaning_en": "book",
+              "meaning_te": "పుస్తకం"
+            },
+            {
+              "word": "は",
+              "meaning_en": "topic marker",
+              "meaning_te": "విషయ సూచిక"
+            },
+            {
+              "word": "千円",
+              "meaning_en": "1000 yen",
+              "meaning_te": "వెయ్యి యెన్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "japanese_word": "分",
+      "hiragana": "ふん",
+      "romaji": "fun",
+      "telugu_pronunciation": "ఫున్",
+      "english_meaning": "minute",
+      "telugu_meaning": "నిమిషం",
+      "description": "ふん (分 / fun) means minute and is used when telling time in minutes. It is often combined with numbers such as 五分 (five minutes) or 十分 (ten minutes). This word is very common when talking about time duration or exact clock time. In example sentences, the particle 「に」 marks the specific time when an action happens. The particle 「は」 marks the topic of the sentence when describing time.",
+      "letter_breakdown": [
+        {
+          "letter": "ふ",
+          "telugu_sound": "ఫు"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "五分です。",
+          "romaji": "Gofun desu.",
+          "telugu_pronunciation": "గోఫున్ దేశ్",
+          "english_meaning": "It is five minutes.",
+          "telugu_meaning": "ఇది ఐదు నిమిషాలు.",
+          "word_breakdown": [
+            {
+              "word": "五",
+              "meaning_en": "five",
+              "meaning_te": "ఐదు"
+            },
+            {
+              "word": "分",
+              "meaning_en": "minute",
+              "meaning_te": "నిమిషం"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "十分に行きます。",
+          "romaji": "Juppun ni ikimasu.",
+          "telugu_pronunciation": "జుప్పున్ ని ఇకిమాస్",
+          "english_meaning": "I go in ten minutes.",
+          "telugu_meaning": "నేను పది నిమిషాల్లో వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "分",
+              "meaning_en": "minute",
+              "meaning_te": "నిమిషం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        },
+        {
+          "sentence": "三十分に来ます。",
+          "romaji": "Sanjuppun ni kimasu.",
+          "telugu_pronunciation": "సంజుప్పున్ ని కిమాస్",
+          "english_meaning": "I come at thirty minutes.",
+          "telugu_meaning": "నేను ముప్పై నిమిషాలకు వస్తాను.",
+          "word_breakdown": [
+            {
+              "word": "三十",
+              "meaning_en": "thirty",
+              "meaning_te": "ముప్పై"
+            },
+            {
+              "word": "分",
+              "meaning_en": "minute",
+              "meaning_te": "నిమిషం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తాను"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "japanese_word": "秒",
+      "hiragana": "びょう",
+      "romaji": "byou",
+      "telugu_pronunciation": "బ్యో",
+      "english_meaning": "second (time)",
+      "telugu_meaning": "సెకండ్",
+      "description": "びょう (秒 / byou) means second, the smallest common unit of time. It is used when measuring very short durations such as in sports or precise timing. This word usually appears after numbers like 十秒 (ten seconds). In sentences, 「に」 marks the time when something happens. The particle 「は」 marks the topic of the sentence when describing time.",
+      "letter_breakdown": [
+        {
+          "letter": "びょ",
+          "telugu_sound": "బ్యో"
+        },
+        {
+          "letter": "う",
+          "telugu_sound": "ఉ"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "十秒です。",
+          "romaji": "Juubyou desu.",
+          "telugu_pronunciation": "జూబ్యో దేశ్",
+          "english_meaning": "It is ten seconds.",
+          "telugu_meaning": "ఇది పది సెకన్లు.",
+          "word_breakdown": [
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "秒",
+              "meaning_en": "second",
+              "meaning_te": "సెకండ్"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            }
+          ]
+        },
+        {
+          "sentence": "三十秒待ちます。",
+          "romaji": "Sanjuubyou machimasu.",
+          "telugu_pronunciation": "సంజూబ్యో మచిమాస్",
+          "english_meaning": "I wait thirty seconds.",
+          "telugu_meaning": "నేను ముప్పై సెకన్లు వేచి ఉంటాను.",
+          "word_breakdown": [
+            {
+              "word": "三十",
+              "meaning_en": "thirty",
+              "meaning_te": "ముప్పై"
+            },
+            {
+              "word": "秒",
+              "meaning_en": "second",
+              "meaning_te": "సెకండ్"
+            },
+            {
+              "word": "待ちます",
+              "meaning_en": "wait",
+              "meaning_te": "వేచి ఉంటాను"
+            }
+          ]
+        },
+        {
+          "sentence": "五秒で終わります。",
+          "romaji": "Gobyou de owarimasu.",
+          "telugu_pronunciation": "గోబ్యో దే ఓవరిమాస్",
+          "english_meaning": "It finishes in five seconds.",
+          "telugu_meaning": "ఇది ఐదు సెకన్లలో ముగుస్తుంది.",
+          "word_breakdown": [
+            {
+              "word": "五",
+              "meaning_en": "five",
+              "meaning_te": "ఐదు"
+            },
+            {
+              "word": "秒",
+              "meaning_en": "second",
+              "meaning_te": "సెకండ్"
+            },
+            {
+              "word": "で",
+              "meaning_en": "time limit marker",
+              "meaning_te": "లోపల సూచిక"
+            },
+            {
+              "word": "終わります",
+              "meaning_en": "finish/end",
+              "meaning_te": "ముగుస్తుంది"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "japanese_word": "何分",
+      "hiragana": "なんぷん",
+      "romaji": "nanpun",
+      "telugu_pronunciation": "నాంపున్",
+      "english_meaning": "how many minutes / what minute",
+      "telugu_meaning": "ఎన్ని నిమిషాలు / ఎంత నిమిషం",
+      "description": "なんぷん (何分 / nanpun) means 'how many minutes' or 'what minute'. It is used when asking about the minute part of time or duration. For example, someone may ask 何分ですか to ask the minutes of a time. The particle 「か」 is used at the end of a sentence to make a question. In answers, particles like 「に」 may appear to mark the exact time.",
+      "letter_breakdown": [
+        {
+          "letter": "な",
+          "telugu_sound": "న"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        },
+        {
+          "letter": "ぷ",
+          "telugu_sound": "పు"
+        },
+        {
+          "letter": "ん",
+          "telugu_sound": "న్"
+        }
+      ],
+      "example_sentences": [
+        {
+          "sentence": "今何分ですか。",
+          "romaji": "Ima nanpun desu ka.",
+          "telugu_pronunciation": "ఇమా నాంపున్ దేశ్ కా",
+          "english_meaning": "What minute is it now?",
+          "telugu_meaning": "ఇప్పుడు ఎన్ని నిమిషాలు?",
+          "word_breakdown": [
+            {
+              "word": "今",
+              "meaning_en": "now",
+              "meaning_te": "ఇప్పుడు"
+            },
+            {
+              "word": "何分",
+              "meaning_en": "what minute",
+              "meaning_te": "ఎన్ని నిమిషాలు"
+            },
+            {
+              "word": "です",
+              "meaning_en": "is",
+              "meaning_te": "ఉంది"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "何分に来ますか。",
+          "romaji": "Nanpun ni kimasu ka.",
+          "telugu_pronunciation": "నాంపున్ ని కిమాస్ కా",
+          "english_meaning": "At what minute will you come?",
+          "telugu_meaning": "ఎన్ని నిమిషాలకు వస్తారు?",
+          "word_breakdown": [
+            {
+              "word": "何分",
+              "meaning_en": "what minute",
+              "meaning_te": "ఎన్ని నిమిషాలు"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "来ます",
+              "meaning_en": "come",
+              "meaning_te": "వస్తారు"
+            },
+            {
+              "word": "か",
+              "meaning_en": "question marker",
+              "meaning_te": "ప్రశ్న సూచిక"
+            }
+          ]
+        },
+        {
+          "sentence": "十分に行きます。",
+          "romaji": "Juppun ni ikimasu.",
+          "telugu_pronunciation": "జుప్పున్ ని ఇకిమాస్",
+          "english_meaning": "I go in ten minutes.",
+          "telugu_meaning": "నేను పది నిమిషాల్లో వెళ్తాను.",
+          "word_breakdown": [
+            {
+              "word": "十",
+              "meaning_en": "ten",
+              "meaning_te": "పది"
+            },
+            {
+              "word": "分",
+              "meaning_en": "minute",
+              "meaning_te": "నిమిషం"
+            },
+            {
+              "word": "に",
+              "meaning_en": "time marker",
+              "meaning_te": "సమయం సూచిక"
+            },
+            {
+              "word": "行きます",
+              "meaning_en": "go",
+              "meaning_te": "వెళ్తాను"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
