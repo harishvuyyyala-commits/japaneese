@@ -123,34 +123,20 @@ function initVoices() {
                voices.find(v => v.lang.startsWith('en')) || null;
 }
 
-// Main speak:
-// Priority 1 — Telugu voice with Telugu phonetics  (sounds best for Telugu users)
-// Priority 2 — Japanese voice with Japanese text   (if device has it)
-// Priority 3 — English voice with romaji           (universal fallback)
+// Always speak as romaji using English TTS — clearest and most universal
 function llSpeak(japaneseText) {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
 
-    if (!_teVoice && !_jaVoice && !_enVoice) initVoices();
+    if (!_enVoice) initVoices();
 
-    const utt = new SpeechSynthesisUtterance();
+    const utt  = new SpeechSynthesisUtterance();
+    utt.text   = toRomaji(japaneseText);
+    utt.lang   = 'en-US';
     utt.volume = 1.0;
-    utt.rate   = 0.8;
+    utt.rate   = 0.78;
     utt.pitch  = 1.0;
-
-    if (_teVoice) {
-        utt.text  = toTeluguPhonetic(japaneseText);
-        utt.lang  = 'te-IN';
-        utt.voice = _teVoice;
-    } else if (_jaVoice) {
-        utt.text  = japaneseText;
-        utt.lang  = 'ja-JP';
-        utt.voice = _jaVoice;
-    } else {
-        utt.text  = toRomaji(japaneseText);
-        utt.lang  = 'en-US';
-        if (_enVoice) utt.voice = _enVoice;
-    }
+    if (_enVoice) utt.voice = _enVoice;
 
     window.speechSynthesis.speak(utt);
 }
@@ -162,101 +148,245 @@ if (window.speechSynthesis) {
 
 // ─── Data ────────────────────────────────────────────────────────────────────
 const hiraganaData = [
-    { char: 'あ', telugu: 'అ', english: 'a', examples: [{word: 'あめ', telugu: 'వర్షం', english: 'rain', pronunciation: 'ame', breakdown: 'あ+め'}, {word: 'あさ', telugu: 'ఉదయం', english: 'morning', pronunciation: 'asa', breakdown: 'あ+さ'}] },
-    { char: 'い', telugu: 'ఇ', english: 'i', examples: [{word: 'いえ', telugu: 'ఇల్లు', english: 'house', pronunciation: 'ie', breakdown: 'い+え'}, {word: 'いぬ', telugu: 'కుక్క', english: 'dog', pronunciation: 'inu', breakdown: 'い+ぬ'}] },
-    { char: 'う', telugu: 'ఉ', english: 'u', examples: [{word: 'うみ', telugu: 'సముద్రం', english: 'sea', pronunciation: 'umi', breakdown: 'う+み'}, {word: 'うし', telugu: 'ఆవు', english: 'cow', pronunciation: 'ushi', breakdown: 'う+し'}] },
-    { char: 'え', telugu: 'ఎ', english: 'e', examples: [{word: 'えき', telugu: 'స్టేషన్', english: 'station', pronunciation: 'eki', breakdown: 'え+き'}, {word: 'えん', telugu: 'యెన్', english: 'yen', pronunciation: 'en', breakdown: 'え+ん'}] },
-    { char: 'お', telugu: 'ఒ', english: 'o', examples: [{word: 'おかね', telugu: 'డబ్బు', english: 'money', pronunciation: 'okane', breakdown: 'お+か+ね'}, {word: 'おちゃ', telugu: 'టీ', english: 'tea', pronunciation: 'ocha', breakdown: 'お+ちゃ'}] },
-    { char: 'か', telugu: 'క', english: 'ka', examples: [{word: 'かさ', telugu: 'గొడుగు', english: 'umbrella', pronunciation: 'kasa', breakdown: 'か+さ'}, {word: 'かみ', telugu: 'కాగితం', english: 'paper', pronunciation: 'kami', breakdown: 'か+み'}] },
-    { char: 'き', telugu: 'కి', english: 'ki', examples: [{word: 'きた', telugu: 'ఉత్తరం', english: 'north', pronunciation: 'kita', breakdown: 'き+た'}, {word: 'きれい', telugu: 'అందమైన', english: 'beautiful', pronunciation: 'kirei', breakdown: 'き+れ+い'}] },
-    { char: 'く', telugu: 'కు', english: 'ku', examples: [{word: 'くつ', telugu: 'షూ', english: 'shoes', pronunciation: 'kutsu', breakdown: 'く+つ'}, {word: 'くに', telugu: 'దేశం', english: 'country', pronunciation: 'kuni', breakdown: 'く+に'}] },
-    { char: 'け', telugu: 'కె', english: 'ke', examples: [{word: 'けさ', telugu: 'ఈ ఉదయం', english: 'this morning', pronunciation: 'kesa', breakdown: 'け+さ'}, {word: 'けしき', telugu: 'దృశ్యం', english: 'scenery', pronunciation: 'keshiki', breakdown: 'け+し+き'}] },
-    { char: 'こ', telugu: 'కొ', english: 'ko', examples: [{word: 'ここ', telugu: 'ఇక్కడ', english: 'here', pronunciation: 'koko', breakdown: 'こ+こ'}, {word: 'こども', telugu: 'పిల్లలు', english: 'children', pronunciation: 'kodomo', breakdown: 'こ+ど+も'}] },
-    { char: 'さ', telugu: 'స', english: 'sa', examples: [{word: 'さかな', telugu: 'చేప', english: 'fish', pronunciation: 'sakana', breakdown: 'さ+か+な'}, {word: 'さけ', telugu: 'సాకే', english: 'sake', pronunciation: 'sake', breakdown: 'さ+け'}] },
-    { char: 'し', telugu: 'శి', english: 'shi', examples: [{word: 'しお', telugu: 'ఉప్పు', english: 'salt', pronunciation: 'shio', breakdown: 'し+お'}, {word: 'した', telugu: 'క్రింద', english: 'below', pronunciation: 'shita', breakdown: 'し+た'}] },
-    { char: 'す', telugu: 'సు', english: 'su', examples: [{word: 'すし', telugu: 'సుషీ', english: 'sushi', pronunciation: 'sushi', breakdown: 'す+し'}, {word: 'すき', telugu: 'ఇష్టం', english: 'like', pronunciation: 'suki', breakdown: 'す+き'}] },
-    { char: 'せ', telugu: 'సె', english: 'se', examples: [{word: 'せかい', telugu: 'ప్రపంచం', english: 'world', pronunciation: 'sekai', breakdown: 'せ+か+い'}, {word: 'せなか', telugu: 'వెనుక', english: 'back', pronunciation: 'senaka', breakdown: 'せ+な+か'}] },
-    { char: 'そ', telugu: 'సొ', english: 'so', examples: [{word: 'そら', telugu: 'ఆకాశం', english: 'sky', pronunciation: 'sora', breakdown: 'そ+ら'}, {word: 'そと', telugu: 'బయట', english: 'outside', pronunciation: 'soto', breakdown: 'そ+と'}] },
-    { char: 'た', telugu: 'త', english: 'ta', examples: [{word: 'たべる', telugu: 'తినడం', english: 'to eat', pronunciation: 'taberu', breakdown: 'た+べ+る'}, {word: 'たかい', telugu: 'ఎత్తైన', english: 'tall/expensive', pronunciation: 'takai', breakdown: 'た+か+い'}] },
-    { char: 'ち', telugu: 'చి', english: 'chi', examples: [{word: 'ちち', telugu: 'తండ్రి', english: 'father', pronunciation: 'chichi', breakdown: 'ち+ち'}, {word: 'ちず', telugu: 'మ్యాప్', english: 'map', pronunciation: 'chizu', breakdown: 'ち+ず'}] },
-    { char: 'つ', telugu: 'త్సు', english: 'tsu', examples: [{word: 'つき', telugu: 'చంద్రుడు', english: 'moon', pronunciation: 'tsuki', breakdown: 'つ+き'}, {word: 'つくえ', telugu: 'టేబుల్', english: 'desk', pronunciation: 'tsukue', breakdown: 'つ+く+え'}] },
-    { char: 'て', telugu: 'తె', english: 'te', examples: [{word: 'て', telugu: 'చేతి', english: 'hand', pronunciation: 'te', breakdown: 'て'}, {word: 'てがみ', telugu: 'లేఖ', english: 'letter', pronunciation: 'tegami', breakdown: 'て+が+み'}] },
-    { char: 'と', telugu: 'తొ', english: 'to', examples: [{word: 'とけい', telugu: 'గడియారం', english: 'clock', pronunciation: 'tokei', breakdown: 'と+け+い'}, {word: 'とり', telugu: 'పక్షి', english: 'bird', pronunciation: 'tori', breakdown: 'と+り'}] },
-    { char: 'な', telugu: 'న', english: 'na', examples: [{word: 'なつ', telugu: 'వేసవి', english: 'summer', pronunciation: 'natsu', breakdown: 'な+つ'}, {word: 'なまえ', telugu: 'పేరు', english: 'name', pronunciation: 'namae', breakdown: 'な+ま+え'}] },
-    { char: 'に', telugu: 'ని', english: 'ni', examples: [{word: 'にく', telugu: 'మాంసం', english: 'meat', pronunciation: 'niku', breakdown: 'に+く'}, {word: 'にわ', telugu: 'తోట', english: 'garden', pronunciation: 'niwa', breakdown: 'に+わ'}] },
-    { char: 'ぬ', telugu: 'ను', english: 'nu', examples: [{word: 'ぬの', telugu: 'బట్ట', english: 'cloth', pronunciation: 'nuno', breakdown: 'ぬ+の'}, {word: 'ぬく', telugu: 'తీయడం', english: 'to remove', pronunciation: 'nuku', breakdown: 'ぬ+く'}] },
-    { char: 'ね', telugu: 'నె', english: 'ne', examples: [{word: 'ねこ', telugu: 'పిల్లి', english: 'cat', pronunciation: 'neko', breakdown: 'ね+こ'}, {word: 'ねる', telugu: 'నిద్రపోవు', english: 'to sleep', pronunciation: 'neru', breakdown: 'ね+る'}] },
-    { char: 'の', telugu: 'నొ', english: 'no', examples: [{word: 'のむ', telugu: 'తాగు', english: 'to drink', pronunciation: 'nomu', breakdown: 'の+む'}, {word: 'のり', telugu: 'సముద్రపు పాచి', english: 'seaweed', pronunciation: 'nori', breakdown: 'の+り'}] },
-    { char: 'は', telugu: 'హ', english: 'ha', examples: [{word: 'はな', telugu: 'పువ్వు', english: 'flower', pronunciation: 'hana', breakdown: 'は+な'}, {word: 'はは', telugu: 'తల్లి', english: 'mother', pronunciation: 'haha', breakdown: 'は+は'}] },
-    { char: 'ひ', telugu: 'హి', english: 'hi', examples: [{word: 'ひと', telugu: 'వ్యక్తి', english: 'person', pronunciation: 'hito', breakdown: 'ひ+と'}, {word: 'ひる', telugu: 'మధ్యాహ్నం', english: 'noon', pronunciation: 'hiru', breakdown: 'ひ+る'}] },
-    { char: 'ふ', telugu: 'ఫు', english: 'fu', examples: [{word: 'ふゆ', telugu: 'చలికాలం', english: 'winter', pronunciation: 'fuyu', breakdown: 'ふ+ゆ'}, {word: 'ふね', telugu: 'ఓడ', english: 'ship', pronunciation: 'fune', breakdown: 'ふ+ね'}] },
-    { char: 'へ', telugu: 'హె', english: 'he', examples: [{word: 'へや', telugu: 'గది', english: 'room', pronunciation: 'heya', breakdown: 'へ+や'}, {word: 'へた', telugu: 'చెడ్డ', english: 'bad at', pronunciation: 'heta', breakdown: 'へ+た'}] },
-    { char: 'ほ', telugu: 'హొ', english: 'ho', examples: [{word: 'ほん', telugu: 'పుస్తకం', english: 'book', pronunciation: 'hon', breakdown: 'ほ+ん'}, {word: 'ほし', telugu: 'నక్షత్రం', english: 'star', pronunciation: 'hoshi', breakdown: 'ほ+し'}] },
-    { char: 'ま', telugu: 'మ', english: 'ma', examples: [{word: 'まち', telugu: 'పట్టణం', english: 'town', pronunciation: 'machi', breakdown: 'ま+ち'}, {word: 'まど', telugu: 'కిటికీ', english: 'window', pronunciation: 'mado', breakdown: 'ま+ど'}] },
-    { char: 'み', telugu: 'మి', english: 'mi', examples: [{word: 'みず', telugu: 'నీరు', english: 'water', pronunciation: 'mizu', breakdown: 'み+ず'}, {word: 'みみ', telugu: 'చెవి', english: 'ear', pronunciation: 'mimi', breakdown: 'み+み'}] },
-    { char: 'む', telugu: 'ము', english: 'mu', examples: [{word: 'むし', telugu: 'కీటకం', english: 'insect', pronunciation: 'mushi', breakdown: 'む+し'}, {word: 'むら', telugu: 'గ్రామం', english: 'village', pronunciation: 'mura', breakdown: 'む+ら'}] },
-    { char: 'め', telugu: 'మె', english: 'me', examples: [{word: 'め', telugu: 'కన్ను', english: 'eye', pronunciation: 'me', breakdown: 'め'}, {word: 'めし', telugu: 'భోజనం', english: 'meal', pronunciation: 'meshi', breakdown: 'め+し'}] },
-    { char: 'も', telugu: 'మొ', english: 'mo', examples: [{word: 'もの', telugu: 'వస్తువు', english: 'thing', pronunciation: 'mono', breakdown: 'も+の'}, {word: 'もり', telugu: 'అడవి', english: 'forest', pronunciation: 'mori', breakdown: 'も+り'}] },
-    { char: 'や', telugu: 'య', english: 'ya', examples: [{word: 'やま', telugu: 'కొండ', english: 'mountain', pronunciation: 'yama', breakdown: 'や+ま'}, {word: 'やさい', telugu: 'కూరగాయలు', english: 'vegetables', pronunciation: 'yasai', breakdown: 'や+さ+い'}] },
-    { char: 'ゆ', telugu: 'యు', english: 'yu', examples: [{word: 'ゆき', telugu: 'మంచు', english: 'snow', pronunciation: 'yuki', breakdown: 'ゆ+き'}, {word: 'ゆめ', telugu: 'కల', english: 'dream', pronunciation: 'yume', breakdown: 'ゆ+め'}] },
-    { char: 'よ', telugu: 'యొ', english: 'yo', examples: [{word: 'よる', telugu: 'రాత్రి', english: 'night', pronunciation: 'yoru', breakdown: 'よ+る'}, {word: 'よこ', telugu: 'పక్క', english: 'side', pronunciation: 'yoko', breakdown: 'よ+こ'}] },
-    { char: 'ら', telugu: 'ర', english: 'ra', examples: [{word: 'らいねん', telugu: 'వచ్చే సంవత్సరం', english: 'next year', pronunciation: 'rainen', breakdown: 'ら+い+ね+ん'}, {word: 'らく', telugu: 'సులభమైన', english: 'easy', pronunciation: 'raku', breakdown: 'ら+く'}] },
-    { char: 'り', telugu: 'రి', english: 'ri', examples: [{word: 'りんご', telugu: 'ఆపిల్', english: 'apple', pronunciation: 'ringo', breakdown: 'り+ん+ご'}, {word: 'りょう', telugu: 'నివాసం', english: 'dormitory', pronunciation: 'ryou', breakdown: 'り+ょ+う'}] },
-    { char: 'る', telugu: 'రు', english: 'ru', examples: [{word: 'るす', telugu: 'ఇంట్లో లేని', english: 'absence', pronunciation: 'rusu', breakdown: 'る+す'}, {word: 'るい', telugu: 'కన్నీళ్లు', english: 'tears', pronunciation: 'rui', breakdown: 'る+い'}] },
-    { char: 'れ', telugu: 'రె', english: 're', examples: [{word: 'れい', telugu: 'సున్నా', english: 'zero', pronunciation: 'rei', breakdown: 'れ+い'}, {word: 'れきし', telugu: 'చరిత్ర', english: 'history', pronunciation: 'rekishi', breakdown: 'れ+き+し'}] },
-    { char: 'ろ', telugu: 'రొ', english: 'ro', examples: [{word: 'ろく', telugu: 'ఆరు', english: 'six', pronunciation: 'roku', breakdown: 'ろ+く'}, {word: 'ろうか', telugu: 'కారిడార్', english: 'corridor', pronunciation: 'rouka', breakdown: 'ろ+う+か'}] },
-    { char: 'わ', telugu: 'వ', english: 'wa', examples: [{word: 'わたし', telugu: 'నేను', english: 'I/me', pronunciation: 'watashi', breakdown: 'わ+た+し'}, {word: 'わに', telugu: 'మొసలి', english: 'crocodile', pronunciation: 'wani', breakdown: 'わ+に'}] },
-    { char: 'を', telugu: 'వొ', english: 'wo', examples: [{word: 'を', telugu: 'ను (పదార్థం)', english: 'object marker', pronunciation: 'wo', breakdown: 'を'}] },
-    { char: 'ん', telugu: 'న్', english: 'n', examples: [{word: 'ほん', telugu: 'పుస్తకం', english: 'book', pronunciation: 'hon', breakdown: 'ほ+ん'}, {word: 'さん', telugu: 'మూడు', english: 'three', pronunciation: 'san', breakdown: 'さ+ん'}] }
+    { char: 'あ', telugu: 'a', english: 'a', examples: [{word: 'あめ', telugu: 'rain', english: 'rain', pronunciation: 'ame', breakdown: 'あめ'}] },
+    { char: 'い', telugu: 'i', english: 'i', examples: [{word: 'いえ', telugu: 'house', english: 'house', pronunciation: 'ie', breakdown: 'いえ'}] },
+    { char: 'う', telugu: 'u', english: 'u', examples: [{word: 'うみ', telugu: 'sea', english: 'sea', pronunciation: 'umi', breakdown: 'うみ'}] },
+    { char: 'え', telugu: 'e', english: 'e', examples: [{word: 'えき', telugu: 'station', english: 'station', pronunciation: 'eki', breakdown: 'えき'}] },
+    { char: 'お', telugu: 'o', english: 'o', examples: [{word: 'おか', telugu: 'hill', english: 'hill', pronunciation: 'oka', breakdown: 'おか'}] },
+    { char: 'か', telugu: 'ka', english: 'ka', examples: [{word: 'かさ', telugu: 'umbrella', english: 'umbrella', pronunciation: 'kasa', breakdown: 'かさ'}] },
+    { char: 'き', telugu: 'ki', english: 'ki', examples: [{word: 'きく', telugu: 'chrysanthemum', english: 'chrysanthemum', pronunciation: 'kiku', breakdown: 'きく'}] },
+    { char: 'く', telugu: 'ku', english: 'ku', examples: [{word: 'くも', telugu: 'cloud', english: 'cloud', pronunciation: 'kumo', breakdown: 'くも'}] },
+    { char: 'け', telugu: 'ke', english: 'ke', examples: [{word: 'けむり', telugu: 'smoke', english: 'smoke', pronunciation: 'kemuri', breakdown: 'けむり'}] },
+    { char: 'こ', telugu: 'ko', english: 'ko', examples: [{word: 'こえ', telugu: 'voice', english: 'voice', pronunciation: 'koe', breakdown: 'こえ'}] },
+    { char: 'さ', telugu: 'sa', english: 'sa', examples: [{word: 'さかな', telugu: 'fish', english: 'fish', pronunciation: 'sakana', breakdown: 'さかな'}] },
+    { char: 'し', telugu: 'shi', english: 'shi', examples: [{word: 'しお', telugu: 'salt', english: 'salt', pronunciation: 'shio', breakdown: 'しお'}] },
+    { char: 'す', telugu: 'su', english: 'su', examples: [{word: 'すし', telugu: 'sushi', english: 'sushi', pronunciation: 'sushi', breakdown: 'すし'}] },
+    { char: 'せ', telugu: 'se', english: 'se', examples: [{word: 'せかい', telugu: 'world', english: 'world', pronunciation: 'sekai', breakdown: 'せかい'}] },
+    { char: 'そ', telugu: 'so', english: 'so', examples: [{word: 'そら', telugu: 'sky', english: 'sky', pronunciation: 'sora', breakdown: 'そら'}] },
+    { char: 'た', telugu: 'ta', english: 'ta', examples: [{word: 'たべる', telugu: 'to eat', english: 'to eat', pronunciation: 'taberu', breakdown: 'たべる'}] },
+    { char: 'ち', telugu: 'chi', english: 'chi', examples: [{word: 'ちち', telugu: 'father', english: 'father', pronunciation: 'chichi', breakdown: 'ちち'}] },
+    { char: 'つ', telugu: 'tsu', english: 'tsu', examples: [{word: 'つき', telugu: 'moon', english: 'moon', pronunciation: 'tsuki', breakdown: 'つき'}] },
+    { char: 'て', telugu: 'te', english: 'te', examples: [{word: 'て', telugu: 'hand', english: 'hand', pronunciation: 'te', breakdown: 'て'}] },
+    { char: 'と', telugu: 'to', english: 'to', examples: [{word: 'とけい', telugu: 'clock', english: 'clock', pronunciation: 'tokei', breakdown: 'とけい'}] },
+    { char: 'な', telugu: 'na', english: 'na', examples: [{word: 'なつ', telugu: 'summer', english: 'summer', pronunciation: 'natsu', breakdown: 'なつ'}] },
+    { char: 'に', telugu: 'ni', english: 'ni', examples: [{word: 'にく', telugu: 'meat', english: 'meat', pronunciation: 'niku', breakdown: 'にく'}] },
+    { char: 'ぬ', telugu: 'nu', english: 'nu', examples: [{word: 'ぬの', telugu: 'cloth', english: 'cloth', pronunciation: 'nuno', breakdown: 'ぬの'}] },
+    { char: 'ね', telugu: 'ne', english: 'ne', examples: [{word: 'ねこ', telugu: 'cat', english: 'cat', pronunciation: 'neko', breakdown: 'ねこ'}] },
+    { char: 'の', telugu: 'no', english: 'no', examples: [{word: 'のむ', telugu: 'to drink', english: 'to drink', pronunciation: 'nomu', breakdown: 'のむ'}] },
+    { char: 'は', telugu: 'ha', english: 'ha', examples: [{word: 'はな', telugu: 'flower', english: 'flower', pronunciation: 'hana', breakdown: 'はな'}] },
+    { char: 'ひ', telugu: 'hi', english: 'hi', examples: [{word: 'ひと', telugu: 'person', english: 'person', pronunciation: 'hito', breakdown: 'ひと'}] },
+    { char: 'ふ', telugu: 'fu', english: 'fu', examples: [{word: 'ふゆ', telugu: 'winter', english: 'winter', pronunciation: 'fuyu', breakdown: 'ふゆ'}] },
+    { char: 'へ', telugu: 'he', english: 'he', examples: [{word: 'へや', telugu: 'room', english: 'room', pronunciation: 'heya', breakdown: 'へや'}] },
+    { char: 'ほ', telugu: 'ho', english: 'ho', examples: [{word: 'ほん', telugu: 'book', english: 'book', pronunciation: 'hon', breakdown: 'ほん'}] },
+    { char: 'ま', telugu: 'ma', english: 'ma', examples: [{word: 'まち', telugu: 'town', english: 'town', pronunciation: 'machi', breakdown: 'まち'}] },
+    { char: 'み', telugu: 'mi', english: 'mi', examples: [{word: 'みず', telugu: 'water', english: 'water', pronunciation: 'mizu', breakdown: 'みず'}] },
+    { char: 'む', telugu: 'mu', english: 'mu', examples: [{word: 'むし', telugu: 'insect', english: 'insect', pronunciation: 'mushi', breakdown: 'むし'}] },
+    { char: 'め', telugu: 'me', english: 'me', examples: [{word: 'め', telugu: 'eye', english: 'eye', pronunciation: 'me', breakdown: 'め'}] },
+    { char: 'も', telugu: 'mo', english: 'mo', examples: [{word: 'もの', telugu: 'thing', english: 'thing', pronunciation: 'mono', breakdown: 'もの'}] },
+    { char: 'や', telugu: 'ya', english: 'ya', examples: [{word: 'やま', telugu: 'mountain', english: 'mountain', pronunciation: 'yama', breakdown: 'やま'}] },
+    { char: 'ゆ', telugu: 'yu', english: 'yu', examples: [{word: 'ゆき', telugu: 'snow', english: 'snow', pronunciation: 'yuki', breakdown: 'ゆき'}] },
+    { char: 'よ', telugu: 'yo', english: 'yo', examples: [{word: 'よる', telugu: 'night', english: 'night', pronunciation: 'yoru', breakdown: 'よる'}] },
+    { char: 'ら', telugu: 'ra', english: 'ra', examples: [{word: 'らいねん', telugu: 'next year', english: 'next year', pronunciation: 'rainen', breakdown: 'らいねん'}] },
+    { char: 'り', telugu: 'ri', english: 'ri', examples: [{word: 'りんご', telugu: 'apple', english: 'apple', pronunciation: 'ringo', breakdown: 'りんご'}] },
+    { char: 'る', telugu: 'ru', english: 'ru', examples: [{word: 'るす', telugu: 'absence', english: 'absence', pronunciation: 'rusu', breakdown: 'るす'}] },
+    { char: 'れ', telugu: 're', english: 're', examples: [{word: 'れい', telugu: 'zero', english: 'zero', pronunciation: 'rei', breakdown: 'れい'}] },
+    { char: 'ろ', telugu: 'ro', english: 'ro', examples: [{word: 'ろく', telugu: 'six', english: 'six', pronunciation: 'roku', breakdown: 'ろく'}] },
+    { char: 'わ', telugu: 'wa', english: 'wa', examples: [{word: 'わたし', telugu: 'I/me', english: 'I/me', pronunciation: 'watashi', breakdown: 'わたし'}] },
+    { char: 'を', telugu: 'wo', english: 'wo', examples: [{word: 'を', telugu: 'object marker', english: 'object marker', pronunciation: 'wo', breakdown: 'を'}] },
+    { char: 'ん', telugu: 'n', english: 'n', examples: [{word: 'ほん', telugu: 'book', english: 'book', pronunciation: 'hon', breakdown: 'ほん'}] },
+    { char: 'が', telugu: 'ga', english: 'ga', examples: [{word: 'がっこう', telugu: 'school', english: 'school', pronunciation: 'gakkou', breakdown: 'がっこう'}] },
+    { char: 'ぎ', telugu: 'gi', english: 'gi', examples: [{word: 'ぎんこう', telugu: 'bank', english: 'bank', pronunciation: 'ginkou', breakdown: 'ぎんこう'}] },
+    { char: 'ぐ', telugu: 'gu', english: 'gu', examples: [{word: 'ぐあい', telugu: 'condition', english: 'condition', pronunciation: 'guai', breakdown: 'ぐあい'}] },
+    { char: 'げ', telugu: 'ge', english: 'ge', examples: [{word: 'げんき', telugu: 'healthy', english: 'healthy', pronunciation: 'genki', breakdown: 'げんき'}] },
+    { char: 'ご', telugu: 'go', english: 'go', examples: [{word: 'ごはん', telugu: 'rice/meal', english: 'rice/meal', pronunciation: 'gohan', breakdown: 'ごはん'}] },
+    { char: 'ざ', telugu: 'za', english: 'za', examples: [{word: 'ざっし', telugu: 'magazine', english: 'magazine', pronunciation: 'zasshi', breakdown: 'ざっし'}] },
+    { char: 'じ', telugu: 'ji', english: 'ji', examples: [{word: 'じかん', telugu: 'time', english: 'time', pronunciation: 'jikan', breakdown: 'じかん'}] },
+    { char: 'ず', telugu: 'zu', english: 'zu', examples: [{word: 'ずっと', telugu: 'always', english: 'always', pronunciation: 'zutto', breakdown: 'ずっと'}] },
+    { char: 'ぜ', telugu: 'ze', english: 'ze', examples: [{word: 'ぜんぶ', telugu: 'all', english: 'all', pronunciation: 'zenbu', breakdown: 'ぜんぶ'}] },
+    { char: 'ぞ', telugu: 'zo', english: 'zo', examples: [{word: 'ぞう', telugu: 'elephant', english: 'elephant', pronunciation: 'zou', breakdown: 'ぞう'}] },
+    { char: 'だ', telugu: 'da', english: 'da', examples: [{word: 'だいがく', telugu: 'university', english: 'university', pronunciation: 'daigaku', breakdown: 'だいがく'}] },
+    { char: 'ぢ', telugu: 'ji (di)', english: 'ji (di)', examples: [{word: 'はなぢ', telugu: 'nosebleed', english: 'nosebleed', pronunciation: 'hanaji', breakdown: 'はなぢ'}] },
+    { char: 'づ', telugu: 'zu (du)', english: 'zu (du)', examples: [{word: 'つづく', telugu: 'to continue', english: 'to continue', pronunciation: 'tsuzuku', breakdown: 'つづく'}] },
+    { char: 'で', telugu: 'de', english: 'de', examples: [{word: 'でんしゃ', telugu: 'train', english: 'train', pronunciation: 'densha', breakdown: 'でんしゃ'}] },
+    { char: 'ど', telugu: 'do', english: 'do', examples: [{word: 'どこ', telugu: 'where', english: 'where', pronunciation: 'doko', breakdown: 'どこ'}] },
+    { char: 'ば', telugu: 'ba', english: 'ba', examples: [{word: 'ばか', telugu: 'fool', english: 'fool', pronunciation: 'baka', breakdown: 'ばか'}] },
+    { char: 'び', telugu: 'bi', english: 'bi', examples: [{word: 'びょういん', telugu: 'hospital', english: 'hospital', pronunciation: 'byouin', breakdown: 'びょういん'}] },
+    { char: 'ぶ', telugu: 'bu', english: 'bu', examples: [{word: 'ぶどう', telugu: 'grapes', english: 'grapes', pronunciation: 'budou', breakdown: 'ぶどう'}] },
+    { char: 'べ', telugu: 'be', english: 'be', examples: [{word: 'べんきょう', telugu: 'study', english: 'study', pronunciation: 'benkyou', breakdown: 'べんきょう'}] },
+    { char: 'ぼ', telugu: 'bo', english: 'bo', examples: [{word: 'ぼうし', telugu: 'hat', english: 'hat', pronunciation: 'boushi', breakdown: 'ぼうし'}] },
+    { char: 'ぱ', telugu: 'pa', english: 'pa', examples: [{word: 'ぱん', telugu: 'bread', english: 'bread', pronunciation: 'pan', breakdown: 'ぱん'}] },
+    { char: 'ぴ', telugu: 'pi', english: 'pi', examples: [{word: 'ぴあの', telugu: 'piano', english: 'piano', pronunciation: 'piano', breakdown: 'ぴあの'}] },
+    { char: 'ぷ', telugu: 'pu', english: 'pu', examples: [{word: 'ぷーる', telugu: 'pool', english: 'pool', pronunciation: 'puuru', breakdown: 'ぷーる'}] },
+    { char: 'ぺ', telugu: 'pe', english: 'pe', examples: [{word: 'ぺん', telugu: 'pen', english: 'pen', pronunciation: 'pen', breakdown: 'ぺん'}] },
+    { char: 'ぽ', telugu: 'po', english: 'po', examples: [{word: 'ぽけっと', telugu: 'pocket', english: 'pocket', pronunciation: 'poketto', breakdown: 'ぽけっと'}] },
+    { char: 'きゃ', telugu: 'kya', english: 'kya', examples: [{word: 'きゃく', telugu: 'guest', english: 'guest', pronunciation: 'kyaku', breakdown: 'きゃく'}] },
+    { char: 'きゅ', telugu: 'kyu', english: 'kyu', examples: [{word: 'きゅうり', telugu: 'cucumber', english: 'cucumber', pronunciation: 'kyuuri', breakdown: 'きゅうり'}] },
+    { char: 'きょ', telugu: 'kyo', english: 'kyo', examples: [{word: 'きょう', telugu: 'today', english: 'today', pronunciation: 'kyou', breakdown: 'きょう'}] },
+    { char: 'しゃ', telugu: 'sha', english: 'sha', examples: [{word: 'しゃしん', telugu: 'photo', english: 'photo', pronunciation: 'shashin', breakdown: 'しゃしん'}] },
+    { char: 'しゅ', telugu: 'shu', english: 'shu', examples: [{word: 'しゅくだい', telugu: 'homework', english: 'homework', pronunciation: 'shukudai', breakdown: 'しゅくだい'}] },
+    { char: 'しょ', telugu: 'sho', english: 'sho', examples: [{word: 'しょくじ', telugu: 'meal', english: 'meal', pronunciation: 'shokuji', breakdown: 'しょくじ'}] },
+    { char: 'ちゃ', telugu: 'cha', english: 'cha', examples: [{word: 'おちゃ', telugu: 'tea', english: 'tea', pronunciation: 'ocha', breakdown: 'おちゃ'}] },
+    { char: 'ちゅ', telugu: 'chu', english: 'chu', examples: [{word: 'ちゅうごく', telugu: 'China', english: 'China', pronunciation: 'chuugoku', breakdown: 'ちゅうごく'}] },
+    { char: 'ちょ', telugu: 'cho', english: 'cho', examples: [{word: 'ちょっと', telugu: 'a little', english: 'a little', pronunciation: 'chotto', breakdown: 'ちょっと'}] },
+    { char: 'にゃ', telugu: 'nya', english: 'nya', examples: [{word: 'にゃー', telugu: 'meow', english: 'meow', pronunciation: 'nyaa', breakdown: 'にゃー'}] },
+    { char: 'にゅ', telugu: 'nyu', english: 'nyu', examples: [{word: 'にゅうがく', telugu: 'enrollment', english: 'enrollment', pronunciation: 'nyuugaku', breakdown: 'にゅうがく'}] },
+    { char: 'にょ', telugu: 'nyo', english: 'nyo', examples: [{word: 'にょろ', telugu: 'slithering', english: 'slithering', pronunciation: 'nyoro', breakdown: 'にょろ'}] },
+    { char: 'ひゃ', telugu: 'hya', english: 'hya', examples: [{word: 'ひゃく', telugu: 'hundred', english: 'hundred', pronunciation: 'hyaku', breakdown: 'ひゃく'}] },
+    { char: 'ひゅ', telugu: 'hyu', english: 'hyu', examples: [{word: 'ひゅうひゅう', telugu: 'whistling wind', english: 'whistling wind', pronunciation: 'hyuuhyuu', breakdown: 'ひゅうひゅう'}] },
+    { char: 'ひょ', telugu: 'hyo', english: 'hyo', examples: [{word: 'ひょう', telugu: 'hail/table', english: 'hail/table', pronunciation: 'hyou', breakdown: 'ひょう'}] },
+    { char: 'みゃ', telugu: 'mya', english: 'mya', examples: [{word: 'みゃく', telugu: 'pulse', english: 'pulse', pronunciation: 'myaku', breakdown: 'みゃく'}] },
+    { char: 'みゅ', telugu: 'myu', english: 'myu', examples: [{word: 'みゅーじっく', telugu: 'music', english: 'music', pronunciation: 'myuujikku', breakdown: 'みゅーじっく'}] },
+    { char: 'みょ', telugu: 'myo', english: 'myo', examples: [{word: 'みょうじ', telugu: 'surname', english: 'surname', pronunciation: 'myouji', breakdown: 'みょうじ'}] },
+    { char: 'りゃ', telugu: 'rya', english: 'rya', examples: [{word: 'りゃくご', telugu: 'abbreviation', english: 'abbreviation', pronunciation: 'ryakugo', breakdown: 'りゃくご'}] },
+    { char: 'りゅ', telugu: 'ryu', english: 'ryu', examples: [{word: 'りゅう', telugu: 'dragon', english: 'dragon', pronunciation: 'ryuu', breakdown: 'りゅう'}] },
+    { char: 'りょ', telugu: 'ryo', english: 'ryo', examples: [{word: 'りょこう', telugu: 'travel', english: 'travel', pronunciation: 'ryokou', breakdown: 'りょこう'}] },
+    { char: 'ぎゃ', telugu: 'gya', english: 'gya', examples: [{word: 'ぎゃく', telugu: 'reverse', english: 'reverse', pronunciation: 'gyaku', breakdown: 'ぎゃく'}] },
+    { char: 'ぎゅ', telugu: 'gyu', english: 'gyu', examples: [{word: 'ぎゅうにゅう', telugu: 'milk', english: 'milk', pronunciation: 'gyuunyuu', breakdown: 'ぎゅうにゅう'}] },
+    { char: 'ぎょ', telugu: 'gyo', english: 'gyo', examples: [{word: 'ぎょうざ', telugu: 'gyoza', english: 'gyoza', pronunciation: 'gyouza', breakdown: 'ぎょうざ'}] },
+    { char: 'じゃ', telugu: 'ja', english: 'ja', examples: [{word: 'じゃあ', telugu: 'well then', english: 'well then', pronunciation: 'jaa', breakdown: 'じゃあ'}] },
+    { char: 'じゅ', telugu: 'ju', english: 'ju', examples: [{word: 'じゅうしょ', telugu: 'address', english: 'address', pronunciation: 'juusho', breakdown: 'じゅうしょ'}] },
+    { char: 'じょ', telugu: 'jo', english: 'jo', examples: [{word: 'じょせい', telugu: 'woman', english: 'woman', pronunciation: 'josei', breakdown: 'じょせい'}] },
+    { char: 'びゃ', telugu: 'bya', english: 'bya', examples: [{word: 'びゃくや', telugu: 'white night', english: 'white night', pronunciation: 'byakuya', breakdown: 'びゃくや'}] },
+    { char: 'びゅ', telugu: 'byu', english: 'byu', examples: [{word: 'びゅうびゅう', telugu: 'whooshing', english: 'whooshing', pronunciation: 'byuubyuu', breakdown: 'びゅうびゅう'}] },
+    { char: 'びょ', telugu: 'byo', english: 'byo', examples: [{word: 'びょうき', telugu: 'illness', english: 'illness', pronunciation: 'byouki', breakdown: 'びょうき'}] },
+    { char: 'ぴゃ', telugu: 'pya', english: 'pya', examples: [{word: 'ぴゃあ', telugu: 'eek!', english: 'eek!', pronunciation: 'pyaa', breakdown: 'ぴゃあ'}] },
+    { char: 'ぴゅ', telugu: 'pyu', english: 'pyu', examples: [{word: 'ぴゅう', telugu: 'whoosh', english: 'whoosh', pronunciation: 'pyuu', breakdown: 'ぴゅう'}] },
+    { char: 'ぴょ', telugu: 'pyo', english: 'pyo', examples: [{word: 'ぴょんぴょん', telugu: 'hopping', english: 'hopping', pronunciation: 'pyonpyon', breakdown: 'ぴょんぴょん'}] }
 ];
 
 const katakanaData = [
-    { char: 'ア', telugu: 'అ', english: 'a', examples: [{word: 'アメリカ', telugu: 'అమెరికా', english: 'America', pronunciation: 'amerika', breakdown: 'ア+メ+リ+カ'}] },
-    { char: 'イ', telugu: 'ఇ', english: 'i', examples: [{word: 'インド', telugu: 'ఇండియా', english: 'India', pronunciation: 'indo', breakdown: 'イ+ン+ド'}] },
-    { char: 'ウ', telugu: 'ఉ', english: 'u', examples: [{word: 'ウイスキー', telugu: 'విస్కీ', english: 'whiskey', pronunciation: 'uisukii', breakdown: 'ウ+イ+ス+キ+ー'}] },
-    { char: 'エ', telugu: 'ఎ', english: 'e', examples: [{word: 'エアコン', telugu: 'ఎయిర్ కండిషనర్', english: 'air conditioner', pronunciation: 'eakon', breakdown: 'エ+ア+コ+ン'}] },
-    { char: 'オ', telugu: 'ఒ', english: 'o', examples: [{word: 'オレンジ', telugu: 'నారింజ', english: 'orange', pronunciation: 'orenji', breakdown: 'オ+レ+ン+ジ'}] },
-    { char: 'カ', telugu: 'క', english: 'ka', examples: [{word: 'カメラ', telugu: 'కెమెరా', english: 'camera', pronunciation: 'kamera', breakdown: 'カ+メ+ラ'}] },
-    { char: 'キ', telugu: 'కి', english: 'ki', examples: [{word: 'キス', telugu: 'ముద్దు', english: 'kiss', pronunciation: 'kisu', breakdown: 'キ+ス'}] },
-    { char: 'ク', telugu: 'కు', english: 'ku', examples: [{word: 'クラス', telugu: 'తరగతి', english: 'class', pronunciation: 'kurasu', breakdown: 'ク+ラ+ス'}] },
-    { char: 'ケ', telugu: 'కె', english: 'ke', examples: [{word: 'ケーキ', telugu: 'కేక్', english: 'cake', pronunciation: 'keeki', breakdown: 'ケ+ー+キ'}] },
-    { char: 'コ', telugu: 'కొ', english: 'ko', examples: [{word: 'コーヒー', telugu: 'కాఫీ', english: 'coffee', pronunciation: 'koohii', breakdown: 'コ+ー+ヒ+ー'}] },
-    { char: 'サ', telugu: 'స', english: 'sa', examples: [{word: 'サラダ', telugu: 'సలాడ్', english: 'salad', pronunciation: 'sarada', breakdown: 'サ+ラ+ダ'}] },
-    { char: 'シ', telugu: 'శి', english: 'shi', examples: [{word: 'シャツ', telugu: 'షర్ట్', english: 'shirt', pronunciation: 'shatsu', breakdown: 'シ+ャ+ツ'}] },
-    { char: 'ス', telugu: 'సు', english: 'su', examples: [{word: 'スプーン', telugu: 'స్పూన్', english: 'spoon', pronunciation: 'supuun', breakdown: 'ス+プ+ー+ン'}] },
-    { char: 'セ', telugu: 'సె', english: 'se', examples: [{word: 'セーター', telugu: 'స్వెటర్', english: 'sweater', pronunciation: 'seetaa', breakdown: 'セ+ー+タ+ー'}] },
-    { char: 'ソ', telugu: 'సొ', english: 'so', examples: [{word: 'ソース', telugu: 'సాస్', english: 'sauce', pronunciation: 'soosu', breakdown: 'ソ+ー+ス'}] },
-    { char: 'タ', telugu: 'త', english: 'ta', examples: [{word: 'タクシー', telugu: 'టాక్సీ', english: 'taxi', pronunciation: 'takushii', breakdown: 'タ+ク+シ+ー'}] },
-    { char: 'チ', telugu: 'చి', english: 'chi', examples: [{word: 'チーズ', telugu: 'చీజ్', english: 'cheese', pronunciation: 'chiizu', breakdown: 'チ+ー+ズ'}] },
-    { char: 'ツ', telugu: 'త్సు', english: 'tsu', examples: [{word: 'ツアー', telugu: 'టూర్', english: 'tour', pronunciation: 'tsuaa', breakdown: 'ツ+ア+ー'}] },
-    { char: 'テ', telugu: 'తె', english: 'te', examples: [{word: 'テレビ', telugu: 'టెలివిజన్', english: 'television', pronunciation: 'terebi', breakdown: 'テ+レ+ビ'}] },
-    { char: 'ト', telugu: 'తొ', english: 'to', examples: [{word: 'トイレ', telugu: 'టాయిలెట్', english: 'toilet', pronunciation: 'toire', breakdown: 'ト+イ+レ'}] },
-    { char: 'ナ', telugu: 'న', english: 'na', examples: [{word: 'ナイフ', telugu: 'కత్తి', english: 'knife', pronunciation: 'naifu', breakdown: 'ナ+イ+フ'}] },
-    { char: 'ニ', telugu: 'ని', english: 'ni', examples: [{word: 'ニュース', telugu: 'వార్తలు', english: 'news', pronunciation: 'nyuusu', breakdown: 'ニ+ュ+ー+ス'}] },
-    { char: 'ヌ', telugu: 'ను', english: 'nu', examples: [{word: 'ヌードル', telugu: 'నూడుల్స్', english: 'noodles', pronunciation: 'nuudoru', breakdown: 'ヌ+ー+ド+ル'}] },
-    { char: 'ネ', telugu: 'నె', english: 'ne', examples: [{word: 'ネクタイ', telugu: 'టై', english: 'necktie', pronunciation: 'nekutai', breakdown: 'ネ+ク+タ+イ'}] },
-    { char: 'ノ', telugu: 'నొ', english: 'no', examples: [{word: 'ノート', telugu: 'నోట్బుక్', english: 'notebook', pronunciation: 'nooto', breakdown: 'ノ+ー+ト'}] },
-    { char: 'ハ', telugu: 'హ', english: 'ha', examples: [{word: 'ハンバーガー', telugu: 'హాంబర్గర్', english: 'hamburger', pronunciation: 'hanbaagaa', breakdown: 'ハ+ン+バ+ー+ガ+ー'}] },
-    { char: 'ヒ', telugu: 'హి', english: 'hi', examples: [{word: 'ヒーター', telugu: 'హీటర్', english: 'heater', pronunciation: 'hiitaa', breakdown: 'ヒ+ー+タ+ー'}] },
-    { char: 'フ', telugu: 'ఫు', english: 'fu', examples: [{word: 'フォーク', telugu: 'ఫోర్క్', english: 'fork', pronunciation: 'fooku', breakdown: 'フ+ォ+ー+ク'}] },
-    { char: 'ヘ', telugu: 'హె', english: 'he', examples: [{word: 'ヘリコプター', telugu: 'హెలికాప్టర్', english: 'helicopter', pronunciation: 'herikoputaa', breakdown: 'ヘ+リ+コ+プ+タ+ー'}] },
-    { char: 'ホ', telugu: 'హొ', english: 'ho', examples: [{word: 'ホテル', telugu: 'హోటల్', english: 'hotel', pronunciation: 'hoteru', breakdown: 'ホ+テ+ル'}] },
-    { char: 'マ', telugu: 'మ', english: 'ma', examples: [{word: 'マスク', telugu: 'మాస్క్', english: 'mask', pronunciation: 'masuku', breakdown: 'マ+ス+ク'}] },
-    { char: 'ミ', telugu: 'మి', english: 'mi', examples: [{word: 'ミルク', telugu: 'పాలు', english: 'milk', pronunciation: 'miruku', breakdown: 'ミ+ル+ク'}] },
-    { char: 'ム', telugu: 'ము', english: 'mu', examples: [{word: 'ムービー', telugu: 'చిత్రం', english: 'movie', pronunciation: 'muubii', breakdown: 'ム+ー+ビ+ー'}] },
-    { char: 'メ', telugu: 'మె', english: 'me', examples: [{word: 'メール', telugu: 'మెయిల్', english: 'email', pronunciation: 'meeru', breakdown: 'メ+ー+ル'}] },
-    { char: 'モ', telugu: 'మొ', english: 'mo', examples: [{word: 'モデル', telugu: 'మోడల్', english: 'model', pronunciation: 'moderu', breakdown: 'モ+デ+ル'}] },
-    { char: 'ヤ', telugu: 'య', english: 'ya', examples: [{word: 'ヤクルト', telugu: 'యాకుల్ట్', english: 'Yakult', pronunciation: 'yakuruto', breakdown: 'ヤ+ク+ル+ト'}] },
-    { char: 'ユ', telugu: 'యు', english: 'yu', examples: [{word: 'ユーザー', telugu: 'యూజర్', english: 'user', pronunciation: 'yuuzaa', breakdown: 'ユ+ー+ザ+ー'}] },
-    { char: 'ヨ', telugu: 'యొ', english: 'yo', examples: [{word: 'ヨーグルト', telugu: 'యోగర్ట్', english: 'yogurt', pronunciation: 'yooguruto', breakdown: 'ヨ+ー+グ+ル+ト'}] },
-    { char: 'ラ', telugu: 'ర', english: 'ra', examples: [{word: 'ラジオ', telugu: 'రేడియో', english: 'radio', pronunciation: 'rajio', breakdown: 'ラ+ジ+オ'}] },
-    { char: 'リ', telugu: 'రి', english: 'ri', examples: [{word: 'リモコン', telugu: 'రిమోట్', english: 'remote control', pronunciation: 'rimokon', breakdown: 'リ+モ+コ+ン'}] },
-    { char: 'ル', telugu: 'రు', english: 'ru', examples: [{word: 'ルール', telugu: 'నియమం', english: 'rule', pronunciation: 'ruuru', breakdown: 'ル+ー+ル'}] },
-    { char: 'レ', telugu: 'రె', english: 're', examples: [{word: 'レストラン', telugu: 'రెస్టారెంట్', english: 'restaurant', pronunciation: 'resutoran', breakdown: 'レ+ス+ト+ラ+ン'}] },
-    { char: 'ロ', telugu: 'రొ', english: 'ro', examples: [{word: 'ロボット', telugu: 'రోబోట్', english: 'robot', pronunciation: 'robotto', breakdown: 'ロ+ボ+ッ+ト'}] },
-    { char: 'ワ', telugu: 'వ', english: 'wa', examples: [{word: 'ワイン', telugu: 'వైన్', english: 'wine', pronunciation: 'wain', breakdown: 'ワ+イ+ン'}] },
-    { char: 'ヲ', telugu: 'వొ', english: 'wo', examples: [{word: 'ヲタク', telugu: 'ఒటాకు', english: 'otaku', pronunciation: 'wotaku', breakdown: 'ヲ+タ+ク'}] },
-    { char: 'ン', telugu: 'న్', english: 'n', examples: [{word: 'パン', telugu: 'బ్రెడ్', english: 'bread', pronunciation: 'pan', breakdown: 'パ+ン'}] }
+    { char: 'ア', telugu: 'a', english: 'a', examples: [{word: 'アメリカ', telugu: 'America', english: 'America', pronunciation: 'Amerika', breakdown: 'アメリカ'}] },
+    { char: 'イ', telugu: 'i', english: 'i', examples: [{word: 'インド', telugu: 'India', english: 'India', pronunciation: 'Indo', breakdown: 'インド'}] },
+    { char: 'ウ', telugu: 'u', english: 'u', examples: [{word: 'ウイスキー', telugu: 'whiskey', english: 'whiskey', pronunciation: 'uisukii', breakdown: 'ウイスキー'}] },
+    { char: 'エ', telugu: 'e', english: 'e', examples: [{word: 'エアコン', telugu: 'air conditioner', english: 'air conditioner', pronunciation: 'eakon', breakdown: 'エアコン'}] },
+    { char: 'オ', telugu: 'o', english: 'o', examples: [{word: 'オレンジ', telugu: 'orange', english: 'orange', pronunciation: 'orenji', breakdown: 'オレンジ'}] },
+    { char: 'カ', telugu: 'ka', english: 'ka', examples: [{word: 'カメラ', telugu: 'camera', english: 'camera', pronunciation: 'kamera', breakdown: 'カメラ'}] },
+    { char: 'キ', telugu: 'ki', english: 'ki', examples: [{word: 'キス', telugu: 'kiss', english: 'kiss', pronunciation: 'kisu', breakdown: 'キス'}] },
+    { char: 'ク', telugu: 'ku', english: 'ku', examples: [{word: 'クラス', telugu: 'class', english: 'class', pronunciation: 'kurasu', breakdown: 'クラス'}] },
+    { char: 'ケ', telugu: 'ke', english: 'ke', examples: [{word: 'ケーキ', telugu: 'cake', english: 'cake', pronunciation: 'keeki', breakdown: 'ケーキ'}] },
+    { char: 'コ', telugu: 'ko', english: 'ko', examples: [{word: 'コーヒー', telugu: 'coffee', english: 'coffee', pronunciation: 'koohii', breakdown: 'コーヒー'}] },
+    { char: 'サ', telugu: 'sa', english: 'sa', examples: [{word: 'サラダ', telugu: 'salad', english: 'salad', pronunciation: 'sarada', breakdown: 'サラダ'}] },
+    { char: 'シ', telugu: 'shi', english: 'shi', examples: [{word: 'シャツ', telugu: 'shirt', english: 'shirt', pronunciation: 'shatsu', breakdown: 'シャツ'}] },
+    { char: 'ス', telugu: 'su', english: 'su', examples: [{word: 'スプーン', telugu: 'spoon', english: 'spoon', pronunciation: 'supuun', breakdown: 'スプーン'}] },
+    { char: 'セ', telugu: 'se', english: 'se', examples: [{word: 'セーター', telugu: 'sweater', english: 'sweater', pronunciation: 'seetaa', breakdown: 'セーター'}] },
+    { char: 'ソ', telugu: 'so', english: 'so', examples: [{word: 'ソース', telugu: 'sauce', english: 'sauce', pronunciation: 'soosu', breakdown: 'ソース'}] },
+    { char: 'タ', telugu: 'ta', english: 'ta', examples: [{word: 'タクシー', telugu: 'taxi', english: 'taxi', pronunciation: 'takushii', breakdown: 'タクシー'}] },
+    { char: 'チ', telugu: 'chi', english: 'chi', examples: [{word: 'チーズ', telugu: 'cheese', english: 'cheese', pronunciation: 'chiizu', breakdown: 'チーズ'}] },
+    { char: 'ツ', telugu: 'tsu', english: 'tsu', examples: [{word: 'ツアー', telugu: 'tour', english: 'tour', pronunciation: 'tsuaa', breakdown: 'ツアー'}] },
+    { char: 'テ', telugu: 'te', english: 'te', examples: [{word: 'テレビ', telugu: 'TV', english: 'TV', pronunciation: 'terebi', breakdown: 'テレビ'}] },
+    { char: 'ト', telugu: 'to', english: 'to', examples: [{word: 'トイレ', telugu: 'toilet', english: 'toilet', pronunciation: 'toire', breakdown: 'トイレ'}] },
+    { char: 'ナ', telugu: 'na', english: 'na', examples: [{word: 'ナイフ', telugu: 'knife', english: 'knife', pronunciation: 'naifu', breakdown: 'ナイフ'}] },
+    { char: 'ニ', telugu: 'ni', english: 'ni', examples: [{word: 'ニュース', telugu: 'news', english: 'news', pronunciation: 'nyuusu', breakdown: 'ニュース'}] },
+    { char: 'ヌ', telugu: 'nu', english: 'nu', examples: [{word: 'ヌードル', telugu: 'noodles', english: 'noodles', pronunciation: 'nuudoru', breakdown: 'ヌードル'}] },
+    { char: 'ネ', telugu: 'ne', english: 'ne', examples: [{word: 'ネクタイ', telugu: 'necktie', english: 'necktie', pronunciation: 'nekutai', breakdown: 'ネクタイ'}] },
+    { char: 'ノ', telugu: 'no', english: 'no', examples: [{word: 'ノート', telugu: 'notebook', english: 'notebook', pronunciation: 'nooto', breakdown: 'ノート'}] },
+    { char: 'ハ', telugu: 'ha', english: 'ha', examples: [{word: 'ハンバーガー', telugu: 'hamburger', english: 'hamburger', pronunciation: 'hanbaagaa', breakdown: 'ハンバーガー'}] },
+    { char: 'ヒ', telugu: 'hi', english: 'hi', examples: [{word: 'ヒーター', telugu: 'heater', english: 'heater', pronunciation: 'hiitaa', breakdown: 'ヒーター'}] },
+    { char: 'フ', telugu: 'fu', english: 'fu', examples: [{word: 'フォーク', telugu: 'fork', english: 'fork', pronunciation: 'fooku', breakdown: 'フォーク'}] },
+    { char: 'ヘ', telugu: 'he', english: 'he', examples: [{word: 'ヘリコプター', telugu: 'helicopter', english: 'helicopter', pronunciation: 'herikoputaa', breakdown: 'ヘリコプター'}] },
+    { char: 'ホ', telugu: 'ho', english: 'ho', examples: [{word: 'ホテル', telugu: 'hotel', english: 'hotel', pronunciation: 'hoteru', breakdown: 'ホテル'}] },
+    { char: 'マ', telugu: 'ma', english: 'ma', examples: [{word: 'マスク', telugu: 'mask', english: 'mask', pronunciation: 'masuku', breakdown: 'マスク'}] },
+    { char: 'ミ', telugu: 'mi', english: 'mi', examples: [{word: 'ミルク', telugu: 'milk', english: 'milk', pronunciation: 'miruku', breakdown: 'ミルク'}] },
+    { char: 'ム', telugu: 'mu', english: 'mu', examples: [{word: 'ムービー', telugu: 'movie', english: 'movie', pronunciation: 'muubii', breakdown: 'ムービー'}] },
+    { char: 'メ', telugu: 'me', english: 'me', examples: [{word: 'メール', telugu: 'email', english: 'email', pronunciation: 'meeru', breakdown: 'メール'}] },
+    { char: 'モ', telugu: 'mo', english: 'mo', examples: [{word: 'モデル', telugu: 'model', english: 'model', pronunciation: 'moderu', breakdown: 'モデル'}] },
+    { char: 'ヤ', telugu: 'ya', english: 'ya', examples: [{word: 'ヤクザ', telugu: 'yakuza', english: 'yakuza', pronunciation: 'yakuza', breakdown: 'ヤクザ'}] },
+    { char: 'ユ', telugu: 'yu', english: 'yu', examples: [{word: 'ユニフォーム', telugu: 'uniform', english: 'uniform', pronunciation: 'yunifoomu', breakdown: 'ユニフォーム'}] },
+    { char: 'ヨ', telugu: 'yo', english: 'yo', examples: [{word: 'ヨーグルト', telugu: 'yogurt', english: 'yogurt', pronunciation: 'yooguruto', breakdown: 'ヨーグルト'}] },
+    { char: 'ラ', telugu: 'ra', english: 'ra', examples: [{word: 'ラーメン', telugu: 'ramen', english: 'ramen', pronunciation: 'raamen', breakdown: 'ラーメン'}] },
+    { char: 'リ', telugu: 'ri', english: 'ri', examples: [{word: 'リモコン', telugu: 'remote control', english: 'remote control', pronunciation: 'rimokon', breakdown: 'リモコン'}] },
+    { char: 'ル', telugu: 'ru', english: 'ru', examples: [{word: 'ルール', telugu: 'rule', english: 'rule', pronunciation: 'ruuru', breakdown: 'ルール'}] },
+    { char: 'レ', telugu: 're', english: 're', examples: [{word: 'レストラン', telugu: 'restaurant', english: 'restaurant', pronunciation: 'resutoran', breakdown: 'レストラン'}] },
+    { char: 'ロ', telugu: 'ro', english: 'ro', examples: [{word: 'ロボット', telugu: 'robot', english: 'robot', pronunciation: 'robotto', breakdown: 'ロボット'}] },
+    { char: 'ワ', telugu: 'wa', english: 'wa', examples: [{word: 'ワイン', telugu: 'wine', english: 'wine', pronunciation: 'wain', breakdown: 'ワイン'}] },
+    { char: 'ヲ', telugu: 'wo', english: 'wo', examples: [{word: 'ヲ', telugu: 'object marker', english: 'object marker', pronunciation: 'wo', breakdown: 'ヲ'}] },
+    { char: 'ン', telugu: 'n', english: 'n', examples: [{word: 'パン', telugu: 'bread', english: 'bread', pronunciation: 'pan', breakdown: 'パン'}] },
+    { char: 'ガ', telugu: 'ga', english: 'ga', examples: [{word: 'ガラス', telugu: 'glass', english: 'glass', pronunciation: 'garasu', breakdown: 'ガラス'}] },
+    { char: 'ギ', telugu: 'gi', english: 'gi', examples: [{word: 'ギター', telugu: 'guitar', english: 'guitar', pronunciation: 'gitaa', breakdown: 'ギター'}] },
+    { char: 'グ', telugu: 'gu', english: 'gu', examples: [{word: 'グラス', telugu: 'glass/cup', english: 'glass/cup', pronunciation: 'gurasu', breakdown: 'グラス'}] },
+    { char: 'ゲ', telugu: 'ge', english: 'ge', examples: [{word: 'ゲーム', telugu: 'game', english: 'game', pronunciation: 'geemu', breakdown: 'ゲーム'}] },
+    { char: 'ゴ', telugu: 'go', english: 'go', examples: [{word: 'ゴリラ', telugu: 'gorilla', english: 'gorilla', pronunciation: 'gorira', breakdown: 'ゴリラ'}] },
+    { char: 'ザ', telugu: 'za', english: 'za', examples: [{word: 'ザッハトルテ', telugu: 'Sachertorte', english: 'Sachertorte', pronunciation: 'zahhatorute', breakdown: 'ザッハトルテ'}] },
+    { char: 'ジ', telugu: 'ji', english: 'ji', examples: [{word: 'ジュース', telugu: 'juice', english: 'juice', pronunciation: 'juusu', breakdown: 'ジュース'}] },
+    { char: 'ズ', telugu: 'zu', english: 'zu', examples: [{word: 'ズボン', telugu: 'trousers', english: 'trousers', pronunciation: 'zubon', breakdown: 'ズボン'}] },
+    { char: 'ゼ', telugu: 'ze', english: 'ze', examples: [{word: 'ゼリー', telugu: 'jelly', english: 'jelly', pronunciation: 'zerii', breakdown: 'ゼリー'}] },
+    { char: 'ゾ', telugu: 'zo', english: 'zo', examples: [{word: 'ゾンビ', telugu: 'zombie', english: 'zombie', pronunciation: 'zonbi', breakdown: 'ゾンビ'}] },
+    { char: 'ダ', telugu: 'da', english: 'da', examples: [{word: 'ダンス', telugu: 'dance', english: 'dance', pronunciation: 'dansu', breakdown: 'ダンス'}] },
+    { char: 'ヂ', telugu: 'ji (di)', english: 'ji (di)', examples: [{word: 'ヂ', telugu: 'rare di sound', english: 'rare di sound', pronunciation: 'di', breakdown: 'ヂ'}] },
+    { char: 'ヅ', telugu: 'zu (du)', english: 'zu (du)', examples: [{word: 'ヅ', telugu: 'rare du sound', english: 'rare du sound', pronunciation: 'du', breakdown: 'ヅ'}] },
+    { char: 'デ', telugu: 'de', english: 'de', examples: [{word: 'デザート', telugu: 'dessert', english: 'dessert', pronunciation: 'dezaato', breakdown: 'デザート'}] },
+    { char: 'ド', telugu: 'do', english: 'do', examples: [{word: 'ドア', telugu: 'door', english: 'door', pronunciation: 'doa', breakdown: 'ドア'}] },
+    { char: 'バ', telugu: 'ba', english: 'ba', examples: [{word: 'バナナ', telugu: 'banana', english: 'banana', pronunciation: 'banana', breakdown: 'バナナ'}] },
+    { char: 'ビ', telugu: 'bi', english: 'bi', examples: [{word: 'ビール', telugu: 'beer', english: 'beer', pronunciation: 'biiru', breakdown: 'ビール'}] },
+    { char: 'ブ', telugu: 'bu', english: 'bu', examples: [{word: 'ブルー', telugu: 'blue', english: 'blue', pronunciation: 'buruu', breakdown: 'ブルー'}] },
+    { char: 'ベ', telugu: 'be', english: 'be', examples: [{word: 'ベッド', telugu: 'bed', english: 'bed', pronunciation: 'beddo', breakdown: 'ベッド'}] },
+    { char: 'ボ', telugu: 'bo', english: 'bo', examples: [{word: 'ボタン', telugu: 'button', english: 'button', pronunciation: 'botan', breakdown: 'ボタン'}] },
+    { char: 'パ', telugu: 'pa', english: 'pa', examples: [{word: 'パスポート', telugu: 'passport', english: 'passport', pronunciation: 'pasupooto', breakdown: 'パスポート'}] },
+    { char: 'ピ', telugu: 'pi', english: 'pi', examples: [{word: 'ピアノ', telugu: 'piano', english: 'piano', pronunciation: 'piano', breakdown: 'ピアノ'}] },
+    { char: 'プ', telugu: 'pu', english: 'pu', examples: [{word: 'プール', telugu: 'pool', english: 'pool', pronunciation: 'puuru', breakdown: 'プール'}] },
+    { char: 'ペ', telugu: 'pe', english: 'pe', examples: [{word: 'ペン', telugu: 'pen', english: 'pen', pronunciation: 'pen', breakdown: 'ペン'}] },
+    { char: 'ポ', telugu: 'po', english: 'po', examples: [{word: 'ポケット', telugu: 'pocket', english: 'pocket', pronunciation: 'poketto', breakdown: 'ポケット'}] },
+    { char: 'キャ', telugu: 'kya', english: 'kya', examples: [{word: 'キャンプ', telugu: 'camp', english: 'camp', pronunciation: 'kyanpu', breakdown: 'キャンプ'}] },
+    { char: 'キュ', telugu: 'kyu', english: 'kyu', examples: [{word: 'キューバ', telugu: 'Cuba', english: 'Cuba', pronunciation: 'kyuuba', breakdown: 'キューバ'}] },
+    { char: 'キョ', telugu: 'kyo', english: 'kyo', examples: [{word: 'キョート', telugu: 'Kyoto', english: 'Kyoto', pronunciation: 'kyooto', breakdown: 'キョート'}] },
+    { char: 'シャ', telugu: 'sha', english: 'sha', examples: [{word: 'シャワー', telugu: 'shower', english: 'shower', pronunciation: 'shawaa', breakdown: 'シャワー'}] },
+    { char: 'シュ', telugu: 'shu', english: 'shu', examples: [{word: 'シュークリーム', telugu: 'cream puff', english: 'cream puff', pronunciation: 'shuukuriimu', breakdown: 'シュークリーム'}] },
+    { char: 'ショ', telugu: 'sho', english: 'sho', examples: [{word: 'ショッピング', telugu: 'shopping', english: 'shopping', pronunciation: 'shoppingu', breakdown: 'ショッピング'}] },
+    { char: 'チャ', telugu: 'cha', english: 'cha', examples: [{word: 'チャンス', telugu: 'chance', english: 'chance', pronunciation: 'chansu', breakdown: 'チャンス'}] },
+    { char: 'チュ', telugu: 'chu', english: 'chu', examples: [{word: 'チューリップ', telugu: 'tulip', english: 'tulip', pronunciation: 'chuurippu', breakdown: 'チューリップ'}] },
+    { char: 'チョ', telugu: 'cho', english: 'cho', examples: [{word: 'チョコレート', telugu: 'chocolate', english: 'chocolate', pronunciation: 'chokoreeto', breakdown: 'チョコレート'}] },
+    { char: 'ニャ', telugu: 'nya', english: 'nya', examples: [{word: 'ニャー', telugu: 'meow', english: 'meow', pronunciation: 'nyaa', breakdown: 'ニャー'}] },
+    { char: 'ニュ', telugu: 'nyu', english: 'nyu', examples: [{word: 'ニュートン', telugu: 'Newton', english: 'Newton', pronunciation: 'nyuuton', breakdown: 'ニュートン'}] },
+    { char: 'ニョ', telugu: 'nyo', english: 'nyo', examples: [{word: 'ニョキ', telugu: 'sprouting', english: 'sprouting', pronunciation: 'nyoki', breakdown: 'ニョキ'}] },
+    { char: 'ヒャ', telugu: 'hya', english: 'hya', examples: [{word: 'ヒャク', telugu: 'hundred', english: 'hundred', pronunciation: 'hyaku', breakdown: 'ヒャク'}] },
+    { char: 'ヒュ', telugu: 'hyu', english: 'hyu', examples: [{word: 'ヒューズ', telugu: 'fuse', english: 'fuse', pronunciation: 'hyuuzu', breakdown: 'ヒューズ'}] },
+    { char: 'ヒョ', telugu: 'hyo', english: 'hyo', examples: [{word: 'ヒョウ', telugu: 'leopard', english: 'leopard', pronunciation: 'hyou', breakdown: 'ヒョウ'}] },
+    { char: 'ミャ', telugu: 'mya', english: 'mya', examples: [{word: 'ミャンマー', telugu: 'Myanmar', english: 'Myanmar', pronunciation: 'myanmaa', breakdown: 'ミャンマー'}] },
+    { char: 'ミュ', telugu: 'myu', english: 'myu', examples: [{word: 'ミュージック', telugu: 'music', english: 'music', pronunciation: 'myuujikku', breakdown: 'ミュージック'}] },
+    { char: 'ミョ', telugu: 'myo', english: 'myo', examples: [{word: 'ミョウバン', telugu: 'alum', english: 'alum', pronunciation: 'myouban', breakdown: 'ミョウバン'}] },
+    { char: 'リャ', telugu: 'rya', english: 'rya', examples: [{word: 'リャマ', telugu: 'llama', english: 'llama', pronunciation: 'ryama', breakdown: 'リャマ'}] },
+    { char: 'リュ', telugu: 'ryu', english: 'ryu', examples: [{word: 'リュック', telugu: 'backpack', english: 'backpack', pronunciation: 'ryukku', breakdown: 'リュック'}] },
+    { char: 'リョ', telugu: 'ryo', english: 'ryo', examples: [{word: 'リョコウ', telugu: 'travel', english: 'travel', pronunciation: 'ryokou', breakdown: 'リョコウ'}] },
+    { char: 'ギャ', telugu: 'gya', english: 'gya', examples: [{word: 'ギャップ', telugu: 'gap', english: 'gap', pronunciation: 'gyappu', breakdown: 'ギャップ'}] },
+    { char: 'ギュ', telugu: 'gyu', english: 'gyu', examples: [{word: 'ギュウニク', telugu: 'beef', english: 'beef', pronunciation: 'gyuuniku', breakdown: 'ギュウニク'}] },
+    { char: 'ギョ', telugu: 'gyo', english: 'gyo', examples: [{word: 'ギョーザ', telugu: 'gyoza', english: 'gyoza', pronunciation: 'gyooza', breakdown: 'ギョーザ'}] },
+    { char: 'ジャ', telugu: 'ja', english: 'ja', examples: [{word: 'ジャケット', telugu: 'jacket', english: 'jacket', pronunciation: 'jaketto', breakdown: 'ジャケット'}] },
+    { char: 'ジュ', telugu: 'ju', english: 'ju', examples: [{word: 'ジュース', telugu: 'juice', english: 'juice', pronunciation: 'juusu', breakdown: 'ジュース'}] },
+    { char: 'ジョ', telugu: 'jo', english: 'jo', examples: [{word: 'ジョギング', telugu: 'jogging', english: 'jogging', pronunciation: 'jogingu', breakdown: 'ジョギング'}] },
+    { char: 'ビャ', telugu: 'bya', english: 'bya', examples: [{word: 'ビャクヤ', telugu: 'white night', english: 'white night', pronunciation: 'byakuya', breakdown: 'ビャクヤ'}] },
+    { char: 'ビュ', telugu: 'byu', english: 'byu', examples: [{word: 'ビュッフェ', telugu: 'buffet', english: 'buffet', pronunciation: 'byuffe', breakdown: 'ビュッフェ'}] },
+    { char: 'ビョ', telugu: 'byo', english: 'byo', examples: [{word: 'ビョーイン', telugu: 'hospital', english: 'hospital', pronunciation: 'byooin', breakdown: 'ビョーイン'}] },
+    { char: 'ピャ', telugu: 'pya', english: 'pya', examples: [{word: 'ピャー', telugu: 'eek!', english: 'eek!', pronunciation: 'pyaa', breakdown: 'ピャー'}] },
+    { char: 'ピュ', telugu: 'pyu', english: 'pyu', examples: [{word: 'ピュア', telugu: 'pure', english: 'pure', pronunciation: 'pyua', breakdown: 'ピュア'}] },
+    { char: 'ピョ', telugu: 'pyo', english: 'pyo', examples: [{word: 'ピョンヤン', telugu: 'Pyongyang', english: 'Pyongyang', pronunciation: 'pyonyan', breakdown: 'ピョンヤン'}] },
+    { char: 'ファ', telugu: 'fa', english: 'fa', examples: [{word: 'ファン', telugu: 'fan', english: 'fan', pronunciation: 'fan', breakdown: 'ファン'}] },
+    { char: 'フィ', telugu: 'fi', english: 'fi', examples: [{word: 'フィンランド', telugu: 'Finland', english: 'Finland', pronunciation: 'finrando', breakdown: 'フィンランド'}] },
+    { char: 'フェ', telugu: 'fe', english: 'fe', examples: [{word: 'フェリー', telugu: 'ferry', english: 'ferry', pronunciation: 'ferii', breakdown: 'フェリー'}] },
+    { char: 'フォ', telugu: 'fo', english: 'fo', examples: [{word: 'フォーク', telugu: 'fork', english: 'fork', pronunciation: 'fooku', breakdown: 'フォーク'}] },
+    { char: 'ウィ', telugu: 'wi', english: 'wi', examples: [{word: 'ウィスキー', telugu: 'whisky', english: 'whisky', pronunciation: 'uisukii', breakdown: 'ウィスキー'}] },
+    { char: 'ウェ', telugu: 'we', english: 'we', examples: [{word: 'ウェブ', telugu: 'web', english: 'web', pronunciation: 'webu', breakdown: 'ウェブ'}] },
+    { char: 'ウォ', telugu: 'wo', english: 'wo', examples: [{word: 'ウォーター', telugu: 'water', english: 'water', pronunciation: 'wootaa', breakdown: 'ウォーター'}] },
+    { char: 'ヴァ', telugu: 'va', english: 'va', examples: [{word: 'ヴァイオリン', telugu: 'violin', english: 'violin', pronunciation: 'vaiorin', breakdown: 'ヴァイオリン'}] },
+    { char: 'ヴィ', telugu: 'vi', english: 'vi', examples: [{word: 'ヴィラ', telugu: 'villa', english: 'villa', pronunciation: 'vira', breakdown: 'ヴィラ'}] },
+    { char: 'ヴ', telugu: 'vu', english: 'vu', examples: [{word: 'ヴ', telugu: 'v sound', english: 'v sound', pronunciation: 'vu', breakdown: 'ヴ'}] },
+    { char: 'ヴェ', telugu: 've', english: 've', examples: [{word: 'ヴェネツィア', telugu: 'Venice', english: 'Venice', pronunciation: 'venetsia', breakdown: 'ヴェネツィア'}] },
+    { char: 'ヴォ', telugu: 'vo', english: 'vo', examples: [{word: 'ヴォーカル', telugu: 'vocal', english: 'vocal', pronunciation: 'vookaru', breakdown: 'ヴォーカル'}] },
+    { char: 'ティ', telugu: 'ti', english: 'ti', examples: [{word: 'パーティ', telugu: 'party', english: 'party', pronunciation: 'paati', breakdown: 'パーティ'}] },
+    { char: 'ディ', telugu: 'di', english: 'di', examples: [{word: 'ディスコ', telugu: 'disco', english: 'disco', pronunciation: 'disuko', breakdown: 'ディスコ'}] },
+    { char: 'トゥ', telugu: 'tu', english: 'tu', examples: [{word: 'トゥルー', telugu: 'true', english: 'true', pronunciation: 'turuu', breakdown: 'トゥルー'}] },
+    { char: 'ドゥ', telugu: 'du', english: 'du', examples: [{word: 'ドゥ', telugu: 'du sound', english: 'du sound', pronunciation: 'du', breakdown: 'ドゥ'}] },
+    { char: 'チェ', telugu: 'che', english: 'che', examples: [{word: 'チェック', telugu: 'check', english: 'check', pronunciation: 'chekku', breakdown: 'チェック'}] },
+    { char: 'ジェ', telugu: 'je', english: 'je', examples: [{word: 'ジェット', telugu: 'jet', english: 'jet', pronunciation: 'jetto', breakdown: 'ジェット'}] },
+    { char: 'イェ', telugu: 'ye', english: 'ye', examples: [{word: 'イェス', telugu: 'yes', english: 'yes', pronunciation: 'yesu', breakdown: 'イェス'}] },
+    { char: 'クァ', telugu: 'kwa', english: 'kwa', examples: [{word: 'クァルテット', telugu: 'quartet', english: 'quartet', pronunciation: 'kuarutetto', breakdown: 'クァルテット'}] },
+    { char: 'クィ', telugu: 'kwi', english: 'kwi', examples: [{word: 'クィーン', telugu: 'queen', english: 'queen', pronunciation: 'kuiin', breakdown: 'クィーン'}] },
+    { char: 'クェ', telugu: 'kwe', english: 'kwe', examples: [{word: 'クェスチョン', telugu: 'question', english: 'question', pronunciation: 'kuesuchon', breakdown: 'クェスチョン'}] },
+    { char: 'クォ', telugu: 'kwo', english: 'kwo', examples: [{word: 'クォーター', telugu: 'quarter', english: 'quarter', pronunciation: 'kuootaa', breakdown: 'クォーター'}] },
+    { char: 'グァ', telugu: 'gwa', english: 'gwa', examples: [{word: 'グァム', telugu: 'Guam', english: 'Guam', pronunciation: 'guamu', breakdown: 'グァム'}] },
+    { char: 'テュ', telugu: 'tyu', english: 'tyu', examples: [{word: 'テュニジア', telugu: 'Tunisia', english: 'Tunisia', pronunciation: 'tyuniia', breakdown: 'テュニジア'}] },
+    { char: 'デュ', telugu: 'dyu', english: 'dyu', examples: [{word: 'デュエット', telugu: 'duet', english: 'duet', pronunciation: 'dyuetto', breakdown: 'デュエット'}] },
+    { char: 'スィ', telugu: 'si', english: 'si', examples: [{word: 'スィ', telugu: 'si sound', english: 'si sound', pronunciation: 'si', breakdown: 'スィ'}] },
+    { char: 'ズィ', telugu: 'zi', english: 'zi', examples: [{word: 'ズィ', telugu: 'zi sound', english: 'zi sound', pronunciation: 'zi', breakdown: 'ズィ'}] }
 ];
 
 const kanjiData = [
@@ -301,14 +431,45 @@ let llExamState = {
     answered: false
 };
 
+// Track last 12 chars asked so the same letter can't repeat within 10 questions
+let llRecentHistory = [];
+
 // ─── Persistence ─────────────────────────────────────────────────────────────
 function loadState() {
-    const saved = localStorage.getItem('japaneseLearnState');
-    if (saved) {
-        const loaded = JSON.parse(saved);
-        letterState.hiragana = loaded.hiragana || letterState.hiragana;
-        letterState.katakana = loaded.katakana || letterState.katakana;
-        letterState.kanji    = loaded.kanji    || letterState.kanji;
+    try {
+        var saved = localStorage.getItem('japaneseLearnState');
+        if (!saved) return;
+        var loaded = JSON.parse(saved);
+
+        // Merge helper: preserve saved progress for known chars,
+        // but keep any new chars from the current data that aren't in the save yet
+        function mergeStage(currentState, savedArray) {
+            if (!savedArray || !Array.isArray(savedArray)) return currentState;
+            var savedMap = {};
+            savedArray.forEach(function(s) { if (s.char) savedMap[s.char] = s; });
+            return currentState.map(function(item) {
+                var s = savedMap[item.char];
+                if (s) {
+                    // Restore saved progress, keep all base data from current source
+                    return Object.assign({}, item, {
+                        score:    s.score    !== undefined ? s.score    : 0,
+                        correct:  s.correct  !== undefined ? s.correct  : 0,
+                        wrong:    s.wrong    !== undefined ? s.wrong    : 0,
+                        attempts: s.attempts !== undefined ? s.attempts : 0,
+                        learned:  s.learned  !== undefined ? s.learned  : false,
+                        cantHear: s.cantHear !== undefined ? s.cantHear : false
+                    });
+                }
+                // New char not in save — fresh state
+                return item;
+            });
+        }
+
+        letterState.hiragana = mergeStage(letterState.hiragana, loaded.hiragana);
+        letterState.katakana = mergeStage(letterState.katakana, loaded.katakana);
+        letterState.kanji    = mergeStage(letterState.kanji,    loaded.kanji);
+    } catch(e) {
+        console.warn('loadState error:', e);
     }
 }
 
@@ -322,10 +483,17 @@ function updateProgress(stage) {
     const learned  = data.filter(i => i.learned).length;
     const mastered = data.filter(i => i.score >= 30).length;
     const total    = data.length;
-    const percent  = Math.round((mastered / total) * 100);
+    const percent  = total > 0 ? Math.round((mastered / total) * 100) : 0;
 
     document.getElementById(`${stage}-learned-count`).textContent  = learned;
     document.getElementById(`${stage}-mastered-count`).textContent = mastered;
+
+    // Update total spans if they exist
+    const t1 = document.getElementById(`${stage}-total`);
+    const t2 = document.getElementById(`${stage}-total2`);
+    if (t1) t1.textContent = total;
+    if (t2) t2.textContent = total;
+
     const bar = document.getElementById(`${stage}-progress`);
     bar.style.width  = percent + '%';
     bar.textContent  = percent + '%';
@@ -334,16 +502,24 @@ function updateProgress(stage) {
 function checkUnlocks() {
     const hiraganaAllMastered = letterState.hiragana.every(i => i.score >= 30);
     const katakanaAllMastered = letterState.katakana.every(i => i.score >= 30);
+    const hiraganaAllLearned  = letterState.hiragana.every(i => i.learned);
+    const katakanaAllLearned  = letterState.katakana.every(i => i.learned);
 
+    // Unlock katakana once hiragana is fully mastered
     if (hiraganaAllMastered)
         document.querySelector('[data-stage="katakana"]').classList.remove('locked');
 
-    if (hiraganaAllMastered && katakanaAllMastered) {
+    // Unlock kanji once both are mastered
+    if (hiraganaAllMastered && katakanaAllMastered)
         document.querySelector('[data-stage="kanji"]').classList.remove('locked');
+
+    // Unlock typing once BOTH hiragana AND katakana are fully learned (not need mastered)
+    if (hiraganaAllLearned && katakanaAllLearned) {
         document.querySelector('[data-stage="typing"]').classList.remove('locked');
+        initTypingExam();
     }
 
-    // Unlock the Exam tab per stage once 4 letters are learned
+    // Unlock/dim exam tabs per stage
     ['hiragana', 'katakana', 'kanji'].forEach(function(stage) {
         var learned = letterState[stage].filter(function(i) { return i.learned; }).length;
         var examTab = document.querySelector('#' + stage + '-stage .section-tab[data-section="exam"]');
@@ -469,6 +645,11 @@ function switchStage(stage) {
     currentStage   = stage;
     currentSection = 'study';
 
+    // If switching to typing stage, render the typing exam
+    if (stage === 'typing') {
+        initTypingExam();
+    }
+
     document.querySelectorAll('.section-tab').forEach(t => t.classList.remove('active'));
     const studyTab = document.querySelector(`#${stage}-stage .section-tab[data-section="study"]`);
     if (studyTab) studyTab.classList.add('active');
@@ -494,11 +675,10 @@ function switchSection(stage, section) {
 function llStartExam(stage) {
     const learnedLetters = letterState[stage].filter(item => item.learned);
 
-    let combinedPool = [...learnedLetters];
-    if (stage === 'katakana') {
-        const hiraganaLearned = letterState.hiragana.filter(item => item.learned);
-        combinedPool = [...hiraganaLearned, ...learnedLetters];
-    }
+    // STRICT: each stage only tests its own script characters
+    const stageCharSets = { hiragana: hiraganaData, katakana: katakanaData, kanji: kanjiData };
+    const validChars = new Set((stageCharSets[stage] || []).map(l => l.char));
+    const combinedPool = learnedLetters.filter(l => validChars.has(l.char));
 
     if (combinedPool.length < 4) {
         document.getElementById(`${stage}-exam-container`).innerHTML = `
@@ -509,18 +689,26 @@ function llStartExam(stage) {
         return;
     }
 
-    llExamState.confidence   = null;
-    llExamState.answered     = false;
-    // 4 question types: 0=charToSound, 1=soundToChar, 2=matching, 3=listenAndPick
-    llExamState.questionType = Math.floor(Math.random() * 4);
+    // Prefer letters NOT seen in last 10 questions (if pool is big enough)
+    const freshPool = combinedPool.filter(l => !llRecentHistory.slice(-10).includes(l.char));
+    const pickPool  = freshPool.length >= 2 ? freshPool : combinedPool;
 
     const weighted = [];
-    combinedPool.forEach(letter => {
+    pickPool.forEach(letter => {
         const weight = Math.max(1, 100 - letter.score);
         for (let i = 0; i < weight; i++) weighted.push(letter);
     });
 
     const randomLetter = weighted[Math.floor(Math.random() * weighted.length)];
+
+    // Record in recent history (keep last 12)
+    llRecentHistory.push(randomLetter.char);
+    if (llRecentHistory.length > 12) llRecentHistory.shift();
+
+    // Reset answer state + pick question type
+    llExamState.confidence   = null;
+    llExamState.answered     = false;
+    llExamState.questionType = Math.floor(Math.random() * 4);
 
     // For listen type, exclude cantHear letters — if none left, re-roll another type
     const hearablePool = combinedPool.filter(l => !l.cantHear);
@@ -566,8 +754,8 @@ function generateMultipleChoiceCharToSound(stage, correctLetter, pool) {
             </div>
             <div class="options-grid">
                 ${allOptions.map(opt => `
-                    <div class="option-btn" onclick="answerMultipleChoice('${opt.telugu}', '${correctLetter.telugu}')">
-                        ${opt.telugu} (${opt.english})
+                    <div class="option-btn" onclick="answerMultipleChoice('${opt.english}', '${correctLetter.english}')">
+                        <strong style="font-size:1.1rem;">${opt.english}</strong>
                         <button class="speaker-btn" onclick="event.stopPropagation(); llSpeak('${opt.char}')" title="Hear">🔊</button>
                     </div>
                 `).join('')}
@@ -593,7 +781,7 @@ function generateMultipleChoiceSoundToChar(stage, correctLetter, pool) {
         </div>
         <div id="question-area" style="">
             <div class="question-text">
-                Which character represents: ${correctLetter.telugu} (${correctLetter.english})?
+                Which character represents: <strong style="color:var(--gold-bright);font-size:1.2em;">${correctLetter.english}</strong>?
                 <button class="speaker-btn" onclick="llSpeak('${correctLetter.char}')" title="Hear pronunciation" style="margin-left:8px;">🔊</button>
             </div>
             <div class="options-grid">
@@ -644,7 +832,7 @@ function generateMatchingQuestion(stage, pool) {
                     <h4>Pronunciations</h4>
                     ${shuffledSounds.map(letter => `
                         <div class="matching-item" data-sound="${letter.telugu}" onclick="selectMatchingSound('${letter.telugu}')">
-                            ${letter.telugu} (${letter.english})
+                            <strong>${letter.english}</strong>
                         </div>
                     `).join('')}
                 </div>
@@ -791,16 +979,46 @@ function answerMultipleChoice(selected, correct) {
     `;
     container.appendChild(feedbackDiv);
 
-    const nextBtn = document.createElement('button');
-    nextBtn.className = 'btn btn-primary';
-    nextBtn.textContent = 'Next Question';
-    nextBtn.onclick = () => llStartExam(currentStage);
-    container.appendChild(nextBtn);
+    if (isCorrect) {
+        // Auto-advance after 2 seconds
+        const countdown = document.createElement('div');
+        countdown.style.cssText = 'text-align:center;color:var(--text-dim);font-family:Cinzel,serif;font-size:11px;letter-spacing:0.10em;margin-top:10px;';
+        countdown.textContent = 'Next question in 2s…';
+        container.appendChild(countdown);
+        setTimeout(function() { llStartExam(currentStage); }, 2000);
+    } else {
+        // Show a review card so the user can learn the correct character
+        showWrongReviewCard(container, correctLetter);
+    }
 
     saveState();
     updateProgress(currentStage);
     checkUnlocks();
     renderLetterGrid(currentStage);
+}
+
+// Show a learning card after a wrong answer
+function showWrongReviewCard(container, letter) {
+    var eg = letter.examples && letter.examples[0];
+    var card = document.createElement('div');
+    card.innerHTML = `
+        <div style="margin-top:20px;background:var(--card);border:1px solid rgba(204,48,48,0.28);border-top:2px solid var(--red);border-radius:var(--r-lg);padding:22px;text-align:center;">
+            <div style="font-family:'Cinzel',serif;font-size:10px;font-weight:700;color:var(--red);letter-spacing:0.16em;margin-bottom:14px;">📖 REVIEW THIS CHARACTER</div>
+            <div style="font-size:4.5rem;font-family:'Noto Serif JP',serif;color:var(--gold-bright);text-shadow:0 0 28px var(--gold-glow);margin-bottom:8px;">${letter.char}
+                <button class="speaker-btn" style="font-size:1.8rem;vertical-align:middle;" onclick="llSpeak('${letter.char}')">🔊</button>
+            </div>
+            <div style="font-size:1.6rem;font-weight:700;color:var(--text);margin-bottom:4px;">${letter.english}</div>
+            ${eg ? `
+            <div style="margin-top:14px;padding:12px 16px;background:var(--surface);border-radius:var(--r-sm);border:1px solid var(--border);text-align:left;">
+                <div style="font-size:1.5rem;font-family:'Noto Serif JP',serif;margin-bottom:5px;color:var(--text);">${eg.word}
+                    <button class="speaker-btn" onclick="llSpeak('${eg.word}')">🔊</button>
+                </div>
+                <div style="font-size:13px;color:var(--gold);font-style:italic;">${eg.pronunciation} — ${eg.english}</div>
+            </div>` : ''}
+            <button class="btn btn-primary" style="margin-top:18px;width:100%;font-family:'Cinzel',serif;" onclick="llStartExam('${currentStage}')">Next Question →</button>
+        </div>
+    `;
+    container.appendChild(card);
 }
 
 function selectMatchingChar(char) {
@@ -876,20 +1094,143 @@ function checkMatch() {
         const container   = document.getElementById(`${currentStage}-exam-container`);
         const feedbackDiv = document.createElement('div');
         feedbackDiv.className   = 'feedback correct';
-        feedbackDiv.textContent = '✓ All matches complete!';
+        feedbackDiv.textContent = '✓ All matches complete! Next question in 2s…';
         container.appendChild(feedbackDiv);
-
-        const nextBtn       = document.createElement('button');
-        nextBtn.className   = 'btn btn-primary';
-        nextBtn.textContent = 'Next Question';
-        nextBtn.onclick     = () => llStartExam(currentStage);
-        container.appendChild(nextBtn);
+        // Auto-advance after 2 seconds
+        setTimeout(() => llStartExam(currentStage), 2000);
     }
 
     saveState();
     updateProgress(currentStage);
     checkUnlocks();
     renderLetterGrid(currentStage);
+}
+
+// ─── Typing Exam ──────────────────────────────────────────────────────────────
+var typingState = {
+    includeKanji: false,
+    currentChar: null,
+    streak: 0,
+    total: 0,
+    correct: 0,
+    recentHistory: []
+};
+
+function initTypingExam() {
+    var container = document.getElementById('typing-exam-container');
+    if (!container) return;
+    var hiLearned = letterState.hiragana.filter(i => i.learned);
+    var kaLearned = letterState.katakana.filter(i => i.learned);
+    if (hiLearned.length === 0 && kaLearned.length === 0) return;
+    renderTypingExam();
+}
+
+function renderTypingExam() {
+    var container = document.getElementById('typing-exam-container');
+    if (!container) return;
+
+    // Build pool based on kanji toggle
+    var pool = [
+        ...letterState.hiragana.filter(i => i.learned),
+        ...letterState.katakana.filter(i => i.learned)
+    ];
+    if (typingState.includeKanji) {
+        pool = pool.concat(letterState.kanji.filter(i => i.learned));
+    }
+    if (pool.length === 0) {
+        container.innerHTML = '<p style="text-align:center;color:var(--color-text-muted);padding:30px 0;">No letters available.</p>';
+        return;
+    }
+
+    // Avoid recent repeats (10-question gap)
+    var fresh = pool.filter(l => !typingState.recentHistory.slice(-10).includes(l.char));
+    var pickPool = fresh.length >= 2 ? fresh : pool;
+    var pick = pickPool[Math.floor(Math.random() * pickPool.length)];
+    typingState.currentChar = pick;
+
+    typingState.recentHistory.push(pick.char);
+    if (typingState.recentHistory.length > 12) typingState.recentHistory.shift();
+
+    var accuracy = typingState.total > 0 ? Math.round((typingState.correct / typingState.total) * 100) : 0;
+
+    container.innerHTML = `
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px;flex-wrap:wrap;gap:10px;">
+            <div style="display:flex;gap:12px;align-items:center;">
+                <span style="font-family:'Cinzel',serif;font-size:11px;color:var(--text-dim);">Streak: <strong style="color:var(--gold);">${typingState.streak}</strong></span>
+                <span style="font-family:'Cinzel',serif;font-size:11px;color:var(--text-dim);">Accuracy: <strong style="color:var(--green);">${accuracy}%</strong></span>
+            </div>
+            <label style="display:flex;align-items:center;gap:8px;cursor:pointer;font-family:'Cinzel',serif;font-size:11px;color:var(--text-mid);background:var(--card);padding:6px 14px;border-radius:var(--r-sm);border:1px solid var(--border);">
+                <input type="checkbox" id="kanjiToggle" ${typingState.includeKanji ? 'checked' : ''} onchange="toggleKanji()" style="accent-color:var(--gold);width:14px;height:14px;">
+                Include Kanji
+            </label>
+        </div>
+        <div style="text-align:center;padding:30px 20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r-xl);position:relative;overflow:hidden;">
+            <div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);opacity:0.20;"></div>
+            <div style="font-family:'Cinzel',serif;font-size:10px;font-weight:700;color:var(--gold);letter-spacing:0.16em;margin-bottom:18px;">⌨️ TYPE THE ROMAJI</div>
+            <div style="font-size:5.5rem;font-family:'Noto Serif JP',serif;color:var(--gold-bright);text-shadow:0 0 32px var(--gold-glow);margin-bottom:6px;" id="typingChar">${pick.char}</div>
+            <div style="margin-bottom:22px;">
+                <button class="speaker-btn" style="font-size:1.6rem;" onclick="llSpeak('${pick.char}')">🔊</button>
+            </div>
+            <div style="max-width:320px;margin:0 auto;">
+                <input type="text" id="typingInput"
+                    style="width:100%;padding:14px 18px;background:var(--card);border:2px solid var(--border);border-radius:var(--r-md);color:var(--text);font-family:'Crimson Pro',serif;font-size:1.3rem;text-align:center;outline:none;transition:border-color 0.25s;letter-spacing:0.10em;"
+                    placeholder="type romaji here…"
+                    oninput="this.style.borderColor='var(--border)'"
+                    onkeydown="if(event.key==='Enter')checkTyping()">
+                <div id="typingFeedback" style="margin-top:12px;min-height:32px;"></div>
+                <button class="big-btn" style="margin-top:14px;" onclick="checkTyping()">Check ✓</button>
+                <button class="big-btn ghost" style="margin-top:6px;" onclick="renderTypingExam()">Skip →</button>
+            </div>
+        </div>
+    `;
+    // Auto-focus the input
+    setTimeout(function(){ var el = document.getElementById('typingInput'); if(el) el.focus(); }, 100);
+}
+
+function checkTyping() {
+    var input = document.getElementById('typingInput');
+    var feedback = document.getElementById('typingFeedback');
+    if (!input || !feedback) return;
+
+    var typed   = input.value.trim().toLowerCase();
+    var correct = typingState.currentChar.english.toLowerCase();
+    // Also accept toRomaji output as valid
+    var romajiAnswer = toRomaji(typingState.currentChar.char).toLowerCase();
+    var isCorrect = typed === correct || typed === romajiAnswer;
+
+    typingState.total++;
+    if (isCorrect) {
+        typingState.correct++;
+        typingState.streak++;
+        // Update score
+        typingState.currentChar.score = Math.min(100, typingState.currentChar.score + 3);
+        typingState.currentChar.correct++;
+        typingState.currentChar.attempts++;
+
+        input.style.borderColor = 'var(--green)';
+        feedback.innerHTML = `<span style="color:var(--green);font-family:'Cinzel',serif;font-size:12px;font-weight:700;">✓ Correct! &nbsp;<em style="color:var(--text-dim);font-weight:400;">${correct}</em></span>`;
+        saveState();
+        // Auto-advance after 1.5s
+        setTimeout(function() { renderTypingExam(); }, 1500);
+    } else {
+        typingState.streak = 0;
+        typingState.currentChar.score = Math.max(-50, typingState.currentChar.score - 4);
+        typingState.currentChar.wrong++;
+        typingState.currentChar.attempts++;
+
+        input.style.borderColor = 'var(--red)';
+        feedback.innerHTML = `
+            <span style="color:var(--red);font-family:'Cinzel',serif;font-size:12px;font-weight:700;">✗ Wrong</span>
+            <span style="color:var(--text-dim);font-size:13px;margin-left:10px;">Answer: <strong style="color:var(--gold);">${correct}</strong></span>
+        `;
+        saveState();
+        // Don't auto-advance on wrong — let user read the answer
+    }
+}
+
+function toggleKanji() {
+    typingState.includeKanji = document.getElementById('kanjiToggle').checked;
+    renderTypingExam();
 }
 
 // ─── Init ────────────────────────────────────────────────────────────────────

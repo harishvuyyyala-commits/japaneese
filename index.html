@@ -427,7 +427,7 @@
                 <div id="hiragana-study" class="content-section active">
                     <div class="progress-info">
                         <h3>Learning Progress</h3>
-                        <p>Learned: <span id="hiragana-learned-count">0</span> / 46 &nbsp;|&nbsp; Mastered (Score ≥30): <span id="hiragana-mastered-count">0</span> / 46</p>
+                        <p>Learned: <span id="hiragana-learned-count">0</span> / <span id="hiragana-total">—</span> &nbsp;|&nbsp; Mastered: <span id="hiragana-mastered-count">0</span> / <span id="hiragana-total2">—</span></p>
                         <div class="progress-bar">
                             <div class="progress-fill" id="hiragana-progress" style="width:0%;">0%</div>
                         </div>
@@ -450,7 +450,7 @@
                 <div id="katakana-study" class="content-section active">
                     <div class="progress-info">
                         <h3>Learning Progress</h3>
-                        <p>Learned: <span id="katakana-learned-count">0</span> / 46 &nbsp;|&nbsp; Mastered (Score ≥30): <span id="katakana-mastered-count">0</span> / 46</p>
+                        <p>Learned: <span id="katakana-learned-count">0</span> / <span id="katakana-total">—</span> &nbsp;|&nbsp; Mastered: <span id="katakana-mastered-count">0</span> / <span id="katakana-total2">—</span></p>
                         <div class="progress-bar">
                             <div class="progress-fill" id="katakana-progress" style="width:0%;">0%</div>
                         </div>
@@ -473,7 +473,7 @@
                 <div id="kanji-study" class="content-section active">
                     <div class="progress-info">
                         <h3>Learning Progress</h3>
-                        <p>Learned: <span id="kanji-learned-count">0</span> / 20 &nbsp;|&nbsp; Mastered (Score ≥30): <span id="kanji-mastered-count">0</span> / 20</p>
+                        <p>Learned: <span id="kanji-learned-count">0</span> / <span id="kanji-total">—</span> &nbsp;|&nbsp; Mastered: <span id="kanji-mastered-count">0</span> / <span id="kanji-total2">—</span></p>
                         <div class="progress-bar">
                             <div class="progress-fill" id="kanji-progress" style="width:0%;">0%</div>
                         </div>
@@ -491,7 +491,12 @@
             <div id="typing-stage" class="stage-content">
                 <div class="progress-info">
                     <h3>⌨️ Typing Practice</h3>
-                    <p>Coming soon — Type Japanese words using virtual keyboard</p>
+                    <p>Type the romaji for each character shown. Unlocks when all Hiragana + Katakana are learned.</p>
+                </div>
+                <div id="typing-exam-container">
+                    <p style="text-align:center;color:var(--color-text-muted);padding:30px 0;">
+                        Learn all Hiragana and Katakana letters to unlock Typing Practice.
+                    </p>
                 </div>
             </div>
         </div><!-- /wrap -->

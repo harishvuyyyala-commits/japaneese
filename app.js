@@ -273,7 +273,13 @@ function renderFolderView() {
         folderData[cat].push(w);
     });
 
-    var html = '<div class="folders">';
+    // Search box at the TOP
+    var html = '<div class="search-box">';
+    html += '<input type="text" class="search-input" id="searchInput" placeholder="🔍 Search Japanese, English, Telugu..." oninput="handleSearch()">';
+    html += '</div>';
+    html += '<div id="searchResults"></div>';
+
+    html += '<div class="folders">';
     
     categories.forEach(function(cat) {
         var words = folderData[cat];
@@ -294,14 +300,6 @@ function renderFolderView() {
         html += '<div class="folder-desc">' + getCategoryDesc(cat) + '</div>';
         html += '</div>';
     });
-
-    html += '</div>';
-
-    // Search box
-    html += '<div class="search-box">';
-    html += '<input type="text" class="search-input" id="searchInput" placeholder="🔍 Search Japanese, English, Telugu..." oninput="handleSearch()">';
-    html += '</div>';
-    html += '<div id="searchResults"></div>';
 
     document.getElementById('mainArea').innerHTML = html;
     document.getElementById('navBar').style.display = 'none';
@@ -511,27 +509,35 @@ function buildStudyCardHTML(word, p, exp) {
     
     h += '<div class="prog-row"><span class="sbadge ' + catClass + '">' + catLabel + '</span><span class="sc-tag">Score: ' + (p ? p.score : 0) + ' • ' + (p ? p.correctcount : 0) + '✓ ' + (p ? p.wrongcount : 0) + '✗</span></div>';
     h += '<div class="sc-bar-w"><div class="sc-bar-f" style="width:' + scoreNorm + '%;background:' + barColor + '"></div></div>';
-    
+
+    // Description FIRST (always visible if it exists)
+    if (word.description) {
+        h += '<div class="divider"></div>';
+        h += '<div class="sec-lbl">Notes</div><div class="desc">' + word.description + '</div>';
+    }
+
+    // Then letter breakdown (always visible if it exists)
+    if (word.letter_breakdown && word.letter_breakdown.length) {
+        h += '<div class="divider"></div>';
+        h += '<div class="sec-lbl">Letter Breakdown</div><div class="ltr-grid">';
+        word.letter_breakdown.forEach(function(l) {
+            h += '<div class="ltr-box"><span class="ltr-jp">' + (l.letter || '') + '</span><span class="ltr-te">' + (l.telugu_sound || '') + '</span></div>';
+        });
+        h += '</div>';
+    }
+
+    // Then 1 example always visible, expand for more
     h += '<div class="divider"></div>';
     h += '<div class="sec-lbl">Example Sentences</div>';
-    h += ss.slice(0, 3).map(exHTML).join('');
+    h += ss.slice(0, 1).map(exHTML).join('');
 
     if (!exp) {
-        h += '<button class="exp-btn" onclick="toggleStudyExpand(' + word.id + ')">📖 Show all examples & notes</button>';
+        if (ss.length > 1) {
+            h += '<button class="exp-btn" onclick="toggleStudyExpand(' + word.id + ')">📖 Show ' + (ss.length - 1) + ' more example' + (ss.length - 1 > 1 ? 's' : '') + '</button>';
+        }
     } else {
-        if (ss.length > 3) {
-            h += ss.slice(3).map(exHTML).join('');
-        }
-        h += '<div class="divider"></div>';
-        if (word.letter_breakdown && word.letter_breakdown.length) {
-            h += '<div class="sec-lbl">Letter Breakdown</div><div class="ltr-grid">';
-            word.letter_breakdown.forEach(function(l) {
-                h += '<div class="ltr-box"><span class="ltr-jp">' + (l.letter || '') + '</span><span class="ltr-te">' + (l.telugu_sound || '') + '</span></div>';
-            });
-            h += '</div>';
-        }
-        if (word.description) {
-            h += '<div class="sec-lbl">Notes</div><div class="desc">' + word.description + '</div>';
+        if (ss.length > 1) {
+            h += ss.slice(1).map(exHTML).join('');
         }
         h += '<button class="exp-btn" onclick="toggleStudyExpand(' + word.id + ')">🔼 Collapse</button>';
     }
@@ -653,12 +659,6 @@ function renderExamQuestion() {
     if (examIndex >= examWords.length) {
         renderExamComplete();
         return;
-    }
-
-    // Check if we need to repeat a word
-    if (examRepeatQueue.length > 0) {
-        var repeatWord = examRepeatQueue.shift();
-        examWords.splice(examIndex, 0, repeatWord);
     }
 
     var word = examWords[examIndex];
@@ -796,25 +796,82 @@ function pickMCQ(selectedId, correctId) {
     
     showToast(delta);
     screenFlash(correct);
-    if (correct) spawnConfetti();
 
-    flipToAnswer(word, !correct);
+    if (correct) {
+        // Correct: flip card, confetti, then auto-advance after 2s
+        spawnConfetti();
+        flipToAnswer(word, false);
 
-    // Track errors
-    if (!correct) {
+        var area = document.getElementById('mainArea');
+        var cd = document.createElement('div');
+        cd.style.cssText = 'text-align:center;color:var(--text-dim);font-family:Cinzel,serif;font-size:11px;letter-spacing:0.10em;margin-top:14px;';
+        cd.textContent = 'Next question in 2s…';
+        if (area) area.appendChild(cd);
+
+        setTimeout(examNext, 2000);
+    } else {
+        // Wrong: flip card then show detailed review card — user must click Next
         examWrongAnswers.push({ word: word, questionType: examStimType });
-        
-        // Add to repeat queue if not already there and within next 5 questions
-        if (!examRepeatQueue.find(function(w) { return w.id === word.id; }) && examRepeatQueue.length < 5) {
-            examRepeatQueue.push(word);
+
+        // Re-insert the word with a 10+ question gap (not immediately)
+        if (!examRepeatQueue.find(function(w) { return w.id === word.id; })) {
+            var insertAt = examIndex + 10 + Math.floor(Math.random() * 5); // 10-14 gap
+            if (insertAt >= examWords.length) {
+                examWords.push(word); // add at end
+            } else {
+                examWords.splice(insertAt, 0, word);
+            }
         }
-    }
 
-    if (remembered && !correct) {
-        examConfidenceErrors.push({ word: word, questionType: examStimType });
-    }
+        if (remembered) {
+            examConfidenceErrors.push({ word: word, questionType: examStimType });
+        }
 
-    setTimeout(examNext, 1600);
+        flipToAnswer(word, true);
+        // Replace mainArea with full review card after flip settles
+        setTimeout(function() { showVocabReviewCard(word); }, 500);
+    }
+}
+
+// Show a detailed study card after a wrong vocab answer — replaces entire mainArea
+function showVocabReviewCard(word) {
+    var p    = getP(word.id);
+    var ss   = (word.example_sentences || []).slice(0, 2);
+
+    var html = '<div style="padding-top:8px;">';
+    // Header strip
+    html += '<div style="font-family:\'Cinzel\',serif;font-size:10px;font-weight:700;color:var(--red);letter-spacing:0.16em;margin-bottom:18px;text-align:center;padding:10px 0 0;">📖 WRONG — STUDY THIS WORD</div>';
+    // Word card
+    html += '<div style="background:var(--surface);border:1px solid rgba(204,48,48,0.28);border-top:2px solid var(--red);border-radius:var(--r-xl);padding:28px;text-align:center;position:relative;overflow:hidden;">';
+    html += '<div style="position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--red),transparent);opacity:0.4;"></div>';
+    html += '<div style="font-family:\'Noto Serif JP\',serif;font-size:3.8rem;font-weight:700;color:var(--gold-bright);text-shadow:0 0 22px var(--gold-glow);margin-bottom:8px;">' + (word.japanese_word || '') + '</div>';
+    html += '<div style="font-size:1.25rem;color:var(--text);margin-bottom:4px;">' + (word.hiragana || '') + ' &nbsp;<span style="color:var(--text-dim);font-style:italic;font-size:1rem;">· ' + (word.romaji || '') + '</span></div>';
+    html += '<button class="snd-btn" onclick="speak(\'' + esc(word.japanese_word || '') + '\')" style="margin:10px auto 16px;">🔊 Listen</button>';
+    html += '<div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:8px;">';
+    html += '<span class="tag-en">' + (word.english_meaning || '') + '</span>';
+    html += '<span class="tag-te">' + (word.telugu_meaning || '') + '</span>';
+    html += '</div>';
+    if (word.telugu_pronunciation) {
+        html += '<div style="color:var(--text-dim);font-size:13px;margin-top:4px;font-style:italic;">(' + word.telugu_pronunciation + ')</div>';
+    }
+    html += '</div>';
+    // Examples
+    if (ss.length > 0) {
+        html += '<div style="font-family:\'Cinzel\',serif;font-size:10px;font-weight:700;color:var(--gold);margin:18px 0 10px;letter-spacing:0.12em;">EXAMPLE</div>';
+        ss.forEach(function(s) {
+            html += '<div class="ex-card">';
+            html += '<div class="ex-jp" style="font-family:\'Noto Serif JP\',serif;">' + (s.sentence || '') + '</div>';
+            html += '<div class="ex-rom">' + (s.romaji || '') + '</div>';
+            html += '<div class="ex-row"><span class="ex-en">' + (s.english_meaning || '') + '</span><span class="ex-te">' + (s.telugu_meaning || '') + '</span></div>';
+            html += '</div>';
+        });
+    }
+    html += '<button class="big-btn" style="margin-top:18px;" onclick="examNext()">Next Question →</button>';
+    html += '<button class="big-btn ghost" style="margin-top:6px;" onclick="switchMode(\'study\')">📚 Back to Study</button>';
+    html += '</div>';
+
+    document.getElementById('mainArea').innerHTML = html;
+    document.getElementById('navBar').style.display = 'none';
 }
 
 function flipToAnswer(word, isWrong) {
